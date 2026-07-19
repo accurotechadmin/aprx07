@@ -38,19 +38,19 @@ boot
 
 The session should find and read [boot.md](boot.md). That primary boot equips it with the source hierarchy, Fv convention, canonical destination table, exactness rules, graphing discipline, geometry warnings, evidence boundaries, and secondary boot routing.
 
-Then type a second prompt such as:
+After primary boot, the session now opens an interactive secondary boot menu automatically. Choose a numbered option, type a short boot name, describe the task, or add boot-time secondary actions with a plus sign:
 
 ```text
-finish booting with graph-artist.boot.md
+3 + sketch-plan, label-audit
 ```
 
 or:
 
 ```text
-finish booting with document-indexer.boot.md
+finish booting with document-indexer.boot.md + link-audit
 ```
 
-The available secondary boot options are listed in [secondary_boot_prompts.md](secondary_boot_prompts.md). You can also describe your task and let the session choose the smallest relevant secondary boot path:
+The available secondary boot options, secondary actions, and UI controls are listed in [secondary_boot_prompts.md](secondary_boot_prompts.md). You can also describe your task and let the session choose the smallest relevant secondary boot path:
 
 ```text
 finish booting with whatever secondary boot path is best for auditing a shell spiral claim
@@ -59,8 +59,8 @@ finish booting with whatever secondary boot path is best for auditing a shell sp
 Recommended workflow:
 
 1. **Primary boot:** type `boot` and let the session read [boot.md](boot.md).
-2. **Secondary boot:** choose a path from [secondary_boot_prompts.md](secondary_boot_prompts.md), or describe the task.
-3. **Task prompt:** ask for the actual work only after the session confirms that both boot layers are complete.
+2. **Interactive secondary menu:** choose a path from [secondary_boot_prompts.md](secondary_boot_prompts.md), choose optional boot-time actions, or describe the task.
+3. **Task prompt:** ask for the actual work only after the session confirms that both boot layers and any selected actions are complete.
 
 ## Most helpful linked index
 

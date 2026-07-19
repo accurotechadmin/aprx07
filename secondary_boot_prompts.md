@@ -14,6 +14,93 @@ Use the second prompt pattern:
 
 A future curated secondary boot document may be created from any item below. Until those documents exist, the booting session should use the named path, read the listed sources, and state what working mode it has entered.
 
+
+## Interactive boot UI prompt system
+
+When a user says only **`boot`**, the booting session should complete the primary boot described in [boot.md](boot.md), then automatically open this secondary boot menu as an interactive UI prompt. The UI should be text-only, compact, and safe for plain chat clients.
+
+### Boot menu behavior
+
+1. Read the available secondary boot options from the **Recommended secondary boot list** below.
+2. Present each option with a stable number, its short name, and a one-line purpose.
+3. Accept either the number or the short name as the user's selection.
+4. Show the selected option's recommended secondary actions before finalizing the boot path.
+5. Accept zero, one, or several action selections by number or short action name.
+6. Finish loading the selected secondary boot path and execute any selected secondary actions concurrently with final boot confirmation.
+7. If the user gives a task instead of a menu selection, infer the smallest relevant boot path and state the inference before proceeding.
+
+### Recommended prompt shape after primary boot
+
+```text
+Primary boot complete. Choose a secondary boot path:
+
+1. truth-inventory-mathematician — exact values, recurrence, ratios, limits, proofs
+2. avoid-auditor — indexing, ratio, rendering, geometry, and claim-error audit
+...
+
+Reply with a number, a short name, or a task description.
+Optional: add actions after a plus sign, e.g. "3 + sketch-plan, cite-sources".
+Controls: menu, actions <boot>, info <boot>, add option, edit option, add action, edit action, combine <a> + <b>, cancel.
+```
+
+### Selection grammar
+
+- **Number:** `3` selects menu item 3.
+- **Short name:** `graph-artist` or `graph-artist.boot.md` selects the same path.
+- **With actions:** `3 + sketch-plan, cite-sources` selects a path and secondary actions.
+- **Combination:** `combine graph-artist + svg-drawing-engine` loads both paths, unless the task would be better served by choosing only one.
+- **Task inference:** `I need to audit a shell spiral claim` routes to the minimum relevant path, usually `empirical-claim-skeptic.boot.md` plus `spiral-geometry.boot.md` if geometry is central.
+
+### Basic UI controls
+
+These controls are prompt-level controls for future sessions and for maintainers editing this document:
+
+| Control | Effect | Safety rule |
+|---|---|---|
+| `menu` | Reprint the numbered secondary boot list. | Do not reread all source documents merely to reprint the menu. |
+| `actions <boot>` | Show the secondary actions available for one boot path. | If the boot name is ambiguous, ask for clarification. |
+| `info <boot>` | Show purpose, required sources, and suggested actions for one boot path. | Summarize; do not perform the boot unless the user confirms. |
+| `combine <a> + <b>` | Load two complementary boot paths. | Prefer at most two boot paths at first. |
+| `add option` | Draft a new secondary boot option with name, purpose, sources, actions, and link-index updates. | Ask for missing required fields before editing the repository. |
+| `edit option <boot>` | Draft or apply changes to an existing boot option. | Preserve stable names unless the user explicitly asks to rename. |
+| `add action <boot>` | Draft a new reusable secondary action for a boot path. | Keep actions modular and safe to run during boot. |
+| `edit action <boot>:<action>` | Draft or apply changes to an existing action. | Preserve action short names unless explicitly asked to rename. |
+| `cancel` | Stop the interactive secondary selection flow. | Keep primary boot state loaded. |
+
+## Secondary action model
+
+Secondary actions are optional boot-time shortcuts. They are not separate boot paths. They are modular actions that can run concurrently with finishing a secondary boot so a user does not need a third prompt for common setup work.
+
+Each action should have:
+
+- a short kebab-case name;
+- a one-line effect;
+- whether it is read-only, draft-only, or can modify repository files;
+- the output it should produce at boot completion;
+- any extra source documents it needs.
+
+Default safety rule: unless the user clearly authorizes repository edits, secondary actions should prepare plans, checklists, outlines, or reading queues rather than modifying files.
+
+## Secondary actions by boot path
+
+| Secondary boot name | Suggested boot-time actions |
+|---|---|
+| `truth-inventory-mathematician.boot.md` | `formula-sheet` — summarize active formulas; `index-convert` — prepare Fv/conventional conversion notes; `proof-mode` — enable proof-first response framing; `edge-cases` — list exactness and finite-ratio cautions. |
+| `avoid-auditor.boot.md` | `audit-checklist` — prepare common error checklist; `claim-risk-map` — rank likely failure modes; `source-trace` — prepare source citation map; `red-team` — respond adversarially before proposing fixes. |
+| `graph-artist.boot.md` | `sketch-plan` — propose 2–5 visual concepts; `question-first` — force each graph to answer a stated question; `aesthetic-variants` — prepare restrained, vivid, and minimalist variants; `label-audit` — precheck title, axes, legend, and caveats. |
+| `svg-drawing-engine.boot.md` | `canvas-spec` — define dimensions and coordinate system; `export-check` — prepare SVG validation checklist; `accessibility-pass` — plan title/description/contrast labels; `reuse-assets` — inspect existing drawings before creating new ones. |
+| `spiral-geometry.boot.md` | `square-layout` — set up square and arc constraints; `golden-comparison` — separate Fibonacci spiral approximation from logarithmic golden spiral; `geometry-audit` — check centers, radii, tangency, and scaling; `claim-caveats` — prepare geometry limitation notes. |
+| `normalized-time-metaphor.boot.md` | `metaphor-badge` — state metaphor status and normalized quantity; `asymmetry-note` — include interval asymmetry; `concept-map` — draft planning/salience/memory axes; `caveat-card` — list what the metaphor does not prove. |
+| `document-indexer.boot.md` | `link-audit` — check bidirectional links; `catalog-row` — prepare catalogue metadata; `source-hierarchy-map` — summarize authority relationships; `staleness-check` — identify likely stale index entries. |
+| `claim-traceability.boot.md` | `claim-table` — prepare claim/source/status columns; `contradiction-scan` — look for tension across documents; `citation-pack` — collect relevant citations; `open-questions` — list unresolved claims. |
+| `glossary-terminologist.boot.md` | `term-card` — create definition/source/usage cards; `namespace-check` — preserve identifier namespaces; `synonym-merge` — identify duplicate terms; `definition-audit` — separate claims from vocabulary. |
+| `orange-pressing-expander.boot.md` | `branch-map` — generate expansion branches; `artifact-list` — propose documents, graphs, datasets, and lessons; `priority-sort` — rank expansions by value; `return-to-core` — map creative ideas back to exactness. |
+| `generation-lattice-planner.boot.md` | `lattice-position` — place work on horizontal/vertical lattice; `next-three` — propose next three artifacts; `dependency-map` — list prerequisites; `manifest-draft` — draft JSON/Markdown updates. |
+| `empirical-claim-skeptic.boot.md` | `rival-models` — list non-Fibonacci explanations; `evidence-grid` — separate resemblance, correlation, mechanism, and proof; `sample-check` — ask sample-size and measurement questions; `claim-softener` — rewrite overclaims safely. |
+| `spreadsheet-data.boot.md` | `range-declare` — state canonical vs extended range; `column-map` — map spreadsheet columns to terms; `recompute-check` — plan formula validation; `export-plan` — define CSV/table outputs. |
+| `teacher-lesson-builder.boot.md` | `lesson-outline` — draft staged lesson arc; `misconception-list` — prepare learner-safe warnings; `exercise-set` — create practice prompts; `reveal-sequence` — sequence examples from concrete to abstract. |
+| `repository-curator.boot.md` | `maintenance-plan` — identify add/archive/normalize work; `relation-update` — prepare link-index edits; `canon-check` — verify source hierarchy compliance; `release-notes` — draft summary of repository changes. |
+
 ## Recommended secondary boot list
 
 | Secondary boot name | Best for | Required repository sources to read next |
