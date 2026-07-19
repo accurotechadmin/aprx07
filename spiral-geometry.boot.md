@@ -6,21 +6,18 @@
 
 ## Purpose
 
-Fibonacci square layouts, quarter-circle spirals, golden rectangles, geometry audits, and golden-spiral comparisons. This first-draft secondary boot is intentionally MVP-level: complete enough to enter the mode safely, compact enough to refine later.
+Fibonacci square layouts, quarter-circle spirals, golden rectangles, geometry audits, and golden-spiral comparisons. This secondary boot is maintenance-ready: it defines routing, UI behavior, operating rules, task workflow, action edit-risk, validation expectations, response shape, and a first-pass checklist.
 
 ## When to use
 
-Use this path when the user's task primarily needs: fibonacci square layouts, quarter-circle spirals, golden rectangles, geometry audits, and golden-spiral comparisons. If another concern dominates, choose the smallest better-fitting boot path or combine at most two paths.
+Use this path for square-side sequences, arc centers, radii, tangency, golden-rectangle comparisons, shell-spiral cautions, or audits of spiral drawings. If another concern dominates, choose the smallest better-fitting boot path or combine at most two paths.
 
 ## Required reading order
 
 1. [boot.md](boot.md) for primary boot state.
 2. [the_essences.md](the_essences.md) for source hierarchy and canon.
-3. [02_Fibonacci_Truth_Inventory.docx](02_Fibonacci_Truth_Inventory.docx)
-4. [01_Fibonacci_Avoids_and_Error_Inventory.docx](01_Fibonacci_Avoids_and_Error_Inventory.docx)
-5. [draw.md](draw.md)
-6. [insightgraphsuite.md](insightgraphsuite.md)
-
+3. Read the option-specific sources named for this path in [secondary_boot_prompts.md](secondary_boot_prompts.md).
+4. Read any target file, asset, workbook, claim, or document named by the user before producing output.
 
 ## Above-the-fold boot display
 
@@ -28,8 +25,8 @@ When this option is selected, show its featured optimization line before optiona
 
 ```text
 ╔════════════════════════════════════════════════════════════════╗
-║ FIBONACCI EXPLORER // SPIRAL-GEOMETRY                     ║
-║ GEOMETRY MODE                                         ║
+║ FIBONACCI EXPLORER // SPIRAL-GEOMETRY                   ║
+║ GEOMETRY MODE: READY                                          ║
 ╚════════════════════════════════════════════════════════════════╝
 > :: FEATURE :: square-integrity | arc-center-audit | golden-vs-fibonacci-separation
 > :: FAST PATH :: option number loads now; actions may be added next
@@ -51,42 +48,72 @@ Whimsical trees are decorative only. They must not encode status, warnings, data
 - Separate exact mathematics, finite approximations, rounded values, rendered pixels, empirical evidence, and metaphor.
 - Name source documents for claims and prefer TR/AV/REF authority over synthesis or examples.
 - Before producing artifacts, state the question being answered, the data lineage, and what the result does not prove.
-- Keep edits draft-safe unless the user clearly asks for repository changes.
-
+- Keep boot-time actions read-only or draft-only unless the user gives a concrete repository-editing request.
+- Build the factual skeleton before style, expansion, pedagogy, metaphor, or file edits.
 
 ## Actionable request workflow
 
 When the user gives an actionable task after this boot is complete:
 
-1. Parse the task, selected actions, output expectations, and audience.
-2. Declare the working contract: question, domain, Fv convention or conversion, source lineage, and evidence boundary.
-3. Apply the featured principle: Protect square geometry and prevent golden/Fibonacci spiral confusion.
-4. Inspect relevant inputs before producing new output: truth/avoid inventories, drawing guide, graph suite, and any target geometry asset.
+1. Parse the task, selected actions, output expectations, controls, audience, and implied domain.
+2. Declare the working contract: question, domain, Fv convention or conversion, source lineage, output type, and evidence boundary.
+3. Apply the featured principle: Define construction type, square layout, centers, radii, scale, and caveats before visual resemblance.
+4. Inspect relevant inputs before producing new output: inventories, drawing guide, graph suite, target spiral asset, square sizes, arc centers, and any golden-spiral comparison claim.
 5. Build the factual skeleton before style, expansion, pedagogy, metaphor, or edits.
 6. Produce the requested output: square layout, arc-center audit, golden comparison, and claim caveats.
-7. Validate with the cheapest useful source, consistency, syntax, formula, or repository checks available.
+7. Validate with the cheapest useful source, consistency, syntax, formula, link, or repository checks available.
 8. Report changes or conclusions with file citations and emoji-prefixed checks when files changed.
+
+## Source inspection before generation
+
+Before creating new text, tables, diagrams, manifests, lessons, audits, or repository edits, inspect the smallest source set that can answer the task. Prefer existing assets and records over duplicate creations. If a source is binary (`.docx` or `.xlsx`), extract or inspect the relevant content before relying on memory.
+
+## Spiral construction contract
+
+Always label the object as one of: square-based Fibonacci quarter-circle approximation, golden rectangle construction, exact logarithmic golden spiral, or comparison. Never let a decorative spiral inherit exactness from nearby square data.
+
+## Validation and quality checks
+
+Use the cheapest useful checks that match the task:
+
+- `git diff --check` for Markdown and repository edits.
+- `python` scripts for deterministic table, formula, XML, JSON, or link-target validation when applicable.
+- Source-status review for claims: confirm whether each claim is exact, finite, limit, approximate, empirical, metaphorical, or decorative.
+- Link-target checks for relation/index work.
+- Recompute or spot-check formulas for data work.
+- Visual or accessibility checks for generated diagrams.
+
+If a preferred checker is unavailable in the environment, report it as a warning rather than silently skipping validation.
 
 ## Boot-time actions
 
 | Action | Effect | Default output | Edit safety |
 |---|---|---|---|
-| `square-layout` | Set square and arc constraints. | Short checklist or notes section. | Read-only or draft-only unless explicitly authorized. |
-| `golden-comparison` | Separate Fibonacci approximation from logarithmic golden spiral. | Short checklist or notes section. | Read-only or draft-only unless explicitly authorized. |
-| `geometry-audit` | Check centers, radii, tangency, scaling. | Short checklist or notes section. | Read-only or draft-only unless explicitly authorized. |
-| `claim-caveats` | Prepare geometry limitation notes. | Short checklist or notes section. | Read-only or draft-only unless explicitly authorized. |
+| `square-layout` | Set square sequence, orientation, scale, and adjacency constraints. | Construction spec. | Read-only or draft-only. |
+| `golden-comparison` | Separate Fibonacci approximation from logarithmic golden spiral. | Comparison notes. | Read-only. |
+| `geometry-audit` | Check centers, radii, tangency, and uniform scaling. | Audit table. | Read-only. |
+| `claim-caveats` | Prepare geometry limitation notes. | Caveat card. | Draft-only. |
 
 ## MVP response contract
 
-After loading this path, say: `Secondary boot complete: spiral-geometry.boot.md`. Then summarize the active sources, selected actions, convention/range assumptions, and the next concrete step.
+After loading this path, say: `Secondary boot complete: spiral-geometry.boot.md`. Then summarize:
+
+- active sources loaded or queued;
+- selected boot-time actions, if any;
+- convention/range assumptions;
+- output boundary: no artifact has been created unless the user requested one;
+- the next concrete prompt shape the user can give.
 
 ## First-pass checklist
 
-- Confirm whether the task needs exact, visual, empirical, metaphorical, or maintenance framing.
+- Confirm whether the task needs exact, visual, empirical, metaphorical, pedagogical, data, or maintenance framing.
 - Declare any Fv range or conversion before using values.
 - Use `=` only for exact identities and `≈` only for rounded values or measurements.
 - Avoid smooth visual implications for discrete Fibonacci states.
 - Flag overclaims and unverified resemblance before expanding them.
+- Inspect existing relevant files before creating duplicates.
+- Keep boot actions read-only or draft-only until a concrete edit task exists.
+- End with clear checks, citations, and next-step handles.
 
 ---
 

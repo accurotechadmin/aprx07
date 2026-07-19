@@ -6,13 +6,13 @@
 
 ## Purpose
 
-This is a menu of recommended secondary boot prompts. The listed boot paths now have first-draft `.boot.md` documents that a future session can fully enter **after** completing the primary boot in [boot.md](boot.md).
+This is a menu of recommended secondary boot prompts. The listed boot paths now have maintenance-ready `.boot.md` documents that a future session can fully enter **after** completing the primary boot in [boot.md](boot.md).
 
 Use the second prompt pattern:
 
 > finish booting with `[secondary boot name]`
 
-Each linked secondary boot document is normalized to an MVP level: purpose, use case, reading order, operating rules, boot-time actions, response contract, and first-pass checklist. Future revisions may deepen them, but the current drafts should work as real secondary boot documents.
+Each linked secondary boot document is normalized to a maintenance-ready level: purpose, use case, reading order, above-the-fold UI, operating rules, actionable workflow, source-inspection guidance, validation expectations, boot-time actions with edit-risk labels, response contract, and first-pass checklist. Future revisions may deepen domain-specific controls, but the current files work as real secondary boot documents.
 
 
 ## Interactive boot UI prompt system
@@ -225,7 +225,7 @@ Examples:
 
 ## Naming convention for future secondary boot documents
 
-When a listed prompt becomes a real file, use lowercase kebab-case and the suffix `.boot.md`, for example:
+When adding future secondary boot documents, use lowercase kebab-case and the suffix `.boot.md`, for example:
 
 - [`graph-artist.boot.md`](graph-artist.boot.md)
 - [`document-indexer.boot.md`](document-indexer.boot.md)
