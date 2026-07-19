@@ -1,0 +1,687 @@
+# Fibonacci Glossary Seed — Raw Vocabulary and Fresh-Session Prompt
+
+This seed document is intentionally **not** the full glossary. It contains a raw, sequential vocabulary-and-phrase capture to be used by a fresh LLM session after that session reads the repository documents and executes the boot-up primer.
+
+## Step 1 — Raw extracted glossary seed list
+
+- Fibonacci Avoids and Error Inventory
+- errors
+- discrepancies
+- failure modes
+- studying
+- drawing
+- charting
+- explaining
+- Fibonacci sequence
+- Fv convention
+- Fv -1
+- Fv 0
+- Fv 1
+- destination 0
+- destination 1
+- continuing by addition
+- entry
+- condition
+- mathematical error
+- indexing ambiguity
+- visual distortion
+- explanatory confusion
+- rendering inaccuracy
+- stable IDs
+- indexing
+- labels
+- terminology
+- Index Drift
+- destination value shifting
+- incompatible step numbers
+- indexing convention
+- Zero Omission
+- displayed process
+- Twin-One Confusion
+- initial 1 values
+- Convention Mixing
+- conventional F0=0 indexing
+- Fv convention Fv -1=0
+- chart
+- caption
+- table
+- equation
+- Implicit Seeds
+- recurrence
+- seed destinations
+- Step-Value Swap
+- step label
+- destination number
+- separator
+- definition
+- Term Ambiguity
+- term
+- step
+- index
+- value
+- destination
+- Count Ambiguity
+- displayed destinations
+- transitions
+- adjacent destinations
+- Fraction Offset
+- D_v/D_(v-1)
+- numerator step
+- denominator step
+- Missing Range
+- declared reference set
+- Fv 28 endpoint
+- Tick Gaps
+- sequential x-axis
+- Duplicate Labels
+- axis label repetition
+- Legacy Symbols
+- F_n notation
+- relationship between systems
+- Undefined Ratio
+- forward ratio
+- valid prior positive destination
+- Unmarked Approximation
+- rounded approximation
+- equality sign
+- sequence values
+- recurrence arithmetic
+- Wrong Seeds
+- seed pair
+- Bad Addition
+- destination group
+- Six-for-Five
+- Eighteen-for-Thirteen
+- Source Mismatch
+- source boxes
+- Arrow Mismatch
+- connected source pair
+- Value Typo
+- downstream recurrence contamination
+- Silent Substitution
+- aesthetically convenient number
+- Rounded Integer
+- integer destination values
+- noninteger heights
+- Partial Verification
+- Hidden Reordering
+- process order
+- Endpoint Loss
+- final six destinations
+- Fv 23 through Fv 28
+- ratios
+- limits
+- time metaphor
+- Ratio Reversal
+- forward ratio D_v/D_(v-1)
+- reciprocal ratio
+- 1/phi
+- Yesterday Swap
+- Yesterday = 0.618
+- forward-ratio curve
+- Tomorrow Swap
+- Tomorrow = 1.618
+- reciprocal-ratio curve
+- Exact Phi
+- finite ratio
+- integer Fibonacci destinations
+- Exact Yesterday
+- finite reciprocal ratio
+- Linear Time
+- 0.618, 1, and 1.618
+- equally spaced points
+- linear axis
+- Metaphor Fact
+- Yesterday, Today, and Tomorrow labels
+- declared metaphorical mapping
+- Fibonacci mathematics theorem
+- Monotone Claim
+- alternation above and below phi
+- One-Sided Claim
+- Error-Swing Mix
+- absolute phi-error
+- step-to-step ratio swing
+- Signed-Absolute Mix
+- signed difference
+- absolute difference
+- Fixed Contraction
+- asymptotic contraction factor
+- 1/phi^2
+- Recurrence Omission
+- ratio recurrence R_(v+1)=1+1/R_v
+- Limit Omission
+- limiting line
+- Unity Omission
+- Today = 1
+- Scale Collision
+- absolute destinations
+- normalized time-reference ratios
+- undifferentiated y-axis
+- Decimal Truncation
+- late oscillations
+- Rounding Sign
+- above-phi value
+- below-phi value
+- chart construction
+- data visualization
+- Spline Fiction
+- smoothed spline
+- discrete Fibonacci ratios
+- invented intermediate values
+- invented crossings
+- invented extrema
+- Continuous Implication
+- integer-step recurrence data
+- continuous physical signal
+- discrete marker
+- observation
+- Marker Loss
+- connected line
+- exact step positions
+- Vague Axis
+- axis labels
+- destination plot
+- ratio plot
+- reciprocal-ratio plot
+- error plot
+- Missing Units
+- dashed line
+- mathematical role
+- Boundary Clipping
+- lower plot boundary
+- axis spine
+- Excluded Yesterday
+- chart minimum
+- Yesterday reference
+- Crowded Ticks
+- fraction expressions
+- Crowded Labels
+- six-decimal labels
+- label occlusion
+- Origin Collapse
+- linear destination scale
+- early Fibonacci values
+- inset
+- transformed view
+- Zero Log
+- zero destination
+- standard logarithmic axis
+- Orderless Scatter
+- unlabeled scatter plot
+- consecutive pairs
+- progression order
+- Missing Asymptote
+- y=phi*x reference
+- convergence of slope
+- Bar Compression
+- scale of later bars
+- Guide Distortion
+- guide lines
+- distorted bar tops
+- Unstated Break
+- broken axis
+- compressed axis
+- transformed axis
+- visible break label
+- transformation label
+- Line Dominance
+- connecting line weight
+- marker visibility
+- Excess Range
+- unused negative range
+- nonnegative sequence
+- False Precision
+- plotting resolution
+- No Source Table
+- accessible table
+- textual value list
+- pixel accuracy
+- scaling
+- rendering
+- Pixel Nudging
+- mathematical point coordinates
+- Subpixel Claim
+- subpixel displacement
+- Stroke Bias
+- line thickness
+- Antialias Bias
+- antialiased edge pixels
+- Raster Authority
+- screenshot as source of truth
+- Scale Drift
+- visually similar scales
+- numerically incompatible scales
+- Aspect Distortion
+- independent axis resizing
+- meaningful geometry
+- meaningful slope
+- Reference Shift
+- phi line
+- axis transform
+- Hidden Crop
+- cropped titles
+- cropped definitions
+- cropped lower notes
+- cropped endpoints
+- UI Capture
+- menus
+- overflow controls
+- browser chrome
+- interface elements
+- finished explanatory graphic
+- Resolution Mismatch
+- tiny type
+- thin lines
+- dense labels
+- raster image size
+- Unchecked Export
+- export scaling
+- compression
+- format conversion
+- Fibonacci rectangles
+- Fibonacci spirals
+- Golden Claim
+- golden rectangle
+- width-to-height ratio
+- Non-Square Tiles
+- Fibonacci squares
+- Wrong Sizes
+- tile side lengths
+- Arc Radius
+- containing square
+- Arc Center
+- required square corner
+- Broken Tangency
+- shared square boundaries
+- Decorative Spiral
+- freehand spiral
+- generic logarithmic-looking spiral
+- exact Fibonacci-square construction
+- Unlabeled Tiles
+- side-length labels
+- Fv labels
+- quantitative construction
+- Recursive Misfit
+- recursive attachment pattern
+- Resize Damage
+- nonuniform stretching
+- explanation
+- annotation
+- document integrity
+- Legend Ambiguity
+- color legend
+- formula definition
+- dataset definition
+- Color Only
+- color-only distinction
+- Missing Convention
+- standalone image
+- Missing Formula
+- ratio label
+- numerator definition
+- denominator definition
+- Missing Destination
+- Fv label without destination
+- Missing Prior
+- prior destination
+- Unverified Copy
+- copied values
+- canonical sequence check
+- Panel Conflict
+- counts
+- ranges
+- scales
+- step boundaries
+- Silent Correction
+- picture/table/prose mismatch
+- Orphan Formula
+- leader
+- caption
+- matching symbol
+- Overclaiming
+- data range
+- resolution demonstration
+- Aesthetic Override
+- symmetry
+- smoothness
+- balanced spacing
+- numerical fidelity
+- Missing Audit
+- audit categories
+- Appendix A
+- canonical reference
+- REF entries
+- Fibonacci Truth Inventory
+- canonical values
+- relationships
+- verified facts
+- image-specific observations
+- TR entries
+- Fv Label
+- Fv process step
+- Destination
+- D_v
+- Zero Step
+- First One
+- Second One
+- Recurrence
+- D_v = D_(v-1) + D_(v-2)
+- Conventional Map
+- D_v = F_(v+1)
+- conventional Fibonacci indexing
+- F_0=0 and F_1=1
+- Thirty Values
+- Twenty-Nine Transitions
+- Nonnegative destinations
+- Duplicate One
+- Strict Growth
+- Prior Value
+- Next Value
+- Step Format
+- complete canonical destination sequence
+- compact destination table
+- conventional index
+- forward-ratio inventory
+- R_v
+- exact integer fraction
+- twelve-place decimal
+- R_1=1/1
+- R_2=2/1
+- R_3=3/2
+- R_4=5/3
+- R_28=514229/317811
+- reciprocal-ratio sample
+- Q_v
+- Q_1=1/1
+- Q_2=1/2
+- Q_12=144/233
+- Golden Ratio
+- phi=(1+sqrt(5))/2
+- Reciprocal Limit
+- 1/phi=phi-1
+- Forward Limit
+- Ratio Update
+- Error Identity
+- R_(v+1)-phi=-(R_v-phi)/(phi*R_v)
+- Alternating Sign
+- Shrinking Error
+- Asymptotic Factor
+- Finite Rational
+- Irrational Limit
+- No Equality
+- Today Value
+- Yesterday Value
+- Tomorrow Value
+- Metaphor Status
+- Unequal Spacing
+- Unity Point
+- Reciprocal Unity
+- Forward Domain
+- Reciprocal Domain
+- Signed Error
+- Absolute Error
+- Step Swing
+- visualization facts
+- measurement facts
+- Discrete Data
+- Straight Segments
+- Spline Meaning
+- Axis Identity
+- Pixel Limit
+- Line Width
+- Rounding Loss
+- Inset Need
+- Zero Baseline
+- Log Restriction
+- Early Collapse
+- Pair Plot
+- consecutive-pair point
+- (D_v,D_(v+1))
+- Slope Limit
+- D_(v+1)/D_v
+- Reference Line
+- y=phi*x
+- Bar Scale
+- equal pixel height
+- Panel Consistency
+- UI Element
+- Crop Fact
+- Source Values
+- Approximation Sign
+- geometric construction facts
+- Golden Rectangle
+- Fibonacci Square
+- Square Series
+- Quarter Arc
+- Tangent Join
+- Fibonacci Spiral
+- Fibonacci spiral approximation
+- Golden Spiral
+- exact logarithmic golden spiral
+- Uniform Resize
+- uploaded images
+- Image One
+- dark screenshot
+- R_(n+1)=1+1/R_n
+- signed-error identity
+- contraction factor approaches 1/phi^2
+- displayed conventional indexing
+- Image Two
+- white ratio infographic
+- F_0=1 and F_1=1 convention
+- visible destination values
+- visible forward ratios
+- ratio steps corresponding to Fv 1 through Fv 16
+- Image Three
+- decorative dot panel
+- earliest additions
+- yellow dot groups
+- red dot groups
+- stacked bars
+- non-golden rectangle
+- lower-right oscillation panel
+- numeric axes
+- Image Four
+- blue forward-ratio chart
+- conventional F_0=0 and F_1=1 indexing
+- first point F_2/F_1=1
+- orange dashed reference
+- Image Five
+- consecutive-number scatter points
+- conventional pairs (F_n,F_(n+1))
+- final visible pair (17711,28657)
+- Image Six
+- destination bar chart
+- F_0=0 through F_23=28657
+- Image Seven
+- destination line chart
+- omitted x-axis label 22
+- displayed x-axis label 23
+- 24 displayed destinations
+- 23 adjacent transitions
+- Detailed Description of the Fibonacci Inventory Documents
+- granular textual account
+- companion inventories
+- document set
+- shared convention
+- alphanumeric identifiers
+- identifier namespace
+- short label
+- sentence-level description
+- bold blue identifier
+- hanging indent
+- thematic section
+- metadata
+- crosswalk
+- schema description
+- section counts
+- positive truths
+- corresponding avoid conditions
+- image-derived issues
+- image-derived verified facts
+- typography
+- pagination
+- visual structure
+- centered title
+- centered subtitle
+- centered blue convention statement
+- blue bold section headings
+- Liberation Sans
+- page footer
+- shaded table header
+- repeated table header
+- Comprehensive Report
+- executive summary
+- coordinated reference system
+- negative standard
+- diagnostic standard
+- positive standard
+- metadata document
+- internally coherent
+- audit taxonomy
+- educational chart auditing
+- infographic auditing
+- diagram auditing
+- mathematical explanation auditing
+- conceptual separations
+- notation correctness
+- arithmetic correctness
+- mathematical limits
+- metaphorical names
+- numerical coordinates
+- rendered pixels
+- source data authority
+- screenshot limitation
+- visual resemblance
+- mathematical correctness
+- exactness
+- approximation
+- rational approximation
+- irrational limiting constant
+- finite-step multiplier
+- asymptotic behavior
+- limiting slope reference
+- standard side-length series
+- square-and-quarter-circle construction
+- piecewise circular construction
+- logarithmic spiral distinction
+- established reference
+- inspect a representation
+- classify findings
+- stage 1 establish the reference
+- stage 2 inspect a representation
+- stage 3 classify findings
+- principal strengths
+- clear separation of concepts
+- complete canonical destination reference
+- strong visualization standards
+- exact and approximate values distinguished
+- reusable error taxonomy
+- integrated mathematical and visual auditing
+- limitations and boundaries
+- declarative rather than proof-oriented
+- reciprocal ratios incomplete by design
+- images not independently reproducible
+- nonstandard time terminology
+- intentional redundancy
+- overall conclusion
+- boot-up primer
+- specialized expert session
+- governing reference standard
+- first task
+- read all three documents carefully
+- study complete contents
+- unified reference system
+- source hierarchy
+- fidelity requirements
+- explicit definitions
+- exact fractions
+- symbolic expressions
+- rounded decimal values
+- document-defined convention
+- external mathematical fact
+- apparent conflicts
+- missing information
+- audit procedure
+- seed values check
+- canonical destination values check
+- recurrence arithmetic check
+- ratio direction check
+- numerator and denominator labeling check
+- exact versus approximate notation check
+- limiting constants check
+- convergence behavior check
+- signed and absolute error check
+- axis identity check
+- scale consistency check
+- marker and line behavior check
+- raster and pixel limitations check
+- geometric dimensions check
+- labels, legends, captions, and formulas check
+- charts, tables, and prose agreement check
+- range completeness and endpoint inclusion check
+- mathematical exactness
+- visual responsibility
+- clear labeling
+- future-work readiness
+- missed-or-understated seed terms to preserve
+- document provenance
+- document scope
+- governing standard versus supplemental report
+- data lineage
+- source-data-first principle
+- lossless extraction caveat
+- Word equation rendering loss
+- symbolic placeholder repair
+- OCR-free text extraction
+- embedded image absence
+- table serialization
+- duplicate concepts with distinct roles
+- ratio domain boundary
+- denominator validity
+- zero denominator avoidance
+- Fv-to-conventional conversion
+- finite rational versus irrational limit proof gap
+- convergence theorem versus inventory assertion
+- audit evidence classification
+- directly visible evidence
+- mathematically verified evidence
+- screenshot-estimated evidence
+- indeterminate evidence
+- crop-limited evidence
+- resolution-limited evidence
+- scale-limited evidence
+- label-limited evidence
+- exact construction versus decorative resemblance
+- process order preservation
+- endpoint inclusion
+- independent re-audit requirement
+- no silent convention change
+- no unstated rule attribution
+- no overgeneralization from image-specific statements
+- glossary seed
+- raw vocabulary list
+- fresh LLM session
+- boot-up response
+- full glossary drafting prompt
+
+## Step 1 — Fresh-session prompt for writing the full glossary
+
+Use the following prompt in a new LLM session:
+
+```text
+You are starting a fresh session in the repository containing the Fibonacci inventory documents. Before writing anything substantive, read every document in the repository, then execute the “Fibonacci Boot-Up Primer” exactly: study and comprehend the governing Fibonacci Avoids and Error Inventory, Fibonacci Truth Inventory, and Detailed Description of the Fibonacci Inventory Documents as one unified reference system, while also reading the Comprehensive Report and this Fibonacci_Glossary_Seed.md document.
+
+After boot-up, write a full glossary from the raw seed list in Fibonacci_Glossary_Seed.md. Do not merely alphabetize terms mechanically. Build a careful glossary that defines each vocabulary word or specialized phrase according to the document set, preserves the Fv convention, distinguishes Fv process steps from destination values, distinguishes TR truths from AV error conditions and REF canonical references, and clearly separates exact mathematical facts, document-defined conventions, visualization standards, rendering cautions, geometric construction requirements, image-specific observations, and external mathematical context.
+
+For every glossary entry, include:
+1. the term or phrase;
+2. a concise definition faithful to the documents;
+3. its role or domain, such as indexing, recurrence, ratio, convergence, metaphor, visualization, rendering, geometry, image audit, document structure, or workflow;
+4. any important caution, especially if the documents warn against confusing it with another term;
+5. relevant AV, TR, or REF identifiers where the source documents establish them.
+
+Also add entries for essential concepts that the seed list or original documents imply but do not fully develop, as long as you clearly label them as inferred, supplemental, or external mathematical context rather than document-defined claims. Preserve exact fractions and symbolic expressions where exactness matters, mark rounded decimals as approximations, and never claim that a finite Fibonacci ratio equals phi or 1/phi exactly.
+
+Write the glossary as a polished Markdown document with clear headings and internal cross-references. Begin with a short statement of the governing Fv convention and source hierarchy. End with a short audit-use note explaining how the glossary should be used with the Truth Inventory, Avoids Inventory, Detailed Description, and Comprehensive Report.
+```

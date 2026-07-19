@@ -1,0 +1,170 @@
+{
+  "schema": "fibonacci_orange_pressing_catalog.v1",
+  "purpose": "Ground-up, intentionally unbalanced recommendations for future Fibonacci graphs, figures, documents, manifests, and workbooks.",
+  "maturity_levels": [
+    {
+      "id": "elementary",
+      "description": "Discover the apparently unknown by carrying out recurrence, naming the step, and watching the next value become known."
+    },
+    {
+      "id": "graduated",
+      "description": "Infer order, direction, ratios, errors, dependencies, and continuations from a known local sequence state."
+    },
+    {
+      "id": "advanced",
+      "description": "Navigate alternatives, transforms, identities, visual encodings, empirical tests, and metaphorical extensions without category errors."
+    },
+    {
+      "id": "transcendent-return",
+      "description": "Diverge into meta thought, time thought, life metaphor, systems metaphor, or creative analogy, then return to exactness, evidence, and resolution."
+    }
+  ],
+  "truth_boundaries": [
+    "exact repository convention",
+    "exact recurrence consequence",
+    "finite rational relation",
+    "asymptotic limit behavior",
+    "visualization and rendering discipline",
+    "geometry and approximation",
+    "empirical model comparison",
+    "metadata model",
+    "declared metaphor",
+    "meta-audit and repository governance"
+  ],
+  "pressed_entries": [
+    {
+      "id": "OP-001",
+      "artifact": "Fv -1 -> destination 0",
+      "maturity": "elementary",
+      "truth_boundary": "exact repository convention",
+      "recommended_files": ["zero_seed_reflection.md", "seed_triplet_manifest.json", "zero_seed_indexing_workbook.xlsx", "drawings/zero_seed_as_address.svg", "drawings/visible_seed_triplet.svg"]
+    },
+    {
+      "id": "OP-002",
+      "artifact": "Fv 0 -> 1 and Fv 1 -> 1 are distinct steps with equal destinations",
+      "maturity": "elementary",
+      "truth_boundary": "exact repository convention",
+      "recommended_files": ["duplicate_one_hinge.md", "duplicate_one_audit_manifest.json", "seed_identity_examples.xlsx", "drawings/duplicate_one_hinge.svg", "drawings/value_identity_vs_step_identity.svg"]
+    },
+    {
+      "id": "OP-003",
+      "artifact": "D_v = D_(v-1) + D_(v-2)",
+      "maturity": "elementary",
+      "truth_boundary": "exact recurrence consequence",
+      "recommended_files": ["pretend_unknown_recurrence_lesson.md", "recurrence_reveal_steps.json", "recurrence_stage_workbook.xlsx", "drawings/unknown_next_destination_reveal.svg", "drawings/source_pair_to_destination_arrows.svg"]
+    },
+    {
+      "id": "OP-004",
+      "artifact": "Thirty destinations contain twenty-nine adjacent transitions",
+      "maturity": "elementary-to-graduated",
+      "truth_boundary": "exact finite structure",
+      "recommended_files": ["destination_transition_counting_standard.md", "destination_transition_manifest.json", "destination_transition_workbook.xlsx", "drawings/thirty_destinations_twenty_nine_transitions.svg"]
+    },
+    {
+      "id": "OP-005",
+      "artifact": "R_v = D_v / D_(v-1) and Q_v = D_(v-1) / D_v",
+      "maturity": "graduated",
+      "truth_boundary": "finite rational relation",
+      "recommended_files": ["ratio_direction_standard.md", "ratio_direction_manifest.json", "ratio_direction_workbook.xlsx", "drawings/forward_vs_reciprocal_ratio_definition.svg"]
+    },
+    {
+      "id": "OP-006",
+      "artifact": "Forward ratios approach phi while alternating above and below it",
+      "maturity": "graduated",
+      "truth_boundary": "asymptotic limit behavior",
+      "recommended_files": ["alternating_convergence_reflection.md", "ratio_side_of_limit_manifest.json", "signed_and_absolute_error_workbook.xlsx", "drawings/ratio_oscillation_above_below_phi.svg"]
+    },
+    {
+      "id": "OP-007",
+      "artifact": "No finite Fibonacci ratio equals phi exactly",
+      "maturity": "graduated-to-advanced",
+      "truth_boundary": "finite rational relation and irrational limit",
+      "recommended_files": ["finite_ratio_exactness_standard.md", "ratio_exactness_manifest.json", "finite_ratio_precision_workbook.xlsx", "drawings/finite_ratio_never_phi.svg"]
+    },
+    {
+      "id": "OP-008",
+      "artifact": "Successive error magnitudes approach a contraction factor of 1/phi^2",
+      "maturity": "advanced",
+      "truth_boundary": "asymptotic limit behavior",
+      "recommended_files": ["error_contraction_standard.md", "error_contraction_manifest.json", "error_contraction_workbook.xlsx", "drawings/error_contraction_factor_approach.svg"]
+    },
+    {
+      "id": "OP-009",
+      "artifact": "Linear destination charts hide early values as scale grows",
+      "maturity": "graduated",
+      "truth_boundary": "visualization and rendering discipline",
+      "recommended_files": ["destination_scale_decision_guide.md", "destination_scale_manifest.json", "destination_scale_workbook.xlsx", "drawings/linear_log_inset_triptych.svg"]
+    },
+    {
+      "id": "OP-010",
+      "artifact": "Integer-step Fibonacci data should not be turned into spline fiction",
+      "maturity": "advanced",
+      "truth_boundary": "visualization and rendering discipline",
+      "recommended_files": ["discrete_graph_contract.md", "integer_step_observations_manifest.json", "spline_failure_gallery.md", "drawings/discrete_markers_vs_spline_fiction.svg"]
+    },
+    {
+      "id": "OP-011",
+      "artifact": "Fibonacci square spirals are quarter-circle approximations, not exact golden spirals",
+      "maturity": "advanced",
+      "truth_boundary": "geometry and approximation",
+      "recommended_files": ["fibonacci_spiral_construction_protocol.md", "spiral_arc_geometry_manifest.json", "spiral_geometry_workbook.xlsx", "drawings/fibonacci_spiral_construction_audit.svg"]
+    },
+    {
+      "id": "OP-012",
+      "artifact": "External Fibonacci claims require alternatives, residuals, uncertainty, and evidence boundaries",
+      "maturity": "advanced",
+      "truth_boundary": "empirical model comparison",
+      "recommended_files": ["reality_claim_evidence_protocol.md", "empirical_claim_manifest.json", "reality_test_residual_workbook.xlsx", "drawings/fibonacci_vs_alternative_model_residuals.svg"]
+    },
+    {
+      "id": "OP-013",
+      "artifact": "The repository can be seen as normalized canon entering intentional denormalized expansion",
+      "maturity": "transcendent-return",
+      "truth_boundary": "metadata model and repository governance metaphor",
+      "recommended_files": ["repository_normalization_and_denormalization.md", "document_dependency_recurrence_manifest.json", "repository_growth_workbook.xlsx", "drawings/repository_normalization_state.svg"]
+    },
+    {
+      "id": "OP-014",
+      "artifact": "Yesterday = 1/phi, Today = 1, Tomorrow = phi as a declared time metaphor",
+      "maturity": "transcendent-return",
+      "truth_boundary": "declared metaphor with exact constants",
+      "recommended_files": ["time_normalization_mixing_board.md", "time_metaphor_manifest.json", "golden_time_reflection_workbook.xlsx", "drawings/time_normalization_mixing_board.svg"]
+    },
+    {
+      "id": "OP-015",
+      "artifact": "Local sequence awareness can reconstruct context carefully but not magically",
+      "maturity": "graduated",
+      "truth_boundary": "exact recurrence plus ambiguity discipline",
+      "recommended_files": ["local_awareness_reconstruction_guide.md", "local_context_manifest.json", "sequence_reconstruction_workbook.xlsx", "drawings/local_point_reorientation_map.svg"]
+    },
+    {
+      "id": "OP-016",
+      "artifact": "Divergence is useful only when it knows its return path",
+      "maturity": "advanced-to-transcendent-return",
+      "truth_boundary": "meta-audit and repository governance",
+      "recommended_files": ["safe_divergence_and_return_protocol.md", "truth_type_transition_manifest.json", "divergence_return_audit_workbook.xlsx", "drawings/diverge_and_return_truth_map.svg"]
+    }
+  ],
+  "highest_priority_next_twenty": [
+    "pretend_unknown_recurrence_lesson.md",
+    "drawings/unknown_next_destination_reveal.svg",
+    "zero_seed_reflection.md",
+    "duplicate_one_hinge.md",
+    "destination_transition_counting_standard.md",
+    "ratio_direction_standard.md",
+    "alternating_convergence_reflection.md",
+    "finite_ratio_exactness_standard.md",
+    "discrete_graph_contract.md",
+    "fibonacci_spiral_construction_protocol.md",
+    "reality_claim_evidence_protocol.md",
+    "local_awareness_reconstruction_guide.md",
+    "repository_normalization_and_denormalization.md",
+    "time_normalization_mixing_board.md",
+    "safe_divergence_and_return_protocol.md",
+    "recurrence_reveal_steps.json",
+    "ratio_side_of_limit_manifest.json",
+    "truth_type_transition_manifest.json",
+    "recurrence_stage_workbook.xlsx",
+    "divergence_return_audit_workbook.xlsx"
+  ]
+}

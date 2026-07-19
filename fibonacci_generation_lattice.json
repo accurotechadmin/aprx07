@@ -1,0 +1,145 @@
+{
+    "schema": "fibonacci_generation_lattice.v1",
+    "families": [
+        {
+            "id": "H1",
+            "name": "Canonical sequence and recurrence",
+            "question": "What does the repository Fv convention produce, and how is each destination known from the prior two?"
+        },
+        {
+            "id": "H2",
+            "name": "Ratios, convergence, and error",
+            "question": "How do adjacent ratios approach phi and 1/phi without finite equality?"
+        },
+        {
+            "id": "H3",
+            "name": "Exact identities and discrete structures",
+            "question": "Which exact Fibonacci identities, combinatorial structures, and integer patterns are visible?"
+        },
+        {
+            "id": "H4",
+            "name": "Geometry, spirals, and golden forms",
+            "question": "What geometric constructions are exact, approximate, or visually related?"
+        },
+        {
+            "id": "H5",
+            "name": "Empirical and reality-test applications",
+            "question": "What evidence would distinguish a Fibonacci claim from alternatives?"
+        },
+        {
+            "id": "H6",
+            "name": "Metadata, systems, and workflow",
+            "question": "How can recurrence illuminate documents, dependency, storage, prioritization, and cadence?"
+        },
+        {
+            "id": "H7",
+            "name": "Normalized time metaphor",
+            "question": "What does the declared 1/phi, 1, phi time coordinate reveal without becoming a theorem?"
+        }
+    ],
+    "levels": [
+        {
+            "level": -3,
+            "name": "Seed / premise",
+            "role": "Minimal statement of the idea, convention, variables, and caveats."
+        },
+        {
+            "level": -2,
+            "name": "Data / source table",
+            "role": "Canonical, computed, measured, or metaphorical source rows."
+        },
+        {
+            "level": -1,
+            "name": "Micro figure",
+            "role": "One-page or one-panel introduction with near-horizon scope."
+        },
+        {
+            "level": 0,
+            "name": "Core reference",
+            "role": "Mid-horizon or canonical artifact suitable as the baseline document."
+        },
+        {
+            "level": 1,
+            "name": "Comparative / analytic",
+            "role": "Contrasts views, models, residuals, or transformations."
+        },
+        {
+            "level": 2,
+            "name": "Audit / protocol",
+            "role": "Explicit checks, failure modes, assumptions, and evidence boundaries."
+        },
+        {
+            "level": 3,
+            "name": "Synthesis / generative suite",
+            "role": "Full chapter, package, or template family that can spawn variants."
+        }
+    ],
+    "seed_artifacts": [
+        {
+            "id": "DOC-H6-002",
+            "path": "fibonacci_generation_lattice.json",
+            "format": "json",
+            "horizontal": "H6",
+            "level": 0,
+            "role": "Machine-readable horizontal/vertical coordinate map and generation rules."
+        },
+        {
+            "id": "DOC-H1-001",
+            "path": "canonical_fv_reference_table.md",
+            "format": "md",
+            "horizontal": "H1",
+            "level": 0,
+            "role": "Human-readable canonical Fv -1 through Fv 28 table with convention notes."
+        },
+        {
+            "id": "SVG-H2-001",
+            "path": "drawings/forward_ratio_line_chart.svg",
+            "format": "svg",
+            "horizontal": "H2",
+            "level": 0,
+            "role": "Forward ratios with discrete markers and phi reference line."
+        },
+        {
+            "id": "DOC-H3-001",
+            "path": "fibonacci_identity_atlas.md",
+            "format": "md",
+            "horizontal": "H3",
+            "level": 3,
+            "role": "Guide grouping sums, Cassini, matrices, gcd, modulo, and decompositions."
+        },
+        {
+            "id": "DOC-H4-001",
+            "path": "fibonacci_geometry_construction_standard.md",
+            "format": "md",
+            "horizontal": "H4",
+            "level": 0,
+            "role": "Rules for square, rectangle, arc, center, tangency, and scaling geometry figures."
+        },
+        {
+            "id": "DOC-H5-001",
+            "path": "fibonacci_reality_test_protocol.md",
+            "format": "md",
+            "horizontal": "H5",
+            "level": 0,
+            "role": "Evidence-boundary standard for empirical Fibonacci claims."
+        },
+        {
+            "id": "DOC-H7-001",
+            "path": "normalized_time_reference_standard.md",
+            "format": "md",
+            "horizontal": "H7",
+            "level": 0,
+            "role": "Yesterday/Today/Tomorrow coordinate values and metaphor boundaries."
+        }
+    ],
+    "generation_rules": [
+        "same_horizontal_positive_vertical: keep horizontal fixed and move upward through higher vertical levels",
+        "same_horizontal_negative_vertical: keep horizontal fixed and generate supporting lower-level premises, data, manifests, and micro figures",
+        "across_horizontals_same_level: keep vertical level fixed and generate analogues in other horizontal families",
+        "across_horizontals_three_up_three_down: generate H1..H7 by levels source_level-3 through source_level+3, clipped to -3..+3",
+        "twenty_more_like_this: rank by same horizontal adjacent levels, same level across horizontals, adjacent horizontals adjacent levels",
+        "format_pairing: major md references should have json manifests when reusable and xlsx workbooks when tabular",
+        "graph_pairing: major svg figures should link to md explanation, json data, and xlsx workbook when applicable",
+        "evidence_boundary: empirical, application, and time-metaphor outputs must state what they do not prove"
+    ]
+}
