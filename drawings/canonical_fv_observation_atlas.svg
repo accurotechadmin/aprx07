@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Canonical Fv destinations — observation atlas</title>
+<desc id="desc">Canonical Fibonacci Fv -1 through Fv 28 table with observation cards for whole, first-12, first-7, and first-3 views.</desc>
+<rect x="0" y="0" width="1200" height="900" rx="0" fill="#fbfdff" stroke="none" stroke-width="0"/>
+<text x="600.0" y="38" font-family="Inter, Arial, sans-serif" font-size="26" fill="#0f172a" font-weight="800" text-anchor="middle">Canonical Fv destinations — observation atlas</text>
+<text x="600.0" y="64" font-family="Inter, Arial, sans-serif" font-size="14" fill="#475569" font-weight="500" text-anchor="middle">Full reference included; specialization gathers elementary, graduated, and advanced observations.</text>
+<text x="40" y="108" font-family="Inter, Arial, sans-serif" font-size="13" fill="#475569" font-weight="700" text-anchor="start">Full canonical reference: Fv -1 through Fv 28 (D_v = F_(v+1))</text>
+<rect x="40" y="114" width="104" height="22" rx="3" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="130" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv -1: 0</text>
+<rect x="40" y="138" width="104" height="22" rx="3" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="154" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv  0: 1</text>
+<rect x="40" y="162" width="104" height="22" rx="3" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="178" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv  1: 1</text>
+<rect x="40" y="186" width="104" height="22" rx="3" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="202" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv  2: 2</text>
+<rect x="40" y="210" width="104" height="22" rx="3" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="226" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv  3: 3</text>
+<rect x="40" y="234" width="104" height="22" rx="3" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="250" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv  4: 5</text>
+<rect x="40" y="258" width="104" height="22" rx="3" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="274" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv  5: 8</text>
+<rect x="40" y="282" width="104" height="22" rx="3" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="298" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv  6: 13</text>
+<rect x="40" y="306" width="104" height="22" rx="3" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="322" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv  7: 21</text>
+<rect x="40" y="330" width="104" height="22" rx="3" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="346" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv  8: 34</text>
+<rect x="152" y="114" width="104" height="22" rx="3" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<text x="159" y="130" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv  9: 55</text>
+<rect x="152" y="138" width="104" height="22" rx="3" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="159" y="154" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv 10: 89</text>
+<rect x="152" y="162" width="104" height="22" rx="3" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<text x="159" y="178" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv 11: 144</text>
+<rect x="152" y="186" width="104" height="22" rx="3" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="159" y="202" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv 12: 233</text>
+<rect x="152" y="210" width="104" height="22" rx="3" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<text x="159" y="226" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv 13: 377</text>
+<rect x="152" y="234" width="104" height="22" rx="3" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="159" y="250" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv 14: 610</text>
+<rect x="152" y="258" width="104" height="22" rx="3" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<text x="159" y="274" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv 15: 987</text>
+<rect x="152" y="282" width="104" height="22" rx="3" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="159" y="298" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv 16: 1597</text>
+<rect x="152" y="306" width="104" height="22" rx="3" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<text x="159" y="322" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv 17: 2584</text>
+<rect x="152" y="330" width="104" height="22" rx="3" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="159" y="346" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv 18: 4181</text>
+<rect x="264" y="114" width="104" height="22" rx="3" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<text x="271" y="130" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv 19: 6765</text>
+<rect x="264" y="138" width="104" height="22" rx="3" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="271" y="154" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv 20: 10946</text>
+<rect x="264" y="162" width="104" height="22" rx="3" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<text x="271" y="178" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv 21: 17711</text>
+<rect x="264" y="186" width="104" height="22" rx="3" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="271" y="202" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv 22: 28657</text>
+<rect x="264" y="210" width="104" height="22" rx="3" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<text x="271" y="226" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv 23: 46368</text>
+<rect x="264" y="234" width="104" height="22" rx="3" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="271" y="250" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv 24: 75025</text>
+<rect x="264" y="258" width="104" height="22" rx="3" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<text x="271" y="274" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv 25: 121393</text>
+<rect x="264" y="282" width="104" height="22" rx="3" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="271" y="298" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv 26: 196418</text>
+<rect x="264" y="306" width="104" height="22" rx="3" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<text x="271" y="322" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv 27: 317811</text>
+<rect x="264" y="330" width="104" height="22" rx="3" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="271" y="346" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv 28: 514229</text><text x="420" y="135" font-family="Inter, Arial, sans-serif" font-size="20" fill="#0f172a" font-weight="800" text-anchor="start">Observation cards across the four view horizons</text><rect x="420" y="175" width="710" height="82" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/><text x="440" y="201" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0f172a" font-weight="800" text-anchor="start">Whole Fv 1-28</text><text x="440" y="229" font-family="Inter, Arial, sans-serif" font-size="13" fill="#334155" font-weight="400" text-anchor="start">Low: values grow by addition. Basic: fixed seeds + recurrence determine all destinations. Nuanced: 28 has D_v=514229 and 27-&gt;28 ratio is finite, not phi.</text><rect x="420" y="275" width="710" height="82" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/><text x="440" y="301" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0f172a" font-weight="800" text-anchor="start">First 12</text><text x="440" y="329" font-family="Inter, Arial, sans-serif" font-size="13" fill="#334155" font-weight="400" text-anchor="start">Low: solve missing values one by one. Basic: D_12=233 from 89+144. Nuanced: late-looking closeness can hide side-of-limit alternation.</text><rect x="420" y="375" width="710" height="82" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/><text x="440" y="401" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0f172a" font-weight="800" text-anchor="start">First 7</text><text x="440" y="429" font-family="Inter, Arial, sans-serif" font-size="13" fill="#334155" font-weight="400" text-anchor="start">Low: 1,1,2,3,5,8,13 is memorizable. Basic: each non-seed depends on two prior destinations. Nuanced: Fv labels differ from conventional F_n labels.</text><rect x="420" y="475" width="710" height="82" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/><text x="440" y="501" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0f172a" font-weight="800" text-anchor="start">First 3 zoom</text><text x="440" y="529" font-family="Inter, Arial, sans-serif" font-size="13" fill="#334155" font-weight="400" text-anchor="start">Low: 1+1=2. Basic: Fv 0 and Fv 1 are distinct. Nuanced: Fv -1 -&gt; 0 is canonical, not decorative.</text>
+<text x="600.0" y="878" font-family="Inter, Arial, sans-serif" font-size="12" fill="#64748b" font-weight="400" text-anchor="middle">Boundary: exact recurrence data and labeled finite views; the picture is not a continuous Fibonacci curve and not a proof that any finite ratio equals phi.</text>
+</svg>
