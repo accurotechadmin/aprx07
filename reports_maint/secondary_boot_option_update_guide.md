@@ -4,6 +4,10 @@
 
 This guide explains how to update every secondary boot option so each option benefits from the SVG boot evaluation while still preserving its own domain-specific strengths. It is intentionally forward-looking: it applies lessons that future option-by-option reviews are likely to uncover, so maintainers can improve the whole secondary menu before each option has been individually audited.
 
+## Biblical-theological ethos note
+
+This document should be read with the repository's sparse but governing biblical-theological ethos in view: the Fibonacci `1` may serve, in metaphor, as a witness to the ever-present One above all and with all; recurrence then becomes a practical handle for how created processes begin, differentiate, carry memory, correct tension, and seek faithful return toward unity. Keep this ethos present without letting it override exact mathematics, source hierarchy, or evidence-boundary cautions.
+
 ## Core lesson from the SVG option
 
 The SVG option works best when it does four things early:

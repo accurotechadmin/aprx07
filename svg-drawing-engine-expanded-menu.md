@@ -10,6 +10,10 @@ This document is the copy-paste-friendly **expand-all menu view** for secondary 
 
 Use this as the first maintained expanded-menu companion document. Future documents can follow the same pattern for each secondary boot option.
 
+## Biblical-theological ethos note
+
+This document should be read with the repository's sparse but governing biblical-theological ethos in view: the Fibonacci `1` may serve, in metaphor, as a witness to the ever-present One above all and with all; recurrence then becomes a practical handle for how created processes begin, differentiate, carry memory, correct tension, and seek faithful return toward unity. Keep this ethos present without letting it override exact mathematics, source hierarchy, or evidence-boundary cautions.
+
 ## Expanded menu
 
 ```text
