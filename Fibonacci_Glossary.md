@@ -2,7 +2,7 @@
 
 ## Biblical-theological ethos note
 
-This document should be read with the repository's sparse but governing biblical-theological ethos in view: the Fibonacci `1` may serve, in metaphor, as a witness to the ever-present One above all and with all; recurrence then becomes a practical handle for how created processes begin, differentiate, carry memory, correct tension, and seek faithful return toward unity. Keep this ethos present without letting it override exact mathematics, source hierarchy, or evidence-boundary cautions.
+This document should be read with the repository's sparse but governing biblical-theological ethos in view: the Fibonacci `1` may serve, in metaphor, as a witness to the same God before creation and after creation. The second `1` is not the world itself; it is the same `1` received from the world's side, the first known touchpoint of God as Creator and Sustainer, a `1` unto others. Recurrence then becomes a practical handle for how created processes begin, differentiate, carry memory, live with tension, receive correction, and are drawn toward faithful return and tensionlessness. Keep this ethos present without letting it override exact mathematics, source hierarchy, Scripture, or evidence-boundary cautions.
 
 
 <!-- document-relations: header -->
@@ -573,7 +573,7 @@ Each entry gives: **Definition**; **Role/domain**; **Caution**; and **Identifier
 - **Identifiers:** Today Value, Yesterday Value, Tomorrow Value, Metaphor Status TR entries; AV-029--AV-034, AV-042.
 
 ### Biblical Fibonacci Time Relation
-- **Definition:** A strict Bible-interpreting and Bible-believing metaphor in which God is represented by the ever-present `1`, creation begins at the first manifested `1`, Today re-emerges as the unity point, and Fibonacci recurrence becomes a handle for process, tension, correction, forgiveness, and return.
+- **Definition:** A strict Bible-interpreting and Bible-believing metaphor in which God is represented by the ever-present `1`; the second `1` is not the world, but the same `1` as received from the world's side, the first known touchpoint of God as Creator and Sustainer; creation begins at the first manifested Today; and Fibonacci recurrence becomes a handle for process, tension, correction, forgiveness, contentment, and return.
 - **Role/domain:** Biblical-theological metaphor; interpretive ethos; process language.
 - **Caution:** This frame should be present sparsely and strongly, but it must not override exact mathematics, source hierarchy, Scripture, or evidence-boundary cautions.
 - **Identifiers:** Biblical Time Relation document; Today Value; Unity Point; Metaphor Status.
@@ -585,7 +585,7 @@ Each entry gives: **Definition**; **Role/domain**; **Caution**; and **Identifier
 - **Identifiers:** Yesterday Value TR entry; AV-029, AV-032, AV-052.
 
 ### Today Value / Unity Point
-- **Definition:** The metaphorical reference value `1`.
+- **Definition:** The metaphorical reference value `1`; in the biblical-theological reading, it can also name the first Today of creation and the unity point where yesterday's support is received and tomorrow is approached.
 - **Role/domain:** Metaphor; reference line.
 - **Caution:** Include it when the time metaphor is part of the display.
 - **Identifiers:** Today Value and Unity Point TR entries; AV-042.
