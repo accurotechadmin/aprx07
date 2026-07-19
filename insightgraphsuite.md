@@ -1,5 +1,10 @@
 # Fibonacci Insight-Graph Suite: Authoritative Boot-Up Primer
 
+<!-- document-relations: header -->
+> **Directly related documents:** [Cohesion Audit](Fibonacci_Cohesion_Audit.md) · [Glossary](Fibonacci_Glossary.md) · [Glossary Seed](Fibonacci_Glossary_Seed.md) · [Claim Index](Fibonacci_Statement_Claim_Index.md) · [README](README.md) · [Boot](boot.md) · [Curated Graphs](curated_fibonacci_insight_graphs.md) · [Drawing Guide](draw.md) · [Boot-Up Prompt](fibonacci_boot_up_full_prompt.md) · [Generation Lattice](fibonacci_generation_lattice.md) · [Orange Recommendations](fibonacci_orange_pressing_recommendations.md) · [Secondary Boots](secondary_boot_prompts.md) · [Essences SSOT](the_essences.md).
+<!-- /document-relations: header -->
+
+
 This primer is the governing start-of-session instrument for work that uses this repository to create, audit, explain, or reorganize Fibonacci-related graphs, diagrams, maps, visual proofs, metadata structures, application studies, and interpretive time models.
 
 Its purpose is threefold:
@@ -8,7 +13,7 @@ Its purpose is threefold:
 2. **Selection:** guide the choice, adaptation, combination, or invention of visualizations according to insight, not novelty or convenience.
 3. **Protection:** preserve mathematical accuracy, evidence boundaries, and interpretive humility when moving from exact Fibonacci facts into geometry, real-world claims, metaphor, design, metadata, or time.
 
-The companion graph list, `curated_fibonacci_insight_graphs.md`, is the authoritative curated reference for this suite, but it is not a closed canon. It records durable visualization concepts that have earned a place in the working language of the project. Future work may select from it, refine it, add to it, or reject a listed option when another representation serves truth more clearly.
+The companion graph list, [`curated_fibonacci_insight_graphs.md`](curated_fibonacci_insight_graphs.md), is the authoritative curated reference for this suite, but it is not a closed canon. It records durable visualization concepts that have earned a place in the working language of the project. Future work may select from it, refine it, add to it, or reject a listed option when another representation serves truth more clearly.
 
 ## 1. Required repository orientation
 
@@ -224,3 +229,39 @@ The companion curated list is:
 * intended for selection, combination, critique, and invention.
 
 Its purpose is not to predetermine every future drawing. Its purpose is to make strong ideas immediately available while preserving the freedom and responsibility to discover better ones.
+---
+
+<!-- document-relations: footer -->
+## Document link index
+
+### Documents this document links to
+- [Fibonacci Inventory Cohesion Audit](Fibonacci_Cohesion_Audit.md)
+- [Fibonacci Inventory Glossary](Fibonacci_Glossary.md)
+- [Fibonacci Glossary Seed — Raw Vocabulary and Fresh-Session Prompt](Fibonacci_Glossary_Seed.md)
+- [Fibonacci Documentation Statement and Claim Index](Fibonacci_Statement_Claim_Index.md)
+- [Fibonacci Explorer Repository](README.md)
+- [Boot Prompt for Fibonacci Explorers, Mathematicians, and Artists](boot.md)
+- [Curated Fibonacci Insight Graphs](curated_fibonacci_insight_graphs.md)
+- [Expert Fibonacci Graph-Drawing Guide](draw.md)
+- [Full Fibonacci Repository Boot-Up Prompt](fibonacci_boot_up_full_prompt.md)
+- [Fibonacci Generation Lattice: Recommended Graphs, Figures, and Documents](fibonacci_generation_lattice.md)
+- [Fibonacci Orange-Pressing Recommendations](fibonacci_orange_pressing_recommendations.md)
+- [Secondary Fibonacci Boot Prompts](secondary_boot_prompts.md)
+- [The Essences: Canon / SSOT for Fibonacci Boot-Up Prompts](the_essences.md)
+
+### Documents that link to this document
+- [Fibonacci Inventory Cohesion Audit](Fibonacci_Cohesion_Audit.md)
+- [Fibonacci Inventory Glossary](Fibonacci_Glossary.md)
+- [Fibonacci Glossary Seed — Raw Vocabulary and Fresh-Session Prompt](Fibonacci_Glossary_Seed.md)
+- [Fibonacci Documentation Statement and Claim Index](Fibonacci_Statement_Claim_Index.md)
+- [Fibonacci Explorer Repository](README.md)
+- [Boot Prompt for Fibonacci Explorers, Mathematicians, and Artists](boot.md)
+- [Curated Fibonacci Insight Graphs](curated_fibonacci_insight_graphs.md)
+- [Expert Fibonacci Graph-Drawing Guide](draw.md)
+- [Full Fibonacci Repository Boot-Up Prompt](fibonacci_boot_up_full_prompt.md)
+- [Fibonacci Generation Lattice: Recommended Graphs, Figures, and Documents](fibonacci_generation_lattice.md)
+- [Fibonacci Orange-Pressing Recommendations](fibonacci_orange_pressing_recommendations.md)
+- [Secondary Fibonacci Boot Prompts](secondary_boot_prompts.md)
+- [The Essences: Canon / SSOT for Fibonacci Boot-Up Prompts](the_essences.md)
+<!-- /document-relations: footer -->
+

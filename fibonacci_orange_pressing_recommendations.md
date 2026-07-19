@@ -1,5 +1,10 @@
 # Fibonacci Orange-Pressing Recommendations
 
+<!-- document-relations: header -->
+> **Directly related documents:** [Cohesion Audit](Fibonacci_Cohesion_Audit.md) · [Glossary](Fibonacci_Glossary.md) · [Glossary Seed](Fibonacci_Glossary_Seed.md) · [Claim Index](Fibonacci_Statement_Claim_Index.md) · [README](README.md) · [Boot](boot.md) · [Curated Graphs](curated_fibonacci_insight_graphs.md) · [Drawing Guide](draw.md) · [Boot-Up Prompt](fibonacci_boot_up_full_prompt.md) · [Generation Lattice](fibonacci_generation_lattice.md) · [Insight-Graph Suite](insightgraphsuite.md) · [Secondary Boots](secondary_boot_prompts.md) · [Essences SSOT](the_essences.md).
+<!-- /document-relations: header -->
+
+
 ## Ground-up purpose
 
 This document is a new, intentionally unbalanced expansion layer. It does **not** normalize the repository back into equal section lengths. It begins from small artifacts of Fibonacci knowledge, pauses over each one, asks why it matters, and turns the extracted insight into recommended graphs, images, figures, `.md` references, `.json` manifests, and `.xlsx` workbooks.
@@ -524,3 +529,39 @@ Future expansion should not merely ask "what graph can be drawn?" It should ask 
 ## Final expansion principle
 
 The repository has reached a meaningful level of normalization. This document recommends a deliberate next phase of uneven growth. Some branches should become much longer than others because they contain more juice right now. That imbalance is not a defect during extraction. It becomes a defect only if later canonization forgets to mark sources, truth boundaries, evidence standards, and return paths.
+---
+
+<!-- document-relations: footer -->
+## Document link index
+
+### Documents this document links to
+- [Fibonacci Inventory Cohesion Audit](Fibonacci_Cohesion_Audit.md)
+- [Fibonacci Inventory Glossary](Fibonacci_Glossary.md)
+- [Fibonacci Glossary Seed — Raw Vocabulary and Fresh-Session Prompt](Fibonacci_Glossary_Seed.md)
+- [Fibonacci Documentation Statement and Claim Index](Fibonacci_Statement_Claim_Index.md)
+- [Fibonacci Explorer Repository](README.md)
+- [Boot Prompt for Fibonacci Explorers, Mathematicians, and Artists](boot.md)
+- [Curated Fibonacci Insight Graphs](curated_fibonacci_insight_graphs.md)
+- [Expert Fibonacci Graph-Drawing Guide](draw.md)
+- [Full Fibonacci Repository Boot-Up Prompt](fibonacci_boot_up_full_prompt.md)
+- [Fibonacci Generation Lattice: Recommended Graphs, Figures, and Documents](fibonacci_generation_lattice.md)
+- [Fibonacci Insight-Graph Suite: Authoritative Boot-Up Primer](insightgraphsuite.md)
+- [Secondary Fibonacci Boot Prompts](secondary_boot_prompts.md)
+- [The Essences: Canon / SSOT for Fibonacci Boot-Up Prompts](the_essences.md)
+
+### Documents that link to this document
+- [Fibonacci Inventory Cohesion Audit](Fibonacci_Cohesion_Audit.md)
+- [Fibonacci Inventory Glossary](Fibonacci_Glossary.md)
+- [Fibonacci Glossary Seed — Raw Vocabulary and Fresh-Session Prompt](Fibonacci_Glossary_Seed.md)
+- [Fibonacci Documentation Statement and Claim Index](Fibonacci_Statement_Claim_Index.md)
+- [Fibonacci Explorer Repository](README.md)
+- [Boot Prompt for Fibonacci Explorers, Mathematicians, and Artists](boot.md)
+- [Curated Fibonacci Insight Graphs](curated_fibonacci_insight_graphs.md)
+- [Expert Fibonacci Graph-Drawing Guide](draw.md)
+- [Full Fibonacci Repository Boot-Up Prompt](fibonacci_boot_up_full_prompt.md)
+- [Fibonacci Generation Lattice: Recommended Graphs, Figures, and Documents](fibonacci_generation_lattice.md)
+- [Fibonacci Insight-Graph Suite: Authoritative Boot-Up Primer](insightgraphsuite.md)
+- [Secondary Fibonacci Boot Prompts](secondary_boot_prompts.md)
+- [The Essences: Canon / SSOT for Fibonacci Boot-Up Prompts](the_essences.md)
+<!-- /document-relations: footer -->
+

@@ -1,5 +1,10 @@
 # Fibonacci Inventory Cohesion Audit
 
+<!-- document-relations: header -->
+> **Directly related documents:** [Glossary](Fibonacci_Glossary.md) · [Glossary Seed](Fibonacci_Glossary_Seed.md) · [Claim Index](Fibonacci_Statement_Claim_Index.md) · [README](README.md) · [Boot](boot.md) · [Curated Graphs](curated_fibonacci_insight_graphs.md) · [Drawing Guide](draw.md) · [Boot-Up Prompt](fibonacci_boot_up_full_prompt.md) · [Generation Lattice](fibonacci_generation_lattice.md) · [Orange Recommendations](fibonacci_orange_pressing_recommendations.md) · [Insight-Graph Suite](insightgraphsuite.md) · [Secondary Boots](secondary_boot_prompts.md) · [Essences SSOT](the_essences.md).
+<!-- /document-relations: header -->
+
+
 ## Scope and method
 
 I re-read the repository documents as a unified reference system: the Avoids Inventory, Truth Inventory, Detailed Description, Comprehensive Report, Boot-Up Primer, glossary seed, and the drafted glossary. The review treated the Truth Inventory as the positive mathematical source, the Avoids Inventory as the named diagnostic/error taxonomy, the Detailed Description as the structure/crosswalk guide, and the Comprehensive Report as supplemental synthesis.
@@ -83,7 +88,7 @@ The Truth Inventory's observations about seven examined images remain scoped to 
 
 ## Remaining open questions for the repository owner
 
-1. **Should the generated glossary replace or supplement the seed?** The current repository now has both `Fibonacci_Glossary_Seed.md` and `Fibonacci_Glossary.md`. Please confirm whether the seed should remain as provenance, be archived, or be replaced by the finished glossary.
+1. **Should the generated glossary replace or supplement the seed?** The current repository now has both [`Fibonacci_Glossary_Seed.md`](Fibonacci_Glossary_Seed.md) and [`Fibonacci_Glossary.md`](Fibonacci_Glossary.md). Please confirm whether the seed should remain as provenance, be archived, or be replaced by the finished glossary.
 
 2. **Should the source `.docx` inventories be edited to add a glossary pointer?** The new glossary is a standalone Markdown file. If the Word inventories are the canonical deliverables, you may want cross-references added to those documents as well.
 
@@ -105,7 +110,7 @@ A final consistency pass checked the rewritten insight-graph primer against the 
 
 ### Consistency adjustments made
 
-- The primer no longer says that the curated graph list "follows" inside the same file. It now names `curated_fibonacci_insight_graphs.md` as the companion authoritative curated reference, matching the current repository layout.
+- The primer no longer says that the curated graph list "follows" inside the same file. It now names [`curated_fibonacci_insight_graphs.md`](curated_fibonacci_insight_graphs.md) as the companion authoritative curated reference, matching the current repository layout.
 - Binary boot-up materials are intentionally not part of this refresh. The authoritative refreshed primer data now lives in Markdown text so it can be reviewed, merged, and audited without binary-file limitations.
 - The primer keeps the same governing Fv convention used by the glossary and cohesion audit: `Fv -1 -> destination 0`, `Fv 0 -> destination 1`, `Fv 1 -> destination 1`, continuing by addition, with `D_v = F_(v+1)` under conventional indexing.
 - The normalized time metaphor remains aligned with the prior repository language: yesterday is `1/φ`, today is `1`, and tomorrow is `φ`, while the primer explicitly keeps this mapping interpretive rather than physical law.
@@ -119,3 +124,39 @@ A final consistency pass checked the rewritten insight-graph primer against the 
 ### Final QA conclusion
 
 After these adjustments, the rewritten primer is consistent with the repository's governing convention, source hierarchy, visual-selection philosophy, mathematical caution boundaries, normalized time metaphor, and current file layout. The only substantive inconsistency found during this pass was the wording that implied the curated graph list lived below the primer in the same file; that wording has been corrected.
+---
+
+<!-- document-relations: footer -->
+## Document link index
+
+### Documents this document links to
+- [Fibonacci Inventory Glossary](Fibonacci_Glossary.md)
+- [Fibonacci Glossary Seed — Raw Vocabulary and Fresh-Session Prompt](Fibonacci_Glossary_Seed.md)
+- [Fibonacci Documentation Statement and Claim Index](Fibonacci_Statement_Claim_Index.md)
+- [Fibonacci Explorer Repository](README.md)
+- [Boot Prompt for Fibonacci Explorers, Mathematicians, and Artists](boot.md)
+- [Curated Fibonacci Insight Graphs](curated_fibonacci_insight_graphs.md)
+- [Expert Fibonacci Graph-Drawing Guide](draw.md)
+- [Full Fibonacci Repository Boot-Up Prompt](fibonacci_boot_up_full_prompt.md)
+- [Fibonacci Generation Lattice: Recommended Graphs, Figures, and Documents](fibonacci_generation_lattice.md)
+- [Fibonacci Orange-Pressing Recommendations](fibonacci_orange_pressing_recommendations.md)
+- [Fibonacci Insight-Graph Suite: Authoritative Boot-Up Primer](insightgraphsuite.md)
+- [Secondary Fibonacci Boot Prompts](secondary_boot_prompts.md)
+- [The Essences: Canon / SSOT for Fibonacci Boot-Up Prompts](the_essences.md)
+
+### Documents that link to this document
+- [Fibonacci Inventory Glossary](Fibonacci_Glossary.md)
+- [Fibonacci Glossary Seed — Raw Vocabulary and Fresh-Session Prompt](Fibonacci_Glossary_Seed.md)
+- [Fibonacci Documentation Statement and Claim Index](Fibonacci_Statement_Claim_Index.md)
+- [Fibonacci Explorer Repository](README.md)
+- [Boot Prompt for Fibonacci Explorers, Mathematicians, and Artists](boot.md)
+- [Curated Fibonacci Insight Graphs](curated_fibonacci_insight_graphs.md)
+- [Expert Fibonacci Graph-Drawing Guide](draw.md)
+- [Full Fibonacci Repository Boot-Up Prompt](fibonacci_boot_up_full_prompt.md)
+- [Fibonacci Generation Lattice: Recommended Graphs, Figures, and Documents](fibonacci_generation_lattice.md)
+- [Fibonacci Orange-Pressing Recommendations](fibonacci_orange_pressing_recommendations.md)
+- [Fibonacci Insight-Graph Suite: Authoritative Boot-Up Primer](insightgraphsuite.md)
+- [Secondary Fibonacci Boot Prompts](secondary_boot_prompts.md)
+- [The Essences: Canon / SSOT for Fibonacci Boot-Up Prompts](the_essences.md)
+<!-- /document-relations: footer -->
+

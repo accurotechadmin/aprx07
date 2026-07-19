@@ -1,23 +1,28 @@
 # Fibonacci Documentation Statement and Claim Index
 
+<!-- document-relations: header -->
+> **Directly related documents:** [Cohesion Audit](Fibonacci_Cohesion_Audit.md) · [Glossary](Fibonacci_Glossary.md) · [Glossary Seed](Fibonacci_Glossary_Seed.md) · [README](README.md) · [Boot](boot.md) · [Curated Graphs](curated_fibonacci_insight_graphs.md) · [Drawing Guide](draw.md) · [Boot-Up Prompt](fibonacci_boot_up_full_prompt.md) · [Generation Lattice](fibonacci_generation_lattice.md) · [Orange Recommendations](fibonacci_orange_pressing_recommendations.md) · [Insight-Graph Suite](insightgraphsuite.md) · [Secondary Boots](secondary_boot_prompts.md) · [Essences SSOT](the_essences.md).
+<!-- /document-relations: header -->
+
+
 This index treats each non-empty paragraph in `.docx` files and each non-empty line in text/CSV files as a statement unit. It was generated after reading the documentation corpus line by line, preserving document order so that every unit can be traced back to its source document and local statement number.
 
 ## Corpus overview
 
 | Document | Statement units | Subject role |
 |---|---:|---|
-| `01_Fibonacci_Avoids_and_Error_Inventory.docx` | 143 | Diagnostic/error taxonomy: avoid statements and canonical reference appendix. |
-| `02_Fibonacci_Truth_Inventory.docx` | 269 | Positive canonical mathematical, visual, and interpretive truth inventory. |
-| `03_Fibonacci_Inventory_Documents_Detailed_Description.docx` | 107 | Metadata, organization, and cross-reference description for inventories 1 and 2. |
-| `Comprehensive Report on the Fibonacci Inventory Documents.docx` | 529 | Synthetic report assessing the three inventory documents as a coordinated system. |
-| `curated_fibonacci_insight_graphs.csv` | 76 | Structured inventory of curated graph insight records. |
-| `curated_fibonacci_insight_graphs.md` | 117 | Markdown presentation of curated graph insight records. |
-| `draw.md` | 384 | Drawing and rendering guidance for Fibonacci sequence visuals and diagrams. |
-| `Fibonacci Boot-Up Primer.docx` | 242 | Operational instructions for using the three inventories as a governing reference standard. |
-| `Fibonacci_Cohesion_Audit.md` | 73 | Prior cohesion review summarizing agreement and verified mathematical checks. |
-| `Fibonacci_Glossary.md` | 1088 | Expanded glossary of vocabulary used across the Fibonacci reference system. |
-| `Fibonacci_Glossary_Seed.md` | 677 | Seed glossary that defines foundational terms and cross-links. |
-| `insightgraphsuite.md` | 156 | Insight graph suite specification/notes for visual analysis artifacts. |
+| [`01_Fibonacci_Avoids_and_Error_Inventory.docx`](01_Fibonacci_Avoids_and_Error_Inventory.docx) | 143 | Diagnostic/error taxonomy: avoid statements and canonical reference appendix. |
+| [`02_Fibonacci_Truth_Inventory.docx`](02_Fibonacci_Truth_Inventory.docx) | 269 | Positive canonical mathematical, visual, and interpretive truth inventory. |
+| [`03_Fibonacci_Inventory_Documents_Detailed_Description.docx`](03_Fibonacci_Inventory_Documents_Detailed_Description.docx) | 107 | Metadata, organization, and cross-reference description for inventories 1 and 2. |
+| [`Comprehensive Report on the Fibonacci Inventory Documents.docx`](Comprehensive%20Report%20on%20the%20Fibonacci%20Inventory%20Documents.docx) | 529 | Synthetic report assessing the three inventory documents as a coordinated system. |
+| [`curated_fibonacci_insight_graphs.csv`](curated_fibonacci_insight_graphs.csv) | 76 | Structured inventory of curated graph insight records. |
+| [`curated_fibonacci_insight_graphs.md`](curated_fibonacci_insight_graphs.md) | 117 | Markdown presentation of curated graph insight records. |
+| [`draw.md`](draw.md) | 384 | Drawing and rendering guidance for Fibonacci sequence visuals and diagrams. |
+| [`Fibonacci Boot-Up Primer.docx`](Fibonacci%20Boot-Up%20Primer.docx) | 242 | Operational instructions for using the three inventories as a governing reference standard. |
+| [`Fibonacci_Cohesion_Audit.md`](Fibonacci_Cohesion_Audit.md) | 73 | Prior cohesion review summarizing agreement and verified mathematical checks. |
+| [`Fibonacci_Glossary.md`](Fibonacci_Glossary.md) | 1088 | Expanded glossary of vocabulary used across the Fibonacci reference system. |
+| [`Fibonacci_Glossary_Seed.md`](Fibonacci_Glossary_Seed.md) | 677 | Seed glossary that defines foundational terms and cross-links. |
+| [`insightgraphsuite.md`](insightgraphsuite.md) | 156 | Insight graph suite specification/notes for visual analysis artifacts. |
 
 ## Inter-document assessment matrix
 
@@ -25,22 +30,22 @@ The documents are highly cohesive around the Fv convention, the distinction betw
 
 | Subject document | Agreement with other documents | Accuracy/cohesion assessment |
 |---|---|---|
-| `01_Fibonacci_Avoids_and_Error_Inventory.docx` | Agrees with the Truth Inventory by expressing inverse diagnostic forms of the same indexing, arithmetic, ratio, rendering, and explanation claims; aligns with the Detailed Description and reports that summarize AV sections. | High. Its avoid rules are consistent with the canonical recurrence and reference appendix; no direct conflict found. |
-| `02_Fibonacci_Truth_Inventory.docx` | Serves as the positive standard that the Avoids Inventory negates diagnostically; its TR entries are repeatedly summarized by the Detailed Description, Comprehensive Report, Boot-Up Primer, audit, glossary, and drawing guidance. | High. Canonical values, count claims, recurrence, and ratio definitions cohere with the rest of the corpus. |
-| `03_Fibonacci_Inventory_Documents_Detailed_Description.docx` | Accurately describes the organization, identifiers, section ranges, and roles of Documents 1 and 2; agrees with the report and primer about the three-document reference system. | High. It is mostly meta-documentary and consistently maps to the inventories it describes. |
-| `Comprehensive Report on the Fibonacci Inventory Documents.docx` | Synthesizes the three primary documents and generally agrees with their shared convention, roles, section structures, and mathematical claims. | High. It functions as a cohesive secondary analysis rather than an independent competing standard. |
-| `curated_fibonacci_insight_graphs.csv` | Extends the inventory standards into visualization and graph-insight contexts; agrees with the mathematical and error-taxonomy documents where they overlap. | High to moderate-high. It is domain-specific visual guidance, so cohesion is strongest on shared terminology and weaker only where it introduces implementation-specific framing. |
-| `curated_fibonacci_insight_graphs.md` | Extends the inventory standards into visualization and graph-insight contexts; agrees with the mathematical and error-taxonomy documents where they overlap. | High to moderate-high. It is domain-specific visual guidance, so cohesion is strongest on shared terminology and weaker only where it introduces implementation-specific framing. |
-| `draw.md` | Extends the inventory standards into visualization and graph-insight contexts; agrees with the mathematical and error-taxonomy documents where they overlap. | High to moderate-high. It is domain-specific visual guidance, so cohesion is strongest on shared terminology and weaker only where it introduces implementation-specific framing. |
-| `Fibonacci Boot-Up Primer.docx` | Operationalizes the three-document standard and agrees with the inventories on the Fv convention, seeds, recurrence, ratios, visual cautions, and glossary vocabulary. | High. It is prescriptive for session behavior and consistent with the source inventories. |
-| `Fibonacci_Cohesion_Audit.md` | Agrees with the shared Fibonacci inventory system where overlapping claims appear. | No conflicts identified. |
-| `Fibonacci_Glossary.md` | Defines terms used by the inventories, report, primer, and visual documents; agrees on step/destination separation, exactness, ratio terminology, and visual vocabulary. | High. It reinforces terminology; any extra breadth is explanatory rather than contradictory. |
-| `Fibonacci_Glossary_Seed.md` | Defines terms used by the inventories, report, primer, and visual documents; agrees on step/destination separation, exactness, ratio terminology, and visual vocabulary. | High. It reinforces terminology; any extra breadth is explanatory rather than contradictory. |
-| `insightgraphsuite.md` | Extends the inventory standards into visualization and graph-insight contexts; agrees with the mathematical and error-taxonomy documents where they overlap. | High to moderate-high. It is domain-specific visual guidance, so cohesion is strongest on shared terminology and weaker only where it introduces implementation-specific framing. |
+| [`01_Fibonacci_Avoids_and_Error_Inventory.docx`](01_Fibonacci_Avoids_and_Error_Inventory.docx) | Agrees with the Truth Inventory by expressing inverse diagnostic forms of the same indexing, arithmetic, ratio, rendering, and explanation claims; aligns with the Detailed Description and reports that summarize AV sections. | High. Its avoid rules are consistent with the canonical recurrence and reference appendix; no direct conflict found. |
+| [`02_Fibonacci_Truth_Inventory.docx`](02_Fibonacci_Truth_Inventory.docx) | Serves as the positive standard that the Avoids Inventory negates diagnostically; its TR entries are repeatedly summarized by the Detailed Description, Comprehensive Report, Boot-Up Primer, audit, glossary, and drawing guidance. | High. Canonical values, count claims, recurrence, and ratio definitions cohere with the rest of the corpus. |
+| [`03_Fibonacci_Inventory_Documents_Detailed_Description.docx`](03_Fibonacci_Inventory_Documents_Detailed_Description.docx) | Accurately describes the organization, identifiers, section ranges, and roles of Documents 1 and 2; agrees with the report and primer about the three-document reference system. | High. It is mostly meta-documentary and consistently maps to the inventories it describes. |
+| [`Comprehensive Report on the Fibonacci Inventory Documents.docx`](Comprehensive%20Report%20on%20the%20Fibonacci%20Inventory%20Documents.docx) | Synthesizes the three primary documents and generally agrees with their shared convention, roles, section structures, and mathematical claims. | High. It functions as a cohesive secondary analysis rather than an independent competing standard. |
+| [`curated_fibonacci_insight_graphs.csv`](curated_fibonacci_insight_graphs.csv) | Extends the inventory standards into visualization and graph-insight contexts; agrees with the mathematical and error-taxonomy documents where they overlap. | High to moderate-high. It is domain-specific visual guidance, so cohesion is strongest on shared terminology and weaker only where it introduces implementation-specific framing. |
+| [`curated_fibonacci_insight_graphs.md`](curated_fibonacci_insight_graphs.md) | Extends the inventory standards into visualization and graph-insight contexts; agrees with the mathematical and error-taxonomy documents where they overlap. | High to moderate-high. It is domain-specific visual guidance, so cohesion is strongest on shared terminology and weaker only where it introduces implementation-specific framing. |
+| [`draw.md`](draw.md) | Extends the inventory standards into visualization and graph-insight contexts; agrees with the mathematical and error-taxonomy documents where they overlap. | High to moderate-high. It is domain-specific visual guidance, so cohesion is strongest on shared terminology and weaker only where it introduces implementation-specific framing. |
+| [`Fibonacci Boot-Up Primer.docx`](Fibonacci%20Boot-Up%20Primer.docx) | Operationalizes the three-document standard and agrees with the inventories on the Fv convention, seeds, recurrence, ratios, visual cautions, and glossary vocabulary. | High. It is prescriptive for session behavior and consistent with the source inventories. |
+| [`Fibonacci_Cohesion_Audit.md`](Fibonacci_Cohesion_Audit.md) | Agrees with the shared Fibonacci inventory system where overlapping claims appear. | No conflicts identified. |
+| [`Fibonacci_Glossary.md`](Fibonacci_Glossary.md) | Defines terms used by the inventories, report, primer, and visual documents; agrees on step/destination separation, exactness, ratio terminology, and visual vocabulary. | High. It reinforces terminology; any extra breadth is explanatory rather than contradictory. |
+| [`Fibonacci_Glossary_Seed.md`](Fibonacci_Glossary_Seed.md) | Defines terms used by the inventories, report, primer, and visual documents; agrees on step/destination separation, exactness, ratio terminology, and visual vocabulary. | High. It reinforces terminology; any extra breadth is explanatory rather than contradictory. |
+| [`insightgraphsuite.md`](insightgraphsuite.md) | Extends the inventory standards into visualization and graph-insight contexts; agrees with the mathematical and error-taxonomy documents where they overlap. | High to moderate-high. It is domain-specific visual guidance, so cohesion is strongest on shared terminology and weaker only where it introduces implementation-specific framing. |
 
 ## Statement and claim index by document
 
-### `01_Fibonacci_Avoids_and_Error_Inventory.docx`
+### [`01_Fibonacci_Avoids_and_Error_Inventory.docx`](01_Fibonacci_Avoids_and_Error_Inventory.docx)
 
 **Subject role:** Diagnostic/error taxonomy: avoid statements and canonical reference appendix.
 
@@ -190,7 +195,7 @@ The documents are highly cohesive around the Fv convention, the distinction betw
 | 142 | REF-029 — Fv 27. Destination 317811. | Consistent with the shared corpus role and no contradiction identified. |
 | 143 | REF-030 — Fv 28. Destination 514229. | Consistent with the shared corpus role and no contradiction identified. |
 
-### `02_Fibonacci_Truth_Inventory.docx`
+### [`02_Fibonacci_Truth_Inventory.docx`](02_Fibonacci_Truth_Inventory.docx)
 
 **Subject role:** Positive canonical mathematical, visual, and interpretive truth inventory.
 
@@ -466,7 +471,7 @@ The documents are highly cohesive around the Fv convention, the distinction betw
 | 268 | 514229 | Consistent with the shared corpus role and no contradiction identified. |
 | 269 | F_29 | Consistent with the shared corpus role and no contradiction identified. |
 
-### `03_Fibonacci_Inventory_Documents_Detailed_Description.docx`
+### [`03_Fibonacci_Inventory_Documents_Detailed_Description.docx`](03_Fibonacci_Inventory_Documents_Detailed_Description.docx)
 
 **Subject role:** Metadata, organization, and cross-reference description for inventories 1 and 2.
 
@@ -580,7 +585,7 @@ The documents are highly cohesive around the Fv convention, the distinction betw
 | 106 | Inventory entries use a hanging-indent structure. The identifier and short label occupy the beginning of the line, while longer descriptions wrap beneath the description area rather than beneath the left page margin. | Consistent with the shared corpus role and no contradiction identified. |
 | 107 | The appendices follow the main inventory bodies under their own headings. The documents contain text and tables only; no uploaded image is embedded in the files. | Consistent with the shared corpus role and no contradiction identified. |
 
-### `Comprehensive Report on the Fibonacci Inventory Documents.docx`
+### [`Comprehensive Report on the Fibonacci Inventory Documents.docx`](Comprehensive%20Report%20on%20the%20Fibonacci%20Inventory%20Documents.docx)
 
 **Subject role:** Synthetic report assessing the three inventory documents as a coordinated system.
 
@@ -1116,7 +1121,7 @@ The documents are highly cohesive around the Fv convention, the distinction betw
 | 528 | labels, legends, captions, and surrounding prose. | Consistent with the shared corpus role and no contradiction identified. |
 | 529 | I found the canonical sequence, ratio definitions, convergence statements, and cross-document mappings internally consistent with the declared Fv convention. The set is strongest as a specification for evaluating or constructing Fibonacci educational graphics, tables, and explanations. | Consistent with the shared corpus role and no contradiction identified. |
 
-### `curated_fibonacci_insight_graphs.csv`
+### [`curated_fibonacci_insight_graphs.csv`](curated_fibonacci_insight_graphs.csv)
 
 **Subject role:** Structured inventory of curated graph insight records.
 
@@ -1199,7 +1204,7 @@ The documents are highly cohesive around the Fv convention, the distinction betw
 | 75 | 74,Time-Reference Interval Comparison,Retained,Time metaphor,"Shows yesterday→today as 1/φ² and today→tomorrow as 1/φ, whose ratio is φ." | Consistent with the shared corpus role and no contradiction identified. |
 | 76 | 75,Zeckendorf Decomposition Map,New,Math / information,Shows every positive integer as a unique sum of nonconsecutive Fibonacci numbers. | Consistent with the shared corpus role and no contradiction identified. |
 
-### `curated_fibonacci_insight_graphs.md`
+### [`curated_fibonacci_insight_graphs.md`](curated_fibonacci_insight_graphs.md)
 
 **Subject role:** Markdown presentation of curated graph insight records.
 
@@ -1323,7 +1328,7 @@ The documents are highly cohesive around the Fv convention, the distinction betw
 | 116 | - generic inventory counts that describe the packet but do not explain Fibonacci structure. | Consistent with the shared corpus role and no contradiction identified. |
 | 117 | Those graphs may still be useful for quality assurance, but they are not part of this conceptual canon. | Consistent with the shared corpus role and no contradiction identified. |
 
-### `draw.md`
+### [`draw.md`](draw.md)
 
 **Subject role:** Drawing and rendering guidance for Fibonacci sequence visuals and diagrams.
 
@@ -1714,7 +1719,7 @@ The documents are highly cohesive around the Fv convention, the distinction betw
 | 383 | ## 13. Final artist's oath | Consistent with the shared corpus role and no contradiction identified. |
 | 384 | Draw only what the data, convention, construction, or metaphor permits. Let exact Fibonacci truths be exact. Let finite ratios remain finite. Let limits remain limits. Let empirical claims face alternatives. Let metaphors be luminous without pretending to be laws. Let every visual choice help the viewer discover a structure that was already present in the rule, the data, the construction, or the declared model. | Consistent with the shared corpus role and no contradiction identified. |
 
-### `Fibonacci Boot-Up Primer.docx`
+### [`Fibonacci Boot-Up Primer.docx`](Fibonacci%20Boot-Up%20Primer.docx)
 
 **Subject role:** Operational instructions for using the three inventories as a governing reference standard.
 
@@ -1963,7 +1968,7 @@ The documents are highly cohesive around the Fv convention, the distinction betw
 | 241 | I have studied and comprehended all three Fibonacci inventory documents. I understand their shared Fv indexing convention, the canonical destination sequence, the forward and reciprocal ratio systems, the convergence and error facts, the Yesterday–Today–Tomorrow metaphor, the mathematical-graphics and rendering standards, the geometric construction requirements, and the distinction between TR truths, AV error conditions, and REF canonical references. I will remain faithful to these documents and clearly distinguish their established facts and conventions from any external analysis. I am ready to answer questions, explore the material, analyze or create graphics, perform calculations, audi... | Consistent with the shared corpus role and no contradiction identified. |
 | 242 | After providing that confirmation, wait for the next instruction. | Consistent with the shared corpus role and no contradiction identified. |
 
-### `Fibonacci_Cohesion_Audit.md`
+### [`Fibonacci_Cohesion_Audit.md`](Fibonacci_Cohesion_Audit.md)
 
 **Subject role:** Prior cohesion review summarizing agreement and verified mathematical checks.
 
@@ -2021,7 +2026,7 @@ The documents are highly cohesive around the Fv convention, the distinction betw
 | 50 | - Corrected the glossary's `R_28` rounded decimal from `1.618033988750` to the Truth Inventory's stated twelve-place value, `1.618033988754`. | Consistent with the shared corpus role and no contradiction identified. |
 | 51 | - Added this cohesion audit document to record the document-system agreement checks and remaining open questions. | Consistent with the shared corpus role and no contradiction identified. |
 | 52 | ## Remaining open questions for the repository owner | Consistent with the shared corpus role and no contradiction identified. |
-| 53 | 1. **Should the generated glossary replace or supplement the seed?** The current repository now has both `Fibonacci_Glossary_Seed.md` and `Fibonacci_Glossary.md`. Please confirm whether the seed should remain as provenance, be archived, or be replaced by the finished glossary. | Consistent with the shared corpus role and no contradiction identified. |
+| 53 | 1. **Should the generated glossary replace or supplement the seed?** The current repository now has both [`Fibonacci_Glossary_Seed.md`](Fibonacci_Glossary_Seed.md) and [`Fibonacci_Glossary.md`](Fibonacci_Glossary.md). Please confirm whether the seed should remain as provenance, be archived, or be replaced by the finished glossary. | Consistent with the shared corpus role and no contradiction identified. |
 | 54 | 2. **Should the source `.docx` inventories be edited to add a glossary pointer?** The new glossary is a standalone Markdown file. If the Word inventories are the canonical deliverables, you may want cross-references added to those documents as well. | Consistent with the shared corpus role and no contradiction identified. |
 | 55 | 3. **Should the seven previously examined images be added to the repository?** The inventories include verified image observations, but the original images are not present. Including them would allow future independent re-audits rather than relying only on recorded observations. | Consistent with the shared corpus role and no contradiction identified. |
 | 56 | 4. **Should supplemental/external glossary entries use their own identifier namespace?** The glossary labels them in prose as supplemental or external context, but there is no formal namespace such as `SUP-###`. A namespace would make non-inventory claims easier to audit. | Consistent with the shared corpus role and no contradiction identified. |
@@ -2032,7 +2037,7 @@ The documents are highly cohesive around the Fv convention, the distinction betw
 | 61 | ## Final quality-assurance pass after authoritative primer rewrite | Consistent with the shared corpus role and no contradiction identified. |
 | 62 | A final consistency pass checked the rewritten insight-graph primer against the repository's stated document system and the curated graph list. The pass prioritized two issues: agreement across documents and evenness of coverage depth. | Consistent with the shared corpus role and no contradiction identified. |
 | 63 | ### Consistency adjustments made | Consistent with the shared corpus role and no contradiction identified. |
-| 64 | - The primer no longer says that the curated graph list "follows" inside the same file. It now names `curated_fibonacci_insight_graphs.md` as the companion authoritative curated reference, matching the current repository layout. | Consistent with the shared corpus role and no contradiction identified. |
+| 64 | - The primer no longer says that the curated graph list "follows" inside the same file. It now names [`curated_fibonacci_insight_graphs.md`](curated_fibonacci_insight_graphs.md) as the companion authoritative curated reference, matching the current repository layout. | Consistent with the shared corpus role and no contradiction identified. |
 | 65 | - Binary boot-up materials are intentionally not part of this refresh. The authoritative refreshed primer data now lives in Markdown text so it can be reviewed, merged, and audited without binary-file limitations. | Consistent with the shared corpus role and no contradiction identified. |
 | 66 | - The primer keeps the same governing Fv convention used by the glossary and cohesion audit: `Fv -1 -> destination 0`, `Fv 0 -> destination 1`, `Fv 1 -> destination 1`, continuing by addition, with `D_v = F_(v+1)` under conventional indexing. | Consistent with the shared corpus role and no contradiction identified. |
 | 67 | - The normalized time metaphor remains aligned with the prior repository language: yesterday is `1/φ`, today is `1`, and tomorrow is `φ`, while the primer explicitly keeps this mapping interpretive rather than physical law. | Consistent with the shared corpus role and no contradiction identified. |
@@ -2043,7 +2048,7 @@ The documents are highly cohesive around the Fv convention, the distinction betw
 | 72 | ### Final QA conclusion | Consistent with the shared corpus role and no contradiction identified. |
 | 73 | After these adjustments, the rewritten primer is consistent with the repository's governing convention, source hierarchy, visual-selection philosophy, mathematical caution boundaries, normalized time metaphor, and current file layout. The only substantive inconsistency found during this pass was the wording that implied the curated graph list lived below the primer in the same file; that wording has been corrected. | Consistent with the shared corpus role and no contradiction identified. |
 
-### `Fibonacci_Glossary.md`
+### [`Fibonacci_Glossary.md`](Fibonacci_Glossary.md)
 
 **Subject role:** Expanded glossary of vocabulary used across the Fibonacci reference system.
 
@@ -3138,7 +3143,7 @@ The documents are highly cohesive around the Fv convention, the distinction betw
 | 1087 | ## Audit-use note | Consistent with the shared corpus role and no contradiction identified. |
 | 1088 | Use this glossary as a navigation aid alongside the governing documents. For correctness, check positive facts against the **Truth Inventory**, classify deviations with the **Avoids Inventory**, consult the **Detailed Description** for identifier namespaces and document organization, and use the **Comprehensive Report** for high-level synthesis and known limitations. In every audit, preserve the Fv convention, keep process steps distinct from destination values, maintain exact fractions and symbolic constants where exactness matters, mark rounded decimals as approximations, and avoid claiming that any finite Fibonacci ratio equals phi or `1/phi` exactly. | Consistent with the shared corpus role and no contradiction identified. |
 
-### `Fibonacci_Glossary_Seed.md`
+### [`Fibonacci_Glossary_Seed.md`](Fibonacci_Glossary_Seed.md)
 
 **Subject role:** Seed glossary that defines foundational terms and cross-links.
 
@@ -3822,7 +3827,7 @@ The documents are highly cohesive around the Fv convention, the distinction betw
 | 676 | Write the glossary as a polished Markdown document with clear headings and internal cross-references. Begin with a short statement of the governing Fv convention and source hierarchy. End with a short audit-use note explaining how the glossary should be used with the Truth Inventory, Avoids Inventory, Detailed Description, and Comprehensive Report. | Consistent with the shared corpus role and no contradiction identified. |
 | 677 | ``` | Consistent with the shared corpus role and no contradiction identified. |
 
-### `insightgraphsuite.md`
+### [`insightgraphsuite.md`](insightgraphsuite.md)
 
 **Subject role:** Insight graph suite specification/notes for visual analysis artifacts.
 
@@ -3834,7 +3839,7 @@ The documents are highly cohesive around the Fv convention, the distinction betw
 | 4 | 1. **Orientation:** establish the repository's Fibonacci convention, source hierarchy, vocabulary, and truth/avoidance discipline before any substantive output is produced. | Consistent with the shared corpus role and no contradiction identified. |
 | 5 | 2. **Selection:** guide the choice, adaptation, combination, or invention of visualizations according to insight, not novelty or convenience. | Consistent with the shared corpus role and no contradiction identified. |
 | 6 | 3. **Protection:** preserve mathematical accuracy, evidence boundaries, and interpretive humility when moving from exact Fibonacci facts into geometry, real-world claims, metaphor, design, metadata, or time. | Consistent with the shared corpus role and no contradiction identified. |
-| 7 | The companion graph list, `curated_fibonacci_insight_graphs.md`, is the authoritative curated reference for this suite, but it is not a closed canon. It records durable visualization concepts that have earned a place in the working language of the project. Future work may select from it, refine it, add to it, or reject a listed option when another representation serves truth more clearly. | Consistent with the shared corpus role and no contradiction identified. |
+| 7 | The companion graph list, [`curated_fibonacci_insight_graphs.md`](curated_fibonacci_insight_graphs.md), is the authoritative curated reference for this suite, but it is not a closed canon. It records durable visualization concepts that have earned a place in the working language of the project. Future work may select from it, refine it, add to it, or reject a listed option when another representation serves truth more clearly. | Consistent with the shared corpus role and no contradiction identified. |
 | 8 | ## 1. Required repository orientation | Consistent with the shared corpus role and no contradiction identified. |
 | 9 | Before drawing graphs, rewriting Fibonacci documents, interpreting images, making claims, or extending the suite, treat the repository as a unified reference system. | Consistent with the shared corpus role and no contradiction identified. |
 | 10 | Read and use the documents in this order of authority: | Consistent with the shared corpus role and no contradiction identified. |
@@ -3984,3 +3989,39 @@ The documents are highly cohesive around the Fv convention, the distinction betw
 | 154 | * subordinate to the repository's truth and avoid standards; | Consistent with the shared corpus role and no contradiction identified. |
 | 155 | * intended for selection, combination, critique, and invention. | Consistent with the shared corpus role and no contradiction identified. |
 | 156 | Its purpose is not to predetermine every future drawing. Its purpose is to make strong ideas immediately available while preserving the freedom and responsibility to discover better ones. | Consistent with the shared corpus role and no contradiction identified. |
+---
+
+<!-- document-relations: footer -->
+## Document link index
+
+### Documents this document links to
+- [Fibonacci Inventory Cohesion Audit](Fibonacci_Cohesion_Audit.md)
+- [Fibonacci Inventory Glossary](Fibonacci_Glossary.md)
+- [Fibonacci Glossary Seed — Raw Vocabulary and Fresh-Session Prompt](Fibonacci_Glossary_Seed.md)
+- [Fibonacci Explorer Repository](README.md)
+- [Boot Prompt for Fibonacci Explorers, Mathematicians, and Artists](boot.md)
+- [Curated Fibonacci Insight Graphs](curated_fibonacci_insight_graphs.md)
+- [Expert Fibonacci Graph-Drawing Guide](draw.md)
+- [Full Fibonacci Repository Boot-Up Prompt](fibonacci_boot_up_full_prompt.md)
+- [Fibonacci Generation Lattice: Recommended Graphs, Figures, and Documents](fibonacci_generation_lattice.md)
+- [Fibonacci Orange-Pressing Recommendations](fibonacci_orange_pressing_recommendations.md)
+- [Fibonacci Insight-Graph Suite: Authoritative Boot-Up Primer](insightgraphsuite.md)
+- [Secondary Fibonacci Boot Prompts](secondary_boot_prompts.md)
+- [The Essences: Canon / SSOT for Fibonacci Boot-Up Prompts](the_essences.md)
+
+### Documents that link to this document
+- [Fibonacci Inventory Cohesion Audit](Fibonacci_Cohesion_Audit.md)
+- [Fibonacci Inventory Glossary](Fibonacci_Glossary.md)
+- [Fibonacci Glossary Seed — Raw Vocabulary and Fresh-Session Prompt](Fibonacci_Glossary_Seed.md)
+- [Fibonacci Explorer Repository](README.md)
+- [Boot Prompt for Fibonacci Explorers, Mathematicians, and Artists](boot.md)
+- [Curated Fibonacci Insight Graphs](curated_fibonacci_insight_graphs.md)
+- [Expert Fibonacci Graph-Drawing Guide](draw.md)
+- [Full Fibonacci Repository Boot-Up Prompt](fibonacci_boot_up_full_prompt.md)
+- [Fibonacci Generation Lattice: Recommended Graphs, Figures, and Documents](fibonacci_generation_lattice.md)
+- [Fibonacci Orange-Pressing Recommendations](fibonacci_orange_pressing_recommendations.md)
+- [Fibonacci Insight-Graph Suite: Authoritative Boot-Up Primer](insightgraphsuite.md)
+- [Secondary Fibonacci Boot Prompts](secondary_boot_prompts.md)
+- [The Essences: Canon / SSOT for Fibonacci Boot-Up Prompts](the_essences.md)
+<!-- /document-relations: footer -->
+

@@ -1,5 +1,10 @@
 # Fibonacci Generation Lattice: Recommended Graphs, Figures, and Documents
 
+<!-- document-relations: header -->
+> **Directly related documents:** [Cohesion Audit](Fibonacci_Cohesion_Audit.md) · [Glossary](Fibonacci_Glossary.md) · [Glossary Seed](Fibonacci_Glossary_Seed.md) · [Claim Index](Fibonacci_Statement_Claim_Index.md) · [README](README.md) · [Boot](boot.md) · [Curated Graphs](curated_fibonacci_insight_graphs.md) · [Drawing Guide](draw.md) · [Boot-Up Prompt](fibonacci_boot_up_full_prompt.md) · [Orange Recommendations](fibonacci_orange_pressing_recommendations.md) · [Insight-Graph Suite](insightgraphsuite.md) · [Secondary Boots](secondary_boot_prompts.md) · [Essences SSOT](the_essences.md).
+<!-- /document-relations: header -->
+
+
 ## Purpose
 
 This planning document turns the repository's Fibonacci graph suite into a generative lattice. It recommends `.svg` graphs/images/figures and `.md`, `.json`, and `.xlsx` documents that should be generated next, then classifies them by **horizontal topical family** and **vertical development level** so future requests can be addressed by coordinates.
@@ -166,7 +171,7 @@ A request such as "give me 20 more documents like this in a positive vertical" s
 | ID | Recommended file | Format | Level | Role |
 |---|---|---|---:|---|
 | DOC-H6-001 | `fibonacci_document_generation_lattice.md` | `.md` | 0 | Expanded operational version of this coordinate system. |
-| DOC-H6-002 | `fibonacci_generation_lattice.json` | `.json` | 0 | Machine-readable horizontal/vertical coordinate map and generation rules. |
+| DOC-H6-002 | [`fibonacci_generation_lattice.json`](fibonacci_generation_lattice.json) | `.json` | 0 | Machine-readable horizontal/vertical coordinate map and generation rules. |
 | DOC-H6-003 | `document_dependency_manifest.json` | `.json` | -2 | Source-to-derived document dependency records and lineage constraints. |
 | DOC-H6-004 | `recursive_metadata_dependency_guide.md` | `.md` | +1 | Explains recurrence as an information-system dependency model. |
 | DOC-H6-005 | `fibonacci_backoff_and_cadence_workbook.xlsx` | `.xlsx` | -2 | Retry, review, sampling, and annotation schedules compared with linear/exponential alternatives. |
@@ -197,7 +202,7 @@ A request such as "give me 20 more documents like this in a positive vertical" s
 
 These twenty artifacts are the best first expansion because they establish the coordinate system, canonical data, visualization standards, and the most reusable exact/math/time/metadata branches.
 
-1. `fibonacci_generation_lattice.json`
+1. [`fibonacci_generation_lattice.json`](fibonacci_generation_lattice.json)
 2. `canonical_fv_reference_table.md`
 3. `canonical_fv_reference_table.json`
 4. `canonical_fv_reference_table.xlsx`
@@ -217,3 +222,39 @@ These twenty artifacts are the best first expansion because they establish the c
 18. `natural_pattern_claims_manifest.json`
 19. `normalized_time_reference_standard.md`
 20. `drawings/normalized_time_reference_number_line.svg`
+---
+
+<!-- document-relations: footer -->
+## Document link index
+
+### Documents this document links to
+- [Fibonacci Inventory Cohesion Audit](Fibonacci_Cohesion_Audit.md)
+- [Fibonacci Inventory Glossary](Fibonacci_Glossary.md)
+- [Fibonacci Glossary Seed — Raw Vocabulary and Fresh-Session Prompt](Fibonacci_Glossary_Seed.md)
+- [Fibonacci Documentation Statement and Claim Index](Fibonacci_Statement_Claim_Index.md)
+- [Fibonacci Explorer Repository](README.md)
+- [Boot Prompt for Fibonacci Explorers, Mathematicians, and Artists](boot.md)
+- [Curated Fibonacci Insight Graphs](curated_fibonacci_insight_graphs.md)
+- [Expert Fibonacci Graph-Drawing Guide](draw.md)
+- [Full Fibonacci Repository Boot-Up Prompt](fibonacci_boot_up_full_prompt.md)
+- [Fibonacci Orange-Pressing Recommendations](fibonacci_orange_pressing_recommendations.md)
+- [Fibonacci Insight-Graph Suite: Authoritative Boot-Up Primer](insightgraphsuite.md)
+- [Secondary Fibonacci Boot Prompts](secondary_boot_prompts.md)
+- [The Essences: Canon / SSOT for Fibonacci Boot-Up Prompts](the_essences.md)
+
+### Documents that link to this document
+- [Fibonacci Inventory Cohesion Audit](Fibonacci_Cohesion_Audit.md)
+- [Fibonacci Inventory Glossary](Fibonacci_Glossary.md)
+- [Fibonacci Glossary Seed — Raw Vocabulary and Fresh-Session Prompt](Fibonacci_Glossary_Seed.md)
+- [Fibonacci Documentation Statement and Claim Index](Fibonacci_Statement_Claim_Index.md)
+- [Fibonacci Explorer Repository](README.md)
+- [Boot Prompt for Fibonacci Explorers, Mathematicians, and Artists](boot.md)
+- [Curated Fibonacci Insight Graphs](curated_fibonacci_insight_graphs.md)
+- [Expert Fibonacci Graph-Drawing Guide](draw.md)
+- [Full Fibonacci Repository Boot-Up Prompt](fibonacci_boot_up_full_prompt.md)
+- [Fibonacci Orange-Pressing Recommendations](fibonacci_orange_pressing_recommendations.md)
+- [Fibonacci Insight-Graph Suite: Authoritative Boot-Up Primer](insightgraphsuite.md)
+- [Secondary Fibonacci Boot Prompts](secondary_boot_prompts.md)
+- [The Essences: Canon / SSOT for Fibonacci Boot-Up Prompts](the_essences.md)
+<!-- /document-relations: footer -->
+

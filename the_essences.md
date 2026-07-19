@@ -1,28 +1,33 @@
 # The Essences: Canon / SSOT for Fibonacci Boot-Up Prompts
 
+<!-- document-relations: header -->
+> **Directly related documents:** [Cohesion Audit](Fibonacci_Cohesion_Audit.md) · [Glossary](Fibonacci_Glossary.md) · [Glossary Seed](Fibonacci_Glossary_Seed.md) · [Claim Index](Fibonacci_Statement_Claim_Index.md) · [README](README.md) · [Boot](boot.md) · [Curated Graphs](curated_fibonacci_insight_graphs.md) · [Drawing Guide](draw.md) · [Boot-Up Prompt](fibonacci_boot_up_full_prompt.md) · [Generation Lattice](fibonacci_generation_lattice.md) · [Orange Recommendations](fibonacci_orange_pressing_recommendations.md) · [Insight-Graph Suite](insightgraphsuite.md) · [Secondary Boots](secondary_boot_prompts.md).
+<!-- /document-relations: header -->
+
+
 This file crystallizes the repository's most important durable guidance after a full-document refresh. Use it as the condensed single source of truth for writing a boot-up prompt. It does not replace the underlying inventories; it tells a future session what must be re-read, what authority each document has, and which claims are canonical.
 
 ## 1. Re-read plan: what to refresh first
 
 ### Always re-read in full before substantive Fibonacci work
 
-1. **`the_essences.md`** — the boot-up condensation and routing layer.
-2. **`02_Fibonacci_Truth_Inventory.docx`** — primary positive authority for canonical values, formulas, definitions, limits, visualization facts, geometry facts, and scoped image observations.
-3. **`01_Fibonacci_Avoids_and_Error_Inventory.docx`** — primary diagnostic authority for named failure modes, errors, ambiguities, distortions, rendering hazards, and integrity checks.
-4. **`insightgraphsuite.md`** — governing start-of-session instrument for graph, diagram, visual-proof, metadata, application, and time-metaphor work.
-5. **`draw.md`** — practical drawing contract for creating repository-quality Fibonacci graphs.
+1. **[`the_essences.md`](the_essences.md)** — the boot-up condensation and routing layer.
+2. **[`02_Fibonacci_Truth_Inventory.docx`](02_Fibonacci_Truth_Inventory.docx)** — primary positive authority for canonical values, formulas, definitions, limits, visualization facts, geometry facts, and scoped image observations.
+3. **[`01_Fibonacci_Avoids_and_Error_Inventory.docx`](01_Fibonacci_Avoids_and_Error_Inventory.docx)** — primary diagnostic authority for named failure modes, errors, ambiguities, distortions, rendering hazards, and integrity checks.
+4. **[`insightgraphsuite.md`](insightgraphsuite.md)** — governing start-of-session instrument for graph, diagram, visual-proof, metadata, application, and time-metaphor work.
+5. **[`draw.md`](draw.md)** — practical drawing contract for creating repository-quality Fibonacci graphs.
 
 ### Re-read targeted sections as needed
 
-- **`03_Fibonacci_Inventory_Documents_Detailed_Description.docx`**: re-read when you need the structure, section ranges, identifier namespaces, crosswalk, and relationship among Documents 1 and 2.
-- **`Fibonacci_Glossary.md`**: re-read definitions for exact terminology; treat it as a vocabulary aid subordinate to the inventories.
-- **`Fibonacci_Cohesion_Audit.md`**: re-read when checking whether the repository corpus is internally cohesive or when looking for known open questions.
-- **`Fibonacci_Statement_Claim_Index.md`**: re-read when tracing statements line-by-line across the corpus or checking whether a claim appears elsewhere.
-- **`curated_fibonacci_insight_graphs.md` / `.csv`**: re-read when choosing, adapting, adding, or rejecting graph concepts.
-- **`Fibonacci Boot-Up Primer.docx`**: re-read for original operational boot-up wording; the current Markdown graph primer and this essence file are easier to audit.
-- **`Comprehensive Report on the Fibonacci Inventory Documents.docx`**: re-read for synthesis and narrative understanding, never as higher authority than explicit TR/AV/REF statements.
-- **`Fibonacci_Glossary_Seed.md`**: re-read for provenance or raw seed vocabulary, not final authority.
-- **`fibonacci_first_100_with_ratios.xlsx`**: use as an extended Step-0-convention data table; do not confuse its step labels with repository Fv labels unless converted.
+- **[`03_Fibonacci_Inventory_Documents_Detailed_Description.docx`](03_Fibonacci_Inventory_Documents_Detailed_Description.docx)**: re-read when you need the structure, section ranges, identifier namespaces, crosswalk, and relationship among Documents 1 and 2.
+- **[`Fibonacci_Glossary.md`](Fibonacci_Glossary.md)**: re-read definitions for exact terminology; treat it as a vocabulary aid subordinate to the inventories.
+- **[`Fibonacci_Cohesion_Audit.md`](Fibonacci_Cohesion_Audit.md)**: re-read when checking whether the repository corpus is internally cohesive or when looking for known open questions.
+- **[`Fibonacci_Statement_Claim_Index.md`](Fibonacci_Statement_Claim_Index.md)**: re-read when tracing statements line-by-line across the corpus or checking whether a claim appears elsewhere.
+- **[`curated_fibonacci_insight_graphs.md`](curated_fibonacci_insight_graphs.md) / `.csv`**: re-read when choosing, adapting, adding, or rejecting graph concepts.
+- **[`Fibonacci Boot-Up Primer.docx`](Fibonacci%20Boot-Up%20Primer.docx)**: re-read for original operational boot-up wording; the current Markdown graph primer and this essence file are easier to audit.
+- **[`Comprehensive Report on the Fibonacci Inventory Documents.docx`](Comprehensive%20Report%20on%20the%20Fibonacci%20Inventory%20Documents.docx)**: re-read for synthesis and narrative understanding, never as higher authority than explicit TR/AV/REF statements.
+- **[`Fibonacci_Glossary_Seed.md`](Fibonacci_Glossary_Seed.md)**: re-read for provenance or raw seed vocabulary, not final authority.
+- **[`fibonacci_first_100_with_ratios.xlsx`](fibonacci_first_100_with_ratios.xlsx)**: use as an extended Step-0-convention data table; do not confuse its step labels with repository Fv labels unless converted.
 - **`drawings/` image files**: inspect visually only when a task touches the specific drawing assets.
 
 ## 2. Source hierarchy canon
@@ -264,9 +269,9 @@ When auditing, classify every problem by AV domain and support every correction 
 
 A strong future boot-up prompt should require the assistant to:
 
-1. read `the_essences.md` first;
-2. re-read `02_Fibonacci_Truth_Inventory.docx` and `01_Fibonacci_Avoids_and_Error_Inventory.docx` before any substantive claim;
-3. re-read `insightgraphsuite.md` and `draw.md` before any graphing or visual-design work;
+1. read [`the_essences.md`](the_essences.md) first;
+2. re-read [`02_Fibonacci_Truth_Inventory.docx`](02_Fibonacci_Truth_Inventory.docx) and [`01_Fibonacci_Avoids_and_Error_Inventory.docx`](01_Fibonacci_Avoids_and_Error_Inventory.docx) before any substantive claim;
+3. re-read [`insightgraphsuite.md`](insightgraphsuite.md) and [`draw.md`](draw.md) before any graphing or visual-design work;
 4. state the source hierarchy and Fv convention back in working notes;
 5. load the canonical Fv -1 through Fv 28 destination table;
 6. keep Fv step, `D_v` destination, conventional index, transition, ratio, reciprocal, finite value, limit, rounded decimal, rendered pixel, empirical observation, and metaphor separate;
@@ -278,3 +283,39 @@ A strong future boot-up prompt should require the assistant to:
 ## 15. Final maxim
 
 Start from convention. Separate step from destination. Protect exactness. Mark approximation. Respect limits. Audit visuals. Bound metaphors. Test external claims. Make the specific truth visible without pretending it is a different kind of truth.
+---
+
+<!-- document-relations: footer -->
+## Document link index
+
+### Documents this document links to
+- [Fibonacci Inventory Cohesion Audit](Fibonacci_Cohesion_Audit.md)
+- [Fibonacci Inventory Glossary](Fibonacci_Glossary.md)
+- [Fibonacci Glossary Seed — Raw Vocabulary and Fresh-Session Prompt](Fibonacci_Glossary_Seed.md)
+- [Fibonacci Documentation Statement and Claim Index](Fibonacci_Statement_Claim_Index.md)
+- [Fibonacci Explorer Repository](README.md)
+- [Boot Prompt for Fibonacci Explorers, Mathematicians, and Artists](boot.md)
+- [Curated Fibonacci Insight Graphs](curated_fibonacci_insight_graphs.md)
+- [Expert Fibonacci Graph-Drawing Guide](draw.md)
+- [Full Fibonacci Repository Boot-Up Prompt](fibonacci_boot_up_full_prompt.md)
+- [Fibonacci Generation Lattice: Recommended Graphs, Figures, and Documents](fibonacci_generation_lattice.md)
+- [Fibonacci Orange-Pressing Recommendations](fibonacci_orange_pressing_recommendations.md)
+- [Fibonacci Insight-Graph Suite: Authoritative Boot-Up Primer](insightgraphsuite.md)
+- [Secondary Fibonacci Boot Prompts](secondary_boot_prompts.md)
+
+### Documents that link to this document
+- [Fibonacci Inventory Cohesion Audit](Fibonacci_Cohesion_Audit.md)
+- [Fibonacci Inventory Glossary](Fibonacci_Glossary.md)
+- [Fibonacci Glossary Seed — Raw Vocabulary and Fresh-Session Prompt](Fibonacci_Glossary_Seed.md)
+- [Fibonacci Documentation Statement and Claim Index](Fibonacci_Statement_Claim_Index.md)
+- [Fibonacci Explorer Repository](README.md)
+- [Boot Prompt for Fibonacci Explorers, Mathematicians, and Artists](boot.md)
+- [Curated Fibonacci Insight Graphs](curated_fibonacci_insight_graphs.md)
+- [Expert Fibonacci Graph-Drawing Guide](draw.md)
+- [Full Fibonacci Repository Boot-Up Prompt](fibonacci_boot_up_full_prompt.md)
+- [Fibonacci Generation Lattice: Recommended Graphs, Figures, and Documents](fibonacci_generation_lattice.md)
+- [Fibonacci Orange-Pressing Recommendations](fibonacci_orange_pressing_recommendations.md)
+- [Fibonacci Insight-Graph Suite: Authoritative Boot-Up Primer](insightgraphsuite.md)
+- [Secondary Fibonacci Boot Prompts](secondary_boot_prompts.md)
+<!-- /document-relations: footer -->
+
