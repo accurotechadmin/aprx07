@@ -1,0 +1,385 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3600" height="2400" viewBox="0 0 3600 2400" role="img" aria-labelledby="title desc">
+<title id="title">The Tinkerer’s Fibonacci Notes — Spacious Audited Master Layout</title>
+<desc id="desc">A spacious, audited SVG master composition for later identical-geometry line-art and quill-parchment renders. All panels are contained, labeled, and truth-bounded: exact recurrence, finite ratio convergence, normalized time metaphor, square-arc spiral approximation, exact structures, empirical claim checking, source hierarchy, and philosophical marginalia.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" class="fill-ink"/></marker><style><![CDATA[
+:root{--paper:#fff;--ink:#101010;--muted:#555;--grid:#d9d9d9}.background{fill:var(--paper)}.panel{fill:none;stroke:var(--ink);stroke-width:4}.inset{fill:none;stroke:var(--muted);stroke-width:2;stroke-dasharray:10 10}.ink{fill:none;stroke:var(--ink);stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.thin{fill:none;stroke:var(--ink);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}.muted{fill:none;stroke:var(--muted);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}.grid{fill:none;stroke:var(--grid);stroke-width:1.4}.node,.seal,.badge{fill:var(--paper);stroke:var(--ink);stroke-width:3}.fill-ink{fill:var(--ink);stroke:none}.text{font-family:"DejaVu Sans",Arial,sans-serif;fill:var(--ink)}.title{font-family:"DejaVu Serif",Georgia,serif;fill:var(--ink);letter-spacing:1.7px}.formula{font-family:"DejaVu Sans Mono",Consolas,monospace;fill:var(--ink)}
+]]></style></defs>
+<rect class="background" x="0" y="0" width="3600" height="2400"/>
+<rect x="45" y="45" width="3510" height="2310" rx="22" class="panel"/>
+<rect x="78" y="78" width="3444" height="2244" rx="22" class="inset"/>
+<text x="1800" y="120" class="title" font-size="64" font-weight="700" text-anchor="middle">THE TINKERER’S FIBONACCI NOTES</text>
+<text x="1800" y="176" class="formula" font-size="38" font-weight="600" text-anchor="middle">TODAY = 1    YESTERDAY = 0.618    TOMORROW = 1.618</text>
+<text x="1800" y="220" class="text" font-size="22" font-weight="400" text-anchor="middle">single vector master: same geometry for clean line art and quill-parchment renders</text>
+<rect x="110" y="270" width="1280" height="650" rx="22" class="panel"/>
+<text x="140" y="320" class="title" font-size="31" font-weight="700" text-anchor="start">SOURCE SEEDS AND RECURRENCE</text>
+<line x1="140" y1="340" x2="1360" y2="340" class="thin" />
+<text x="140" y="375" class="text" font-size="17" font-weight="400" text-anchor="start">
+<tspan x="140" dy="0">Shows seed addresses, duplicate-one hinge, and dependency arrows.</tspan>
+<tspan x="140" dy="22">Says D_v is produced by adding the two immediately previous destinations.</tspan>
+<tspan x="140" dy="22">Complete for near horizon Fv -1 through Fv 12; later terms continue by the same rule.</tspan>
+</text>
+<text x="145" y="430" class="formula" font-size="25" font-weight="400" text-anchor="start">
+<tspan x="145" dy="0">Fv -1 → 0</tspan>
+<tspan x="145" dy="34">Fv 0 → 1</tspan>
+<tspan x="145" dy="34">Fv 1 → 1</tspan>
+<tspan x="145" dy="34">D_v = D_(v-1) + D_(v-2)</tspan>
+<tspan x="145" dy="34">D_v = F_(v+1)</tspan>
+</text>
+<line x1="600" y1="475" x2="760" y2="475" class="muted" marker-end="url(#arrow)"/>
+<line x1="720" y1="475" x2="760" y2="475" class="muted" marker-end="url(#arrow)"/>
+<line x1="720" y1="475" x2="880" y2="475" class="muted" marker-end="url(#arrow)"/>
+<line x1="840" y1="475" x2="880" y2="475" class="muted" marker-end="url(#arrow)"/>
+<line x1="840" y1="475" x2="1000" y2="475" class="muted" marker-end="url(#arrow)"/>
+<line x1="960" y1="475" x2="1000" y2="475" class="muted" marker-end="url(#arrow)"/>
+<line x1="960" y1="475" x2="1120" y2="475" class="muted" marker-end="url(#arrow)"/>
+<line x1="1080" y1="475" x2="1120" y2="475" class="muted" marker-end="url(#arrow)"/>
+<line x1="1080" y1="475" x2="1240" y2="475" class="muted" marker-end="url(#arrow)"/>
+<line x1="1200" y1="475" x2="1240" y2="475" class="muted" marker-end="url(#arrow)"/>
+<line x1="1200" y1="475" x2="520" y2="705" class="muted" marker-end="url(#arrow)"/>
+<line x1="1320" y1="475" x2="520" y2="705" class="muted" marker-end="url(#arrow)"/>
+<line x1="1320" y1="475" x2="640" y2="705" class="muted" marker-end="url(#arrow)"/>
+<line x1="600" y1="705" x2="640" y2="705" class="muted" marker-end="url(#arrow)"/>
+<line x1="600" y1="705" x2="760" y2="705" class="muted" marker-end="url(#arrow)"/>
+<line x1="720" y1="705" x2="760" y2="705" class="muted" marker-end="url(#arrow)"/>
+<line x1="720" y1="705" x2="880" y2="705" class="muted" marker-end="url(#arrow)"/>
+<line x1="840" y1="705" x2="880" y2="705" class="muted" marker-end="url(#arrow)"/>
+<line x1="840" y1="705" x2="1000" y2="705" class="muted" marker-end="url(#arrow)"/>
+<line x1="960" y1="705" x2="1000" y2="705" class="muted" marker-end="url(#arrow)"/>
+<line x1="960" y1="705" x2="1120" y2="705" class="muted" marker-end="url(#arrow)"/>
+<line x1="1080" y1="705" x2="1120" y2="705" class="muted" marker-end="url(#arrow)"/>
+<line x1="1080" y1="705" x2="1240" y2="705" class="muted" marker-end="url(#arrow)"/>
+<line x1="1200" y1="705" x2="1240" y2="705" class="muted" marker-end="url(#arrow)"/>
+<circle cx="560" cy="475" r="42" class="node"/>
+<text x="560" y="467" class="text" font-size="17" font-weight="700" text-anchor="middle">Fv -1</text>
+<text x="560" y="498" class="formula" font-size="25" font-weight="700" text-anchor="middle">0</text>
+<circle cx="680" cy="475" r="42" class="node"/>
+<text x="680" y="467" class="text" font-size="17" font-weight="700" text-anchor="middle">Fv 0</text>
+<text x="680" y="498" class="formula" font-size="25" font-weight="700" text-anchor="middle">1</text>
+<circle cx="800" cy="475" r="42" class="node"/>
+<text x="800" y="467" class="text" font-size="17" font-weight="700" text-anchor="middle">Fv 1</text>
+<text x="800" y="498" class="formula" font-size="25" font-weight="700" text-anchor="middle">1</text>
+<circle cx="920" cy="475" r="42" class="node"/>
+<text x="920" y="467" class="text" font-size="17" font-weight="700" text-anchor="middle">Fv 2</text>
+<text x="920" y="498" class="formula" font-size="25" font-weight="700" text-anchor="middle">2</text>
+<circle cx="1040" cy="475" r="42" class="node"/>
+<text x="1040" y="467" class="text" font-size="17" font-weight="700" text-anchor="middle">Fv 3</text>
+<text x="1040" y="498" class="formula" font-size="25" font-weight="700" text-anchor="middle">3</text>
+<circle cx="1160" cy="475" r="42" class="node"/>
+<text x="1160" y="467" class="text" font-size="17" font-weight="700" text-anchor="middle">Fv 4</text>
+<text x="1160" y="498" class="formula" font-size="25" font-weight="700" text-anchor="middle">5</text>
+<circle cx="1280" cy="475" r="42" class="node"/>
+<text x="1280" y="467" class="text" font-size="17" font-weight="700" text-anchor="middle">Fv 5</text>
+<text x="1280" y="498" class="formula" font-size="25" font-weight="700" text-anchor="middle">8</text>
+<circle cx="560" cy="705" r="42" class="node"/>
+<text x="560" y="697" class="text" font-size="17" font-weight="700" text-anchor="middle">Fv 6</text>
+<text x="560" y="728" class="formula" font-size="25" font-weight="700" text-anchor="middle">13</text>
+<circle cx="680" cy="705" r="42" class="node"/>
+<text x="680" y="697" class="text" font-size="17" font-weight="700" text-anchor="middle">Fv 7</text>
+<text x="680" y="728" class="formula" font-size="25" font-weight="700" text-anchor="middle">21</text>
+<circle cx="800" cy="705" r="42" class="node"/>
+<text x="800" y="697" class="text" font-size="17" font-weight="700" text-anchor="middle">Fv 8</text>
+<text x="800" y="728" class="formula" font-size="25" font-weight="700" text-anchor="middle">34</text>
+<circle cx="920" cy="705" r="42" class="node"/>
+<text x="920" y="697" class="text" font-size="17" font-weight="700" text-anchor="middle">Fv 9</text>
+<text x="920" y="728" class="formula" font-size="25" font-weight="700" text-anchor="middle">55</text>
+<circle cx="1040" cy="705" r="42" class="node"/>
+<text x="1040" y="697" class="text" font-size="17" font-weight="700" text-anchor="middle">Fv 10</text>
+<text x="1040" y="728" class="formula" font-size="25" font-weight="700" text-anchor="middle">89</text>
+<circle cx="1160" cy="705" r="42" class="node"/>
+<text x="1160" y="697" class="text" font-size="17" font-weight="700" text-anchor="middle">Fv 11</text>
+<text x="1160" y="728" class="formula" font-size="25" font-weight="700" text-anchor="middle">144</text>
+<circle cx="1280" cy="705" r="42" class="node"/>
+<text x="1280" y="697" class="text" font-size="17" font-weight="700" text-anchor="middle">Fv 12</text>
+<text x="1280" y="728" class="formula" font-size="25" font-weight="700" text-anchor="middle">233</text>
+<text x="560" y="878" class="text" font-size="22" font-weight="700" text-anchor="start">truth boundary: process step ≠ destination value; duplicate 1 is not merged</text>
+<rect x="1430" y="270" width="900" height="650" rx="22" class="panel"/>
+<text x="1460" y="320" class="title" font-size="31" font-weight="700" text-anchor="start">RATIO CONVERGENCE</text>
+<line x1="1460" y1="340" x2="2300" y2="340" class="thin" />
+<text x="1460" y="375" class="text" font-size="17" font-weight="400" text-anchor="start">
+<tspan x="1460" dy="0">Shows finite forward ratios at discrete integer steps.</tspan>
+<tspan x="1460" dy="22">Says the labeled points oscillate toward φ; the horizontal line is a limit, not a reached value.</tspan>
+</text>
+<line x1="1525" y1="790.0" x2="2255" y2="790.0" class="grid" />
+<line x1="1525" y1="735.0" x2="2255" y2="735.0" class="grid" />
+<line x1="1525" y1="680.0" x2="2255" y2="680.0" class="grid" />
+<line x1="1525" y1="625.0" x2="2255" y2="625.0" class="grid" />
+<line x1="1525" y1="570.0" x2="2255" y2="570.0" class="grid" />
+<line x1="1525" y1="515.0" x2="2255" y2="515.0" class="grid" />
+<line x1="1525" y1="460.0" x2="2255" y2="460.0" class="grid" />
+<line x1="1525.0" y1="790" x2="1525.0" y2="798" class="thin" />
+<line x1="1606.111111111111" y1="790" x2="1606.111111111111" y2="798" class="thin" />
+<line x1="1687.2222222222222" y1="790" x2="1687.2222222222222" y2="798" class="thin" />
+<line x1="1768.3333333333333" y1="790" x2="1768.3333333333333" y2="798" class="thin" />
+<line x1="1849.4444444444443" y1="790" x2="1849.4444444444443" y2="798" class="thin" />
+<line x1="1930.5555555555557" y1="790" x2="1930.5555555555557" y2="798" class="thin" />
+<line x1="2011.6666666666667" y1="790" x2="2011.6666666666667" y2="798" class="thin" />
+<line x1="2092.777777777778" y1="790" x2="2092.777777777778" y2="798" class="thin" />
+<line x1="2173.8888888888887" y1="790" x2="2173.8888888888887" y2="798" class="thin" />
+<line x1="2255.0" y1="790" x2="2255.0" y2="798" class="thin" />
+<line x1="1525" y1="790" x2="2255" y2="790" class="ink" />
+<line x1="1525" y1="790" x2="1525" y2="460" class="ink" />
+<circle cx="1525.0" cy="762.5" r="7" class="fill-ink"/>
+<text x="1525.0" y="744.5" class="formula" font-size="15" font-weight="400" text-anchor="middle">R_1 = 1</text>
+<circle cx="1606.111111111111" cy="487.5" r="7" class="fill-ink"/>
+<text x="1606.111111111111" y="469.5" class="formula" font-size="15" font-weight="400" text-anchor="middle">R_2 = 2</text>
+<circle cx="1687.2222222222222" cy="625.0" r="7" class="fill-ink"/>
+<text x="1687.2222222222222" y="607.0" class="formula" font-size="15" font-weight="400" text-anchor="middle">R_3 = 1.5</text>
+<circle cx="1768.3333333333333" cy="579.1575" r="7" class="fill-ink"/>
+<text x="1768.3333333333333" y="561.1575" class="formula" font-size="15" font-weight="400" text-anchor="middle">R_4 ≈ 1.6667</text>
+<circle cx="1849.4444444444443" cy="597.5" r="7" class="fill-ink"/>
+<text x="1849.4444444444443" y="579.5" class="formula" font-size="15" font-weight="400" text-anchor="middle">R_5 = 1.6</text>
+<circle cx="1930.5555555555557" cy="590.625" r="7" class="fill-ink"/>
+<text x="1930.5555555555557" y="572.625" class="formula" font-size="15" font-weight="400" text-anchor="middle">R_6 = 1.625</text>
+<circle cx="2011.6666666666667" cy="593.2650000000001" r="7" class="fill-ink"/>
+<text x="2011.6666666666667" y="575.2650000000001" class="formula" font-size="15" font-weight="400" text-anchor="middle">R_7 ≈ 1.6154</text>
+<circle cx="2092.777777777778" cy="592.2750000000001" r="7" class="fill-ink"/>
+<text x="2092.777777777778" y="574.2750000000001" class="formula" font-size="15" font-weight="400" text-anchor="middle">R_8 ≈ 1.6190</text>
+<circle cx="2173.8888888888887" cy="592.6600000000001" r="7" class="fill-ink"/>
+<text x="2173.8888888888887" y="574.6600000000001" class="formula" font-size="15" font-weight="400" text-anchor="middle">R_9 ≈ 1.6176</text>
+<circle cx="2255.0" cy="592.495" r="7" class="fill-ink"/>
+<text x="2255.0" y="574.495" class="formula" font-size="15" font-weight="400" text-anchor="middle">R_10 ≈ 1.6182</text>
+<line x1="1525.0" y1="762.5" x2="1606.111111111111" y2="487.5" class="thin" />
+<line x1="1606.111111111111" y1="487.5" x2="1687.2222222222222" y2="625.0" class="thin" />
+<line x1="1687.2222222222222" y1="625.0" x2="1768.3333333333333" y2="579.1575" class="thin" />
+<line x1="1768.3333333333333" y1="579.1575" x2="1849.4444444444443" y2="597.5" class="thin" />
+<line x1="1849.4444444444443" y1="597.5" x2="1930.5555555555557" y2="590.625" class="thin" />
+<line x1="1930.5555555555557" y1="590.625" x2="2011.6666666666667" y2="593.2650000000001" class="thin" />
+<line x1="2011.6666666666667" y1="593.2650000000001" x2="2092.777777777778" y2="592.2750000000001" class="thin" />
+<line x1="2092.777777777778" y1="592.2750000000001" x2="2173.8888888888887" y2="592.6600000000001" class="thin" />
+<line x1="2173.8888888888887" y1="592.6600000000001" x2="2255.0" y2="592.495" class="thin" />
+<line x1="1525" y1="592.54065309375" x2="2255" y2="592.54065309375" class="muted" />
+<text x="2245" y="580.54065309375" class="formula" font-size="24" font-weight="700" text-anchor="end">φ LIMIT</text>
+<text x="1500" y="844" class="text" font-size="24" font-weight="700" text-anchor="start">
+<tspan x="1500" dy="0">NO FINITE RATIO EQUALS φ</tspan>
+<tspan x="1500" dy="32">line segments connect observations; no smooth curve</tspan>
+</text>
+<rect x="2370" y="270" width="1120" height="650" rx="22" class="panel"/>
+<text x="2400" y="320" class="title" font-size="31" font-weight="700" text-anchor="start">NORMALIZED TIME METAPHOR</text>
+<line x1="2400" y1="340" x2="3460" y2="340" class="thin" />
+<text x="2400" y="375" class="text" font-size="17" font-weight="400" text-anchor="start">
+<tspan x="2400" dy="0">Shows a normalized interpretive number line.</tspan>
+<tspan x="2400" dy="22">Says yesterday-to-today and today-to-tomorrow are unequal intervals.</tspan>
+<tspan x="2400" dy="22">Complete only as a metaphor: it is not a physical law or prediction.</tspan>
+</text>
+<line x1="2480" y1="595" x2="3380" y2="595" class="ink" />
+<line x1="2533.243991195652" y1="553" x2="2533.243991195652" y2="637" class="ink" />
+<text x="2533.243991195652" y="517" class="text" font-size="27" font-weight="700" text-anchor="middle">YESTERDAY</text>
+<text x="2533.243991195652" y="667" class="formula" font-size="22" font-weight="400" text-anchor="middle">1/φ ≈ 0.618033988750</text>
+<text x="2533.243991195652" y="707" class="formula" font-size="25" font-weight="700" text-anchor="middle">0.618</text>
+<line x1="2832.173913043478" y1="553" x2="2832.173913043478" y2="637" class="ink" />
+<text x="2832.173913043478" y="517" class="text" font-size="27" font-weight="700" text-anchor="middle">TODAY</text>
+<text x="2832.173913043478" y="667" class="formula" font-size="22" font-weight="400" text-anchor="middle">1</text>
+<text x="2832.173913043478" y="707" class="formula" font-size="25" font-weight="700" text-anchor="middle">1</text>
+<line x1="3315.852686847826" y1="553" x2="3315.852686847826" y2="637" class="ink" />
+<text x="3315.852686847826" y="517" class="text" font-size="27" font-weight="700" text-anchor="middle">TOMORROW</text>
+<text x="3315.852686847826" y="667" class="formula" font-size="22" font-weight="400" text-anchor="middle">φ ≈ 1.618033988750</text>
+<text x="3315.852686847826" y="707" class="formula" font-size="25" font-weight="700" text-anchor="middle">1.618</text>
+<text x="2440" y="775" class="formula" font-size="22" font-weight="400" text-anchor="start">
+<tspan x="2440" dy="0">1 - 1/φ = 1/φ²</tspan>
+<tspan x="2440" dy="34">φ - 1 = 1/φ</tspan>
+<tspan x="2440" dy="34">Precision: Yesterday = 1/φ ≈ 0.618033988750; Today = 1; Tomorrow = φ ≈ 1.618033988750</tspan>
+</text>
+<text x="2440" y="848" class="text" font-size="26" font-weight="700" text-anchor="start">
+<tspan x="2440" dy="0">METAPHOR, NOT PHYSICAL LAW</tspan>
+<tspan x="2440" dy="34">FUTURE-SIDE INTERVAL IS φ TIMES THE PAST-SIDE INTERVAL</tspan>
+</text>
+<rect x="110" y="960" width="1000" height="650" rx="22" class="panel"/>
+<text x="140" y="1010" class="title" font-size="31" font-weight="700" text-anchor="start">FIBONACCI SQUARE-ARC SPIRAL</text>
+<line x1="140" y1="1030" x2="1080" y2="1030" class="thin" />
+<text x="140" y="1065" class="text" font-size="17" font-weight="400" text-anchor="start">
+<tspan x="140" dy="0">Shows true squares with side lengths 1, 1, 2, 3, 5, 8, 13.</tspan>
+<tspan x="140" dy="22">Says each arc is a quarter-circle whose radius equals its square side.</tspan>
+</text>
+<rect x="630" y="1350" width="20" height="20" class="thin"/>
+<text x="640.0" y="1367.0" class="formula" font-size="22" font-weight="700" text-anchor="middle">1</text>
+<rect x="650" y="1350" width="20" height="20" class="thin"/>
+<text x="660.0" y="1367.0" class="formula" font-size="22" font-weight="700" text-anchor="middle">1</text>
+<rect x="630" y="1310" width="40" height="40" class="thin"/>
+<text x="650.0" y="1337.0" class="formula" font-size="22" font-weight="700" text-anchor="middle">2</text>
+<rect x="570" y="1310" width="60" height="60" class="thin"/>
+<text x="600.0" y="1347.0" class="formula" font-size="22" font-weight="700" text-anchor="middle">3</text>
+<rect x="570" y="1370" width="100" height="100" class="thin"/>
+<text x="620.0" y="1427.0" class="formula" font-size="22" font-weight="700" text-anchor="middle">5</text>
+<rect x="670" y="1210" width="160" height="160" class="thin"/>
+<text x="750.0" y="1297.0" class="formula" font-size="22" font-weight="700" text-anchor="middle">8</text>
+<rect x="410" y="1210" width="260" height="260" class="thin"/>
+<text x="540.0" y="1347.0" class="formula" font-size="22" font-weight="700" text-anchor="middle">13</text>
+<path d="M 630 1390 A 20 20 0 0 1 650 1370" class="ink" />
+<path d="M 670 1390 A 20 20 0 0 0 650 1370" class="ink" />
+<path d="M 630 1350 A 40 40 0 0 1 670 1310" class="ink" />
+<path d="M 570 1350 A 60 60 0 0 1 630 1410" class="ink" />
+<path d="M 570 1410 A 100 100 0 0 0 670 1510" class="ink" />
+<path d="M 670 1250 A 160 160 0 0 1 830 1410" class="ink" />
+<path d="M 410 1250 A 260 260 0 0 0 670 1510" class="ink" />
+<circle cx="630" cy="1370" r="5" class="fill-ink"/>
+<circle cx="650" cy="1390" r="5" class="fill-ink"/>
+<circle cx="630" cy="1310" r="5" class="fill-ink"/>
+<circle cx="570" cy="1350" r="5" class="fill-ink"/>
+<circle cx="670" cy="1410" r="5" class="fill-ink"/>
+<circle cx="670" cy="1250" r="5" class="fill-ink"/>
+<circle cx="410" cy="1250" r="5" class="fill-ink"/>
+<text x="155" y="1515" class="text" font-size="27" font-weight="700" text-anchor="start">
+<tspan x="155" dy="0">PIECEWISE QUARTER-CIRCLE APPROXIMATION</tspan>
+<tspan x="155" dy="38">NOT AN EXACT LOGARITHMIC GOLDEN SPIRAL</tspan>
+</text>
+<rect x="1150" y="960" width="1180" height="650" rx="22" class="panel"/>
+<text x="1180" y="1010" class="title" font-size="31" font-weight="700" text-anchor="start">EXACT STRUCTURES</text>
+<line x1="1180" y1="1030" x2="2300" y2="1030" class="thin" />
+<text x="1180" y="1065" class="text" font-size="17" font-weight="400" text-anchor="start">
+<tspan x="1180" dy="0">Shows theorem seals with concrete cues, not decorative placeholders.</tspan>
+<tspan x="1180" dy="22">Says exact statements require declared indexing and hypotheses.</tspan>
+</text>
+<circle cx="1335" cy="1205" r="130" class="seal"/>
+<text x="1335" y="1157" class="title" font-size="25" font-weight="700" text-anchor="middle">CASSINI</text>
+<text x="1335" y="1195" class="formula" font-size="17" font-weight="400" text-anchor="middle">
+<tspan x="1335" dy="0">F_(n+1)F_(n-1) - F_n² = (-1)^n</tspan>
+<tspan x="1335" dy="25">example: n=5 ⇒ 8·3 - 5² = -1</tspan>
+</text>
+<circle cx="1740" cy="1205" r="130" class="seal"/>
+<text x="1740" y="1157" class="title" font-size="25" font-weight="700" text-anchor="middle">ZECKENDORF</text>
+<text x="1740" y="1195" class="formula" font-size="17" font-weight="400" text-anchor="middle">
+<tspan x="1740" dy="0">10 = 8 + 2</tspan>
+<tspan x="1740" dy="25">unique sum with no consecutive Fibonacci parts</tspan>
+</text>
+<circle cx="2145" cy="1205" r="130" class="seal"/>
+<text x="2145" y="1157" class="title" font-size="25" font-weight="700" text-anchor="middle">PASCAL DIAGONALS</text>
+<text x="2145" y="1195" class="formula" font-size="17" font-weight="400" text-anchor="middle">
+<tspan x="2145" dy="0">shallow diagonal sums:</tspan>
+<tspan x="2145" dy="25">1, 1, 2, 3, 5, 8, ...</tspan>
+</text>
+<circle cx="1535" cy="1415" r="130" class="seal"/>
+<text x="1535" y="1367" class="title" font-size="25" font-weight="700" text-anchor="middle">MODULO PERIODS</text>
+<text x="1535" y="1405" class="formula" font-size="17" font-weight="400" text-anchor="middle">
+<tspan x="1535" dy="0">mod 5 begins 0,1,1,2,3,0,...</tspan>
+<tspan x="1535" dy="25">residues repeat in Pisano cycles</tspan>
+</text>
+<circle cx="1945" cy="1415" r="130" class="seal"/>
+<text x="1945" y="1367" class="title" font-size="25" font-weight="700" text-anchor="middle">INDEX WARNING</text>
+<text x="1945" y="1405" class="formula" font-size="17" font-weight="400" text-anchor="middle">
+<tspan x="1945" dy="0">repository convention: D_v = F_(v+1)</tspan>
+<tspan x="1945" dy="25">do not shift Fv labels silently</tspan>
+</text>
+<text x="1340" y="1568" class="text" font-size="30" font-weight="700" text-anchor="start">EACH IDENTITY REQUIRES ITS STATED INDEXING</text>
+<rect x="2370" y="960" width="1120" height="650" rx="22" class="panel"/>
+<text x="2400" y="1010" class="title" font-size="31" font-weight="700" text-anchor="start">REALITY CLAIM CHECK</text>
+<line x1="2400" y1="1030" x2="3460" y2="1030" class="thin" />
+<text x="2400" y="1065" class="text" font-size="17" font-weight="400" text-anchor="start">
+<tspan x="2400" dy="0">Shows a disciplined evaluation table rather than a claim of proof.</tspan>
+<tspan x="2400" dy="22">Says resemblance must be tested against data, rival models, residuals, and status.</tspan>
+</text>
+<text x="2435" y="1145" class="text" font-size="21" font-weight="700" text-anchor="start">CLAIM</text>
+<text x="2595" y="1145" class="text" font-size="21" font-weight="700" text-anchor="start">DATA</text>
+<text x="2765" y="1145" class="text" font-size="21" font-weight="700" text-anchor="start">RIVAL MODEL</text>
+<text x="3025" y="1145" class="text" font-size="21" font-weight="700" text-anchor="start">RESIDUALS</text>
+<text x="3225" y="1145" class="text" font-size="21" font-weight="700" text-anchor="start">STATUS</text>
+<line x1="2425" y1="1105" x2="2425" y2="1480" class="grid" />
+<line x1="2585" y1="1105" x2="2585" y2="1480" class="grid" />
+<line x1="2755" y1="1105" x2="2755" y2="1480" class="grid" />
+<line x1="3015" y1="1105" x2="3015" y2="1480" class="grid" />
+<line x1="3215" y1="1105" x2="3215" y2="1480" class="grid" />
+<line x1="3390" y1="1105" x2="3390" y2="1480" class="grid" />
+<line x1="3435" y1="1105" x2="3435" y2="1480" class="grid" />
+<line x1="2425" y1="1166" x2="3435" y2="1166" class="grid" />
+<text x="2437" y="1200" class="text" font-size="23" font-weight="400" text-anchor="start">SHELLS</text>
+<circle cx="2635" cy="1192" r="10" class="thin"/>
+<circle cx="2880" cy="1192" r="10" class="thin"/>
+<circle cx="3105" cy="1192" r="10" class="thin"/>
+<circle cx="3305" cy="1192" r="10" class="thin"/>
+<line x1="2425" y1="1214" x2="3435" y2="1214" class="grid" />
+<text x="2437" y="1248" class="text" font-size="23" font-weight="400" text-anchor="start">LEAVES</text>
+<circle cx="2635" cy="1240" r="10" class="thin"/>
+<circle cx="2880" cy="1240" r="10" class="thin"/>
+<circle cx="3105" cy="1240" r="10" class="thin"/>
+<circle cx="3305" cy="1240" r="10" class="thin"/>
+<line x1="2425" y1="1262" x2="3435" y2="1262" class="grid" />
+<text x="2437" y="1296" class="text" font-size="23" font-weight="400" text-anchor="start">BODIES</text>
+<circle cx="2635" cy="1288" r="10" class="thin"/>
+<circle cx="2880" cy="1288" r="10" class="thin"/>
+<circle cx="3105" cy="1288" r="10" class="thin"/>
+<circle cx="3305" cy="1288" r="10" class="thin"/>
+<line x1="2425" y1="1310" x2="3435" y2="1310" class="grid" />
+<text x="2437" y="1344" class="text" font-size="23" font-weight="400" text-anchor="start">MARKETS</text>
+<circle cx="2635" cy="1336" r="10" class="thin"/>
+<circle cx="2880" cy="1336" r="10" class="thin"/>
+<circle cx="3105" cy="1336" r="10" class="thin"/>
+<circle cx="3305" cy="1336" r="10" class="thin"/>
+<line x1="2425" y1="1358" x2="3435" y2="1358" class="grid" />
+<text x="2437" y="1392" class="text" font-size="23" font-weight="400" text-anchor="start">ARCHITECTURE</text>
+<circle cx="2635" cy="1384" r="10" class="thin"/>
+<circle cx="2880" cy="1384" r="10" class="thin"/>
+<circle cx="3105" cy="1384" r="10" class="thin"/>
+<circle cx="3305" cy="1384" r="10" class="thin"/>
+<line x1="2425" y1="1406" x2="3435" y2="1406" class="grid" />
+<text x="2437" y="1440" class="text" font-size="23" font-weight="400" text-anchor="start">TIME</text>
+<circle cx="2635" cy="1432" r="10" class="thin"/>
+<circle cx="2880" cy="1432" r="10" class="thin"/>
+<circle cx="3105" cy="1432" r="10" class="thin"/>
+<circle cx="3305" cy="1432" r="10" class="thin"/>
+<line x1="2425" y1="1480" x2="3435" y2="1480" class="grid" />
+<text x="2430" y="1505" class="text" font-size="27" font-weight="700" text-anchor="start">
+<tspan x="2430" dy="0">RESEMBLANCE IS NOT MECHANISM</tspan>
+<tspan x="2430" dy="36">EMPIRICAL CLAIMS NEED MEASUREMENT</tspan>
+<tspan x="2430" dy="36">COMPARE ALTERNATIVES</tspan>
+</text>
+<rect x="110" y="1650" width="1000" height="600" rx="22" class="panel"/>
+<text x="140" y="1700" class="title" font-size="31" font-weight="700" text-anchor="start">SOURCE HIERARCHY</text>
+<line x1="140" y1="1720" x2="1080" y2="1720" class="thin" />
+<text x="140" y="1755" class="text" font-size="17" font-weight="400" text-anchor="start">
+<tspan x="140" dy="0">Shows the authority ladder used before any claim becomes a label.</tspan>
+<tspan x="140" dy="22">Says lower-level synthesis cannot override TR, AV, or REF statements.</tspan>
+</text>
+<circle cx="168" cy="1807" r="22" class="badge"/>
+<text x="168" y="1815" class="formula" font-size="22" font-weight="700" text-anchor="middle">1</text>
+<text x="210" y="1807" class="text" font-size="25" font-weight="700" text-anchor="start">TRUTH INVENTORY</text>
+<text x="210" y="1839" class="text" font-size="19" font-weight="400" text-anchor="start">positive authority for values, definitions, formulas, limits</text>
+<circle cx="168" cy="1875" r="22" class="badge"/>
+<text x="168" y="1883" class="formula" font-size="22" font-weight="700" text-anchor="middle">2</text>
+<text x="210" y="1875" class="text" font-size="25" font-weight="700" text-anchor="start">AVOID INVENTORY</text>
+<text x="210" y="1907" class="text" font-size="19" font-weight="400" text-anchor="start">diagnostic authority for errors, hazards, and REF values</text>
+<circle cx="168" cy="1943" r="22" class="badge"/>
+<text x="168" y="1951" class="formula" font-size="22" font-weight="700" text-anchor="middle">3</text>
+<text x="210" y="1943" class="text" font-size="25" font-weight="700" text-anchor="start">ESSENCES</text>
+<text x="210" y="1975" class="text" font-size="19" font-weight="400" text-anchor="start">condensed routing layer and canon summary</text>
+<circle cx="168" cy="2011" r="22" class="badge"/>
+<text x="168" y="2019" class="formula" font-size="22" font-weight="700" text-anchor="middle">4</text>
+<text x="210" y="2011" class="text" font-size="25" font-weight="700" text-anchor="start">GRAPH GUIDE</text>
+<text x="210" y="2043" class="text" font-size="19" font-weight="400" text-anchor="start">visual contract for truth-status and evidence boundary</text>
+<circle cx="168" cy="2079" r="22" class="badge"/>
+<text x="168" y="2087" class="formula" font-size="22" font-weight="700" text-anchor="middle">5</text>
+<text x="210" y="2079" class="text" font-size="25" font-weight="700" text-anchor="start">DRAWING GUIDE</text>
+<text x="210" y="2111" class="text" font-size="19" font-weight="400" text-anchor="start">practical SVG/layout discipline</text>
+<text x="165" y="2200" class="text" font-size="27" font-weight="700" text-anchor="start">EXACT ≠ APPROXIMATE ≠ EMPIRICAL ≠ METAPHORICAL</text>
+<rect x="1150" y="1650" width="2340" height="600" rx="22" class="panel"/>
+<text x="1180" y="1700" class="title" font-size="31" font-weight="700" text-anchor="start">PHILOSOPHICAL MARGINALIA</text>
+<line x1="1180" y1="1720" x2="3460" y2="1720" class="thin" />
+<text x="1180" y="1755" class="text" font-size="17" font-weight="400" text-anchor="start">
+<tspan x="1180" dy="0">Shows guardrails for interpreting the sheet.</tspan>
+<tspan x="1180" dy="22">Says recurrence can make later terms implicit without making real events magical or predetermined.</tspan>
+</text>
+<circle cx="1192" cy="1810" r="8" class="fill-ink"/>
+<text x="1220" y="1820" class="text" font-size="26" font-weight="700" text-anchor="start">THE FUTURE TERM IS IMPLICIT IN THE SEEDS AND RULE</text>
+<text x="1220" y="1854" class="text" font-size="20" font-weight="400" text-anchor="start">formal recurrence dependency</text>
+<circle cx="2312" cy="1810" r="8" class="fill-ink"/>
+<text x="2340" y="1820" class="text" font-size="26" font-weight="700" text-anchor="start">KNOWN FROM KNOWN, NOT CAUSED BY MAGIC</text>
+<text x="2340" y="1854" class="text" font-size="20" font-weight="400" text-anchor="start">do not confuse derivation with causation</text>
+<circle cx="1192" cy="1900" r="8" class="fill-ink"/>
+<text x="1220" y="1910" class="text" font-size="26" font-weight="700" text-anchor="start">BEAUTY MUST NOT CHANGE TRUTH-STATUS</text>
+<text x="1220" y="1944" class="text" font-size="20" font-weight="400" text-anchor="start">style follows evidence</text>
+<circle cx="2312" cy="1900" r="8" class="fill-ink"/>
+<text x="2340" y="1910" class="text" font-size="26" font-weight="700" text-anchor="start">EVERY MARK HAS MEANING</text>
+<text x="2340" y="1944" class="text" font-size="20" font-weight="400" text-anchor="start">no random scribbles or filler</text>
+<circle cx="1192" cy="1990" r="8" class="fill-ink"/>
+<text x="1220" y="2000" class="text" font-size="26" font-weight="700" text-anchor="start">NO FALSE EXACTNESS</text>
+<text x="1220" y="2034" class="text" font-size="20" font-weight="400" text-anchor="start">rounded labels stay approximate</text>
+<circle cx="2312" cy="1990" r="8" class="fill-ink"/>
+<text x="2340" y="2000" class="text" font-size="26" font-weight="700" text-anchor="start">NO SILENT INDEX SHIFT</text>
+<text x="2340" y="2034" class="text" font-size="20" font-weight="400" text-anchor="start">Fv and conventional F_n remain distinct</text>
+<circle cx="1192" cy="2080" r="8" class="fill-ink"/>
+<text x="1220" y="2090" class="text" font-size="26" font-weight="700" text-anchor="start">THE ZERO IS AN ADDRESS</text>
+<text x="1220" y="2124" class="text" font-size="20" font-weight="400" text-anchor="start">Fv -1 is visible and intentional</text>
+<circle cx="2312" cy="2080" r="8" class="fill-ink"/>
+<text x="2340" y="2090" class="text" font-size="26" font-weight="700" text-anchor="start">THE DUPLICATE ONE IS A HINGE</text>
+<text x="2340" y="2124" class="text" font-size="20" font-weight="400" text-anchor="start">Fv 0 and Fv 1 are distinct process steps</text>
+<line x1="120" y1="2290" x2="3480" y2="2290" class="thin" />
+<text x="1800" y="2330" class="text" font-size="22" font-weight="400" text-anchor="middle">master geometry only: parchment, ink variation, and ornamental treatment belong to later render passes without moving content</text>
+</svg>
