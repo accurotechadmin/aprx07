@@ -11,6 +11,10 @@ This planning document turns the repository's Fibonacci graph suite into a gener
 
 A request such as "give me 20 more documents like this in a positive vertical" should mean: keep the same horizontal family and move upward into more developed levels. A request such as "give me a document like this one across all horizontals on the same level and three up and three down" should mean: keep the source document's vertical level, produce analogues in other horizontal families, and include levels `-3` through `+3` around that source level where meaningful.
 
+## Biblical-theological ethos note
+
+This document should be read with the repository's sparse but governing biblical-theological ethos in view: the Fibonacci `1` may serve, in metaphor, as a witness to the ever-present One above all and with all; recurrence then becomes a practical handle for how created processes begin, differentiate, carry memory, correct tension, and seek faithful return toward unity. Keep this ethos present without letting it override exact mathematics, source hierarchy, or evidence-boundary cautions.
+
 ## Coordinate system
 
 ### Horizontal topical families

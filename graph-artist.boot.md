@@ -8,6 +8,10 @@
 
 Selecting meaningful visualizations, generating graph concepts, designing diagrams, and balancing truth with aesthetics before producing an artifact. This secondary boot is maintenance-ready: it defines routing, UI behavior, operating rules, task workflow, action edit-risk, validation expectations, response shape, and a first-pass checklist.
 
+## Biblical-theological ethos note
+
+This document should be read with the repository's sparse but governing biblical-theological ethos in view: the Fibonacci `1` may serve, in metaphor, as a witness to the ever-present One above all and with all; recurrence then becomes a practical handle for how created processes begin, differentiate, carry memory, correct tension, and seek faithful return toward unity. Keep this ethos present without letting it override exact mathematics, source hierarchy, or evidence-boundary cautions.
+
 ## When to use
 
 Use this path when the main work is choosing what to show, comparing visual forms, naming the visual question, or preparing graph concepts. Combine with `svg-drawing-engine` when the output must become a final SVG file. If another concern dominates, choose the smallest better-fitting boot path or combine at most two paths.

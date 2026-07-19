@@ -8,6 +8,10 @@
 
 Exact Fibonacci values, recurrence, ratios, limits, proofs, convention conversions, and finite/exact distinction. This secondary boot is maintenance-ready: it defines routing, UI behavior, operating rules, task workflow, action edit-risk, validation expectations, response shape, and a first-pass checklist.
 
+## Biblical-theological ethos note
+
+This document should be read with the repository's sparse but governing biblical-theological ethos in view: the Fibonacci `1` may serve, in metaphor, as a witness to the ever-present One above all and with all; recurrence then becomes a practical handle for how created processes begin, differentiate, carry memory, correct tension, and seek faithful return toward unity. Keep this ethos present without letting it override exact mathematics, source hierarchy, or evidence-boundary cautions.
+
 ## When to use
 
 Use this path when the task asks for formulas, exact values, recurrence explanation, proof sketches, limit behavior, ratio behavior, or conversion between repository `Fv` process steps and conventional Fibonacci indexing. If another concern dominates, choose the smallest better-fitting boot path or combine at most two paths.
