@@ -23,6 +23,29 @@ Also use this path when the user asks to revise, audit, simplify, stylize, expor
 5. [curated_fibonacci_insight_graphs.md](curated_fibonacci_insight_graphs.md)
 6. Existing files in `drawings/` when the task touches drawing assets.
 
+
+## Above-the-fold SVG boot display
+
+When this option is selected, show the SVG-specific feature line before optional actions so the user's next choice is guided by the strongest SVG lessons.
+
+```text
+╔════════════════════════════════════════════════════════════════╗
+║ FIBONACCI EXPLORER // SVG-DRAWING-ENGINE                     ║
+║ VECTOR MODE: READY                                           ║
+╚════════════════════════════════════════════════════════════════╝
+> :: FEATURE :: math-skeleton-before-style | asset-reuse-first | title+desc+claim-badge
+> :: FAST PATH :: option number loads now; actions may be added next
+> :: CONFIRM PATH :: use actions/info/combine to preview before finalizing
+
+      &&&
+     &&&&&
+      |||
+
+> No SVG artifact has been requested or created yet; awaiting actionable drawing task.
+```
+
+Whimsical trees are decorative only. They must not encode status, warnings, data, or navigation. Keep them sparse: no more than three trees per screen view, and not every screen needs trees.
+
 ## Operating rules
 
 - Preserve the repository Fv convention unless the task explicitly requests another convention and a conversion is shown.
@@ -137,6 +160,42 @@ If the user gives a minimal request such as “draw Fibonacci” or “make a sp
 - no unnecessary mathematical overload;
 - a note offering a more advanced variant.
 
+
+## Actionable SVG request workflow
+
+When the user makes an actionable SVG choice after this boot is complete, use this workflow as the default response skeleton:
+
+1. **Interpret the drawing task.** Classify it as explain, prove/verify, compare, decorate safely, teach, audit, or reuse/extend.
+2. **Parse controls.** Honor compact controls such as `size=`, `theme=`, `range=`, `style=`, `labels=`, `caption=`, `accessibility=`, `output=`, `reuse=`, and `performance=` when they do not conflict with repository accuracy.
+3. **Declare the visual contract.** State the question answered, domain, Fv convention or conversion, range, data lineage, and evidence boundary.
+4. **Inspect relevant assets.** Decide whether existing drawings can be reused unchanged, lightly revised, forked into a variant, or superseded.
+5. **Build the math or geometry skeleton.** Define data, coordinates, square layout, centers, radii, ratios, reference lines, labels, and caveats before style.
+6. **Create or revise the artifact.** Save under `drawings/` with a descriptive lowercase kebab-case filename when `output=file` is appropriate.
+7. **Validate.** Run the cheapest useful checks available, usually XML parsing for SVG syntax and `git diff --check` for whitespace. Use visual inspection or screenshots when the environment and task make that meaningful.
+8. **Report.** Summarize changed files with citations, list checks with emoji-prefixed commands, and offer compact revision handles.
+
+### Output-mode default
+
+Default to `output=file` only when the user asks to create, save, add, revise, update, or otherwise modify a repository artifact. If the request is exploratory, default to `output=plan` or provide an inline sketch plan. Ask at most one short clarification question when output mode is materially ambiguous.
+
+### Preferred validation commands
+
+Use these checks when applicable and available:
+
+```bash
+python - <<'PY'
+from pathlib import Path
+import xml.etree.ElementTree as ET
+for path in Path('drawings').glob('*.svg'):
+    ET.parse(path)
+print('SVG XML parsed')
+PY
+
+git diff --check
+```
+
+For a single new or edited SVG, narrow the parser check to that file. If a command fails because a validator is unavailable, report it as an environment warning rather than silently skipping validation.
+
 ## Advanced SVG control panel
 
 Accept compact control strings such as:
@@ -173,6 +232,17 @@ Use predictable group IDs when applicable:
 - `accessibility-notes`
 
 Decorative layers must not carry the only copy of mathematically important information.
+
+
+## Reuse-assets action output
+
+When `reuse-assets` is selected, produce a compact table before creating a new drawing. Use this shape:
+
+| File | Likely subject | Format | Reuse status | Inspect visually when |
+|---|---|---|---|---|
+| `drawings/example.svg` | Short inferred role from filename or metadata. | SVG/PNG | reuse unchanged / revise / fork / supersede / ignore | Geometry, labels, accessibility, or style matters. |
+
+Do not overwrite existing drawings unless the user explicitly requests overwrite. If metadata is insufficient, say that the role is inferred from filename and requires visual inspection before authoritative reuse.
 
 ## Existing asset reuse procedure
 
@@ -305,6 +375,19 @@ When the request is underspecified but safe defaults are obvious:
 - include a short “I assumed...” note;
 - offer easy revision handles such as `make it print-friendly`, `show more labels`, or `use dark mode`.
 
+
+## Minimal actionable prompt examples
+
+Use these examples as the standard post-boot invitation style:
+
+- Explain: `draw first 8 Fv destinations as a learner-safe recurrence SVG + teacher-variant`
+- Compare: `make phi vs finite forward ratios, range=fv:1..28, style=technical`
+- Spiral: `create a square-based Fibonacci quarter-circle spiral, near horizon, + spiral-safe`
+- Audit: `audit drawings/simple_fibonacci.svg + export-check + accessibility-pass`
+- Reuse: `adapt the existing first-12 focus SVG for a README header, theme=dark`
+- Poster: `make a vivid poster SVG of known-from-known recurrence, style=poster`
+- Worksheet: `make an unlabeled classroom exercise version, labels=none + teacher-variant`
+
 ## Revision handles
 
 After presenting a draft SVG, invite compact revision commands:
@@ -326,6 +409,13 @@ After presenting a draft SVG, invite compact revision commands:
 - `make it audit-ready`
 - `make it mobile-safe`
 - `make it slow-processor-safe`
+
+
+## SVG vs graph-artist routing
+
+- Choose `graph-artist` when the main problem is concept selection, visual ideation, graph-family choice, or comparing several possible visual forms.
+- Choose `svg-drawing-engine` when the main problem is producing, modifying, validating, or packaging an actual SVG file.
+- Combine `graph-artist + svg-drawing-engine` when the user wants both a new visual concept and a final repository-quality SVG artifact.
 
 ## Combination triggers
 

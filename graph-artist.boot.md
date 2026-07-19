@@ -21,6 +21,30 @@ Use this path when the user's task primarily needs: selecting meaningful visuali
 5. [draw.md](draw.md)
 6. [fibonacci_generation_lattice.md](fibonacci_generation_lattice.md)
 
+
+## Above-the-fold boot display
+
+When this option is selected, show its featured optimization line before optional actions so the user's next choice is guided by the strongest mode-specific lessons.
+
+```text
+╔════════════════════════════════════════════════════════════════╗
+║ FIBONACCI EXPLORER // GRAPH-ARTIST                        ║
+║ CONCEPT MODE                                          ║
+╚════════════════════════════════════════════════════════════════╝
+> :: FEATURE :: question-first | smallest-useful-graph | aesthetic-after-truth
+> :: FAST PATH :: option number loads now; actions may be added next
+> :: CONFIRM PATH :: use actions/info/combine to preview before finalizing
+
+   /\
+  /**\
+ /****\
+   ||
+
+> No artifact has been created yet; awaiting actionable task.
+```
+
+Whimsical trees are decorative only. They must not encode status, warnings, data, or navigation. Keep them sparse: no more than three trees per screen view, and not every screen needs trees.
+
 ## Operating rules
 
 - Preserve the repository Fv convention unless the task explicitly requests another convention and a conversion is shown.
@@ -28,6 +52,20 @@ Use this path when the user's task primarily needs: selecting meaningful visuali
 - Name source documents for claims and prefer TR/AV/REF authority over synthesis or examples.
 - Before producing artifacts, state the question being answered, the data lineage, and what the result does not prove.
 - Keep edits draft-safe unless the user clearly asks for repository changes.
+
+
+## Actionable request workflow
+
+When the user gives an actionable task after this boot is complete:
+
+1. Parse the task, selected actions, output expectations, and audience.
+2. Declare the working contract: question, domain, Fv convention or conversion, source lineage, and evidence boundary.
+3. Apply the featured principle: Choose visual concepts by insight value, not novelty.
+4. Inspect relevant inputs before producing new output: curated graph suite, drawing guide, task audience, and existing figures.
+5. Build the factual skeleton before style, expansion, pedagogy, metaphor, or edits.
+6. Produce the requested output: visual concepts, graph selection rationale, caveats, and style variants.
+7. Validate with the cheapest useful source, consistency, syntax, formula, or repository checks available.
+8. Report changes or conclusions with file citations and emoji-prefixed checks when files changed.
 
 ## Boot-time actions
 

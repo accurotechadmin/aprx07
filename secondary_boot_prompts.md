@@ -78,6 +78,57 @@ These controls are prompt-level controls for future sessions and for maintainers
 | `edit action <boot>:<action>` | Draft or apply changes to an existing action. | Preserve action short names unless explicitly asked to rename. |
 | `cancel` | Stop the interactive secondary selection flow. | Keep primary boot state loaded. |
 
+
+## General secondary boot refinements
+
+These refinements apply across the full secondary boot system and should be baked into every option as it matures. They capture lessons from the SVG boot review and anticipate what future option-specific reviews are likely to discover.
+
+### Fast path vs confirm path
+
+A secondary boot selection may complete in either of two explicitly supported ways:
+
+- **Fast path:** a plain number or short name, such as `4`, immediately loads that boot path and prints its available actions for the next prompt. Use this when the user's intent is simple and no action was named.
+- **Confirm path:** a selection with `actions`, `info`, or ambiguity previews actions first and asks the user to add or skip actions before finalizing. Use this when the user is exploring, combining paths, or choosing among materially different action bundles.
+
+Default behavior: prefer the fast path for unambiguous single-number selections, but clearly state that actions can still be added in the next prompt.
+
+### Action edit-risk labels
+
+Every secondary action should declare one of these edit-risk levels:
+
+- **Read-only:** inspects, summarizes, routes, or checks without changing files.
+- **Draft-only:** prepares proposed content, manifests, captions, examples, checklists, or patch plans without saving them unless the user confirms.
+- **File-modifying:** may create, edit, move, or delete repository files after the user makes an actionable request.
+
+Boot-time actions default to read-only or draft-only. A secondary action should not modify repository files merely because the user selected a boot mode.
+
+### Universal actionable-task sequence
+
+After any secondary boot is complete and the user gives an actionable task, use this general sequence unless a more specific boot document overrides it:
+
+1. Parse the task intent, named actions, controls, output mode, and implied audience.
+2. Choose the smallest sufficient boot context; combine at most two boot paths at first unless the task requires more.
+3. Declare the working contract: question, domain, convention, source lineage, output type, and evidence boundary.
+4. Inspect relevant existing assets, documents, data, or claims before creating duplicates.
+5. Build the factual skeleton before style, pedagogy, metaphor, or expansion.
+6. Produce the artifact, edit, audit, plan, or answer.
+7. Validate with the cheapest useful checks available in the environment.
+8. Summarize changes, cite files, and list checks in the required final-response format.
+
+### Primitive UI display conventions
+
+Keep the menu text-only and compact. Feature option-specific optimizations above the fold by putting a `:: FEATURE ::` line directly under the boot title when a mode has special high-value behavior. Add whimsical ASCII trees only as decoration, never as semantic labels, and never more than three per screen view.
+
+```text
+        &&&
+       &&&&&
+        |||
+```
+
+### Compact repeat menu
+
+Support `menu compact` as a lightweight repeat command. It should show only number, short name, and purpose. Do not reread every source document just to print it.
+
 ## Secondary action model
 
 Secondary actions are optional boot-time shortcuts. They are not separate boot paths. They are modular actions that can run concurrently with finishing a secondary boot so a user does not need a third prompt for common setup work.
@@ -111,6 +162,35 @@ Default safety rule: unless the user clearly authorizes repository edits, second
 | [`spreadsheet-data.boot.md`](spreadsheet-data.boot.md) | `range-declare` — state canonical vs extended range; `column-map` — map spreadsheet columns to terms; `recompute-check` — plan formula validation; `export-plan` — define CSV/table outputs. |
 | [`teacher-lesson-builder.boot.md`](teacher-lesson-builder.boot.md) | `lesson-outline` — draft staged lesson arc; `misconception-list` — prepare learner-safe warnings; `exercise-set` — create practice prompts; `reveal-sequence` — sequence examples from concrete to abstract. |
 | [`repository-curator.boot.md`](repository-curator.boot.md) | `maintenance-plan` — identify add/archive/normalize work; `relation-update` — prepare link-index edits; `canon-check` — verify source hierarchy compliance; `release-notes` — draft summary of repository changes. |
+
+## Featured above-the-fold optimizations by boot path
+
+Use these featured lines in the primitive UI when space allows. They are option-specific optimizations surfaced early so users can select the right mode quickly.
+
+| Secondary boot name | `:: FEATURE ::` line | Why it matters |
+|---|---|---|
+| `truth-inventory-mathematician` | `exactness-first | Fv-conversion-visible | finite-ratio-cautions` | Prevents index drift and false exactness before proofs or formulas begin. |
+| `avoid-auditor` | `red-team-before-fix | source-trace-first | risk-ranked-output` | Makes audits adversarial and evidence-linked instead of merely stylistic. |
+| `graph-artist` | `question-first | smallest-useful-graph | aesthetic-after-truth` | Keeps visual ideation tied to the insight the graph must reveal. |
+| `svg-drawing-engine` | `math-skeleton-before-style | asset-reuse-first | title+desc+claim-badge` | Converts SVG work into reproducible, accessible vector artifacts. |
+| `spiral-geometry` | `square-integrity | arc-center-audit | golden-vs-fibonacci-separation` | Prevents the common confusion between Fibonacci quarter-circle approximations and logarithmic golden spirals. |
+| `normalized-time-metaphor` | `metaphor-badge | normalized-quantity-named | asymmetry-visible` | Keeps the time model interpretive rather than falsely physical. |
+| `document-indexer` | `bidirectional-links | source-hierarchy-preserved | stale-index-check` | Makes catalogue work maintainable and authority-aware. |
+| `claim-traceability` | `claim-source-status | contradiction-scan | open-question-register` | Turns claims into auditable records with provenance and status. |
+| `glossary-terminologist` | `term-card-format | namespace-preserved | definition-not-claim` | Separates vocabulary cleanup from unsupported truth assertions. |
+| `orange-pressing-expander` | `branch-map | artifact-family | return-to-core` | Encourages creative expansion that returns to exactness. |
+| `generation-lattice-planner` | `lattice-position | prerequisites-first | manifest-ready` | Places new work in the repository's development map before generating files. |
+| `empirical-claim-skeptic` | `rival-models | residuals-before-resemblance | claim-softening` | Protects against overclaiming nature, markets, bodies, shells, or art. |
+| `spreadsheet-data` | `range-declared | formulas-recomputed | columns-mapped` | Prevents spreadsheet labels and extended ranges from overriding canon. |
+| `teacher-lesson-builder` | `learner-misconceptions | staged-reveal | exercise-ready` | Makes lessons accurate, sequenced, and safe for beginners. |
+| `repository-curator` | `canon-check | relation-update | maintenance-diff` | Keeps repository evolution intentional and traceable. |
+
+```text
+   /\
+  /**\
+ /****\
+   ||
+```
 
 ## Recommended secondary boot list
 

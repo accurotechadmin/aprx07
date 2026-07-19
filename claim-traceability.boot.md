@@ -21,6 +21,30 @@ Use this path when the user's task primarily needs: tracing claims across docume
 5. [02_Fibonacci_Truth_Inventory.docx](02_Fibonacci_Truth_Inventory.docx)
 6. [01_Fibonacci_Avoids_and_Error_Inventory.docx](01_Fibonacci_Avoids_and_Error_Inventory.docx)
 
+
+## Above-the-fold boot display
+
+When this option is selected, show its featured optimization line before optional actions so the user's next choice is guided by the strongest mode-specific lessons.
+
+```text
+╔════════════════════════════════════════════════════════════════╗
+║ FIBONACCI EXPLORER // CLAIM-TRACEABILITY                  ║
+║ TRACE MODE                                            ║
+╚════════════════════════════════════════════════════════════════╝
+> :: FEATURE :: claim-source-status | contradiction-scan | open-question-register
+> :: FAST PATH :: option number loads now; actions may be added next
+> :: CONFIRM PATH :: use actions/info/combine to preview before finalizing
+
+   /\
+  /**\
+ /****\
+   ||
+
+> No artifact has been created yet; awaiting actionable task.
+```
+
+Whimsical trees are decorative only. They must not encode status, warnings, data, or navigation. Keep them sparse: no more than three trees per screen view, and not every screen needs trees.
+
 ## Operating rules
 
 - Preserve the repository Fv convention unless the task explicitly requests another convention and a conversion is shown.
@@ -28,6 +52,20 @@ Use this path when the user's task primarily needs: tracing claims across docume
 - Name source documents for claims and prefer TR/AV/REF authority over synthesis or examples.
 - Before producing artifacts, state the question being answered, the data lineage, and what the result does not prove.
 - Keep edits draft-safe unless the user clearly asks for repository changes.
+
+
+## Actionable request workflow
+
+When the user gives an actionable task after this boot is complete:
+
+1. Parse the task, selected actions, output expectations, and audience.
+2. Declare the working contract: question, domain, Fv convention or conversion, source lineage, and evidence boundary.
+3. Apply the featured principle: Turn statements into auditable claim/source/status records.
+4. Inspect relevant inputs before producing new output: statement indexes, cohesion notes, inventories, and the claim target.
+5. Build the factual skeleton before style, expansion, pedagogy, metaphor, or edits.
+6. Produce the requested output: claim table, contradiction scan, citation pack, and open-question register.
+7. Validate with the cheapest useful source, consistency, syntax, formula, or repository checks available.
+8. Report changes or conclusions with file citations and emoji-prefixed checks when files changed.
 
 ## Boot-time actions
 
