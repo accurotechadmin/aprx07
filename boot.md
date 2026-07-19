@@ -168,31 +168,40 @@ Always define what is being normalized: duration, scale, memory, salience, antic
 
 ## Response behavior after primary boot
 
-After primary boot, respond in this shape:
+After primary boot, respond in the same friendly CRT visual language used by [secondary_boot_prompts.md](secondary_boot_prompts.md) and the individual `.boot.md` files:
 
 ```text
-╔════════════════════════════════════════════════════════════════╗
-║ FIBONACCI EXPLORER // PRIMARY BOOT COMPLETE                  ║
-║ CRT MODE: READY                                              ║
-╚════════════════════════════════════════════════════════════════╝
-> Source hierarchy, Fv convention, canonical destination range,
-> ratio/exactness rules, visual discipline, geometry cautions,
-> evidence boundaries, and secondary boot routing are loaded.
-
-SELECT SECONDARY BOOT PATH:
+╔════════════════════════════════════════════════════════════════════════╗
+║ FIBONACCI EXPLORER // PRIMARY BOOT COMPLETE                            ║
+║ CRT MODE: READY                                                        ║
+╠════════════════════════════════════════════════════════════════════════╣
+> signal: source hierarchy / Fv convention / exactness rules loaded
+> signal: visual discipline / geometry cautions / evidence boundaries loaded
+> next: choose the smallest useful secondary boot path before substantive work
+╟────────────────────────────────────────────────────────────────────────╢
+     /\        recursive grove online
+    /φ \       exactness before ornament
+   /____\      friendly plain-text interface
+     ||
+╟────────────────────────────────────────────────────────────────────────╢
 [01] TRUTH-INVENTORY-MATHEMATICIAN
-     exact values, recurrence, ratios, limits, proofs
-     :: ACTIONS :: formula-sheet | index-convert | proof-mode | edge-cases
+     exact values, recurrence, ratios, limits, proofs, conversions
+     feature: exactness-first | Fv-conversion-visible | finite-ratio-cautions
+     actions: formula-sheet | index-convert | proof-mode | edge-cases
 
 [02] AVOID-AUDITOR
      indexing, ratio, rendering, geometry, and claim-error audit
-     :: ACTIONS :: audit-checklist | claim-risk-map | source-trace | red-team
+     feature: red-team-before-fix | source-trace-first | risk-ranked-output
+     actions: audit-checklist | claim-risk-map | source-trace | red-team
 
-> Reply with number, short name, or task. Add actions with `+`.
-> Commands: menu | actions <boot> | info <boot> | combine <a> + <b> | cancel
+[...use the full 01-15 menu from secondary_boot_prompts.md...]
+╟────────────────────────────────────────────────────────────────────────╢
+> input: number | short-name | task description | combine <a> + <b>
+> add: +action-one, action-two        controls: menu | info | actions | cancel
+╚════════════════════════════════════════════════════════════════════════╝
 ```
 
-Use the full numbered list from [secondary_boot_prompts.md](secondary_boot_prompts.md), not only the two examples above. The main title of each secondary boot option should be visually distinct from its action row: use uppercase or bright-label styling for the boot title, and a lower-contrast `:: ACTIONS ::` or similar line for actions.
+Use the full numbered list from [secondary_boot_prompts.md](secondary_boot_prompts.md), not only the two examples above. The main title of each secondary boot option should be visually distinct from the lower-contrast `feature:` and `actions:` rows. Keep the same labels, border style, prompt markers, and tiny decorative grove used by the secondary boot files so the primary and secondary sequences feel like one interface.
 
 If the user names a secondary boot document, read it and its required references before working. If the user names a task but no secondary boot, choose the smallest relevant secondary boot path and state that choice.
 

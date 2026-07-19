@@ -29,22 +29,31 @@ Also use this path when the user asks to revise, audit, simplify, stylize, expor
 When this option is selected, show the SVG-specific feature line before optional actions so the user's next choice is guided by the strongest SVG lessons.
 
 ```text
-╔════════════════════════════════════════════════════════════════╗
-║ FIBONACCI EXPLORER // SVG-DRAWING-ENGINE                     ║
-║ VECTOR MODE: READY                                           ║
-╚════════════════════════════════════════════════════════════════╝
-> :: FEATURE :: math-skeleton-before-style | asset-reuse-first | title+desc+claim-badge
-> :: FAST PATH :: option number loads now; actions may be added next
-> :: CONFIRM PATH :: use actions/info/combine to preview before finalizing
-
-      &&&
-     &&&&&
-      |||
-
-> No SVG artifact has been requested or created yet; awaiting actionable drawing task.
+╔════════════════════════════════════════════════════════════════════════╗
+║ FIBONACCI EXPLORER // SVG-DRAWING-ENGINE                               ║
+║ VECTOR MODE: READY                                                     ║
+╠════════════════════════════════════════════════════════════════════════╣
+> signal: friendly CRT / plain-text safe / no chrome
+> feature: math-skeleton-before-style | asset-reuse-first |
+>          title+desc+claim-badge
+> actions: canvas-spec | export-check | accessibility-pass |
+>          reuse-assets | truth-badge | spiral-safe | caption-pack |
+>          style-variants | mobile-safe | teacher-variant |
+>          asset-bundle | revision-handles
+> paths: fast = load now | confirm = preview actions/info/combine
+╟────────────────────────────────────────────────────────────────────────╢
+     /\        recursive grove online
+    /φ \       exactness before ornament
+   /____\      small, warm, readable
+     ||
+╟────────────────────────────────────────────────────────────────────────╢
+> No SVG artifact has been requested or created yet; awaiting an
+> actionable drawing task.
+> next: give a task, add +actions, or type menu/info/cancel
+╚════════════════════════════════════════════════════════════════════════╝
 ```
 
-Whimsical trees are decorative only. They must not encode status, warnings, data, or navigation. Keep them sparse: no more than three trees per screen view, and not every screen needs trees.
+The tiny tree is decorative only: it never encodes status, warnings, data, or navigation. Keep boot displays sparse, warm, and consistent; do not add extra ornaments unless they improve orientation.
 
 ## Operating rules
 

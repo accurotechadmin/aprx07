@@ -13,8 +13,21 @@ Use this as the first maintained expanded-menu companion document. Future docume
 ## Expanded menu
 
 ```text
-SVG-DRAWING-ENGINE // EXPAND ALL MENU VIEW
-============================================================
+╔════════════════════════════════════════════════════════════════════════╗
+║ FIBONACCI EXPLORER // SVG-DRAWING-ENGINE EXPAND-ALL                    ║
+║ VECTOR MENU VIEW: FRIENDLY CRT                                         ║
+╠════════════════════════════════════════════════════════════════════════╣
+> signal: expanded companion for secondary boot option [04]
+> feature: math-skeleton-before-style | asset-reuse-first |
+>          title+desc+claim-badge
+> actions: canvas-spec | export-check | accessibility-pass | reuse-assets | more...
+> next: use this as the full SVG control/action reference
+╟────────────────────────────────────────────────────────────────────────╢
+     /\        recursive grove online
+    /φ \       exactness before ornament
+   /____\      expanded, but still readable
+     ||
+╚════════════════════════════════════════════════════════════════════════╝
 
 ROOT SECONDARY BOOT OPTION
 ------------------------------------------------------------

@@ -17,7 +17,7 @@ Each linked secondary boot document is normalized to a maintenance-ready level: 
 
 ## Interactive boot UI prompt system
 
-When a user says only **`boot`**, the booting session should complete the primary boot described in [boot.md](boot.md), then automatically open this secondary boot menu as an interactive UI prompt. The UI should be text-only, compact, and safe for plain chat clients.
+When a user says only **`boot`**, the booting session should complete the primary boot described in [boot.md](boot.md), then automatically open this secondary boot menu as an interactive UI prompt. The UI should be text-only, compact, friendly, visually consistent, and safe for plain chat clients. It should feel like a warm 80s terminal rather than a noisy dashboard: clear boxes, stable prompt markers, small decorative accents, and no interface chrome.
 
 ### Boot menu behavior
 
@@ -31,27 +31,101 @@ When a user says only **`boot`**, the booting session should complete the primar
 
 ### Recommended prompt shape after primary boot
 
-The secondary-choice UI should feel like an 80s computer terminal while remaining plain text. Use a boxed title, `>` prompt markers, bracketed numbers, uppercase boot titles, and a separate lower-contrast action row so actions are visually distinct from the main option title.
+The secondary-choice UI should use one shared visual language across primary boot, the secondary menu, and every individual `.boot.md` display. Keep it readable before it is decorative: boxed headers, `>` prompt markers, bracketed numbers, uppercase boot titles, lower-contrast `feature:` and `actions:` rows, and a small recurring grove/tree accent that is explicitly decorative.
 
 ```text
-╔════════════════════════════════════════════════════════════════╗
-║ FIBONACCI EXPLORER // SECONDARY BOOT MENU                    ║
-║ SELECT MODE                                                  ║
-╚════════════════════════════════════════════════════════════════╝
-
+╔════════════════════════════════════════════════════════════════════════╗
+║ FIBONACCI EXPLORER // SECONDARY BOOT MENU                              ║
+║ SELECT MODE: FRIENDLY CRT                                              ║
+╠════════════════════════════════════════════════════════════════════════╣
+> signal: primary boot complete / choose the smallest useful mode
+> input: number | short-name | task description | combine <a> + <b>
+> add: +action-one, action-two        controls: menu | info | actions | cancel
+╟────────────────────────────────────────────────────────────────────────╢
+     /\        recursive grove online
+    /φ \       exactness before ornament
+   /____\      warm, readable, plain text
+     ||
+╟────────────────────────────────────────────────────────────────────────╢
 [01] TRUTH-INVENTORY-MATHEMATICIAN
-     exact values, recurrence, ratios, limits, proofs
-     :: ACTIONS :: formula-sheet | index-convert | proof-mode | edge-cases
+     exact values, recurrence, ratios, limits, proofs, conversions
+     feature: exactness-first | Fv-conversion-visible | finite-ratio-cautions
+     actions: formula-sheet | index-convert | proof-mode | edge-cases
 
 [02] AVOID-AUDITOR
      indexing, ratio, rendering, geometry, and claim-error audit
-     :: ACTIONS :: audit-checklist | claim-risk-map | source-trace | red-team
+     feature: red-team-before-fix | source-trace-first | risk-ranked-output
+     actions: audit-checklist | claim-risk-map | source-trace | red-team
 
-...
+[03] GRAPH-ARTIST
+     meaningful graph concepts and visuals that put questions before style
+     feature: question-first | smallest-useful-graph | aesthetic-after-truth
+     actions: sketch-plan | question-first | aesthetic-variants | label-audit
 
-> INPUT: number | short-name | task description
-> ADD ACTIONS: 3 + sketch-plan, label-audit
-> CONTROLS: menu | actions <boot> | info <boot> | combine <a> + <b> | cancel
+[04] SVG-DRAWING-ENGINE
+     precise repository-quality SVG diagrams, plots, spirals, and assets
+     feature: math-skeleton-before-style | asset-reuse-first | title+desc+claim-badge
+     actions: canvas-spec | export-check | accessibility-pass | reuse-assets | more...
+
+[05] SPIRAL-GEOMETRY
+     square layouts, quarter-circle spirals, and golden-spiral separation
+     feature: square-integrity | arc-center-audit | golden-vs-fibonacci-separation
+     actions: square-layout | golden-comparison | geometry-audit | claim-caveats
+
+[06] NORMALIZED-TIME-METAPHOR
+     yesterday/today/tomorrow metaphor with explicit normalized quantity
+     feature: metaphor-badge | normalized-quantity-named | asymmetry-visible
+     actions: metaphor-badge | asymmetry-note | concept-map | caveat-card
+
+[07] DOCUMENT-INDEXER
+     catalogues, bidirectional links, source hierarchy, and stale indexes
+     feature: bidirectional-links | source-hierarchy-preserved | stale-index-check
+     actions: link-audit | catalog-row | source-hierarchy-map | staleness-check
+
+[08] CLAIM-TRACEABILITY
+     claim/source/status maps, contradiction scans, and open questions
+     feature: claim-source-status | contradiction-scan | open-question-register
+     actions: claim-table | contradiction-scan | citation-pack | open-questions
+
+[09] GLOSSARY-TERMINOLOGIST
+     definitions, namespaces, synonym cleanup, and vocabulary boundaries
+     feature: term-card-format | namespace-preserved | definition-not-claim
+     actions: term-card | namespace-check | synonym-merge | definition-audit
+
+[10] ORANGE-PRESSING-EXPANDER
+     expansion branches that return creative work to exactness
+     feature: branch-map | artifact-family | return-to-core
+     actions: branch-map | artifact-list | priority-sort | return-to-core
+
+[11] GENERATION-LATTICE-PLANNER
+     next artifacts by topic family, development level, and prerequisites
+     feature: lattice-position | prerequisites-first | manifest-ready
+     actions: lattice-position | next-three | dependency-map | manifest-draft
+
+[12] EMPIRICAL-CLAIM-SKEPTIC
+     nature, shells, markets, bodies, architecture, behavior, and art claims
+     feature: rival-models | residuals-before-resemblance | claim-softening
+     actions: rival-models | evidence-grid | sample-check | claim-softener
+
+[13] SPREADSHEET-DATA
+     extended tables, workbook checks, and canonical-vs-extended ranges
+     feature: range-declared | formulas-recomputed | columns-mapped
+     actions: range-declare | column-map | recompute-check | export-plan
+
+[14] TEACHER-LESSON-BUILDER
+     learner-safe lessons, staged reveals, exercises, and misconceptions
+     feature: learner-misconceptions | staged-reveal | exercise-ready
+     actions: lesson-outline | misconception-list | exercise-set | reveal-sequence
+
+[15] REPOSITORY-CURATOR
+     living-canon maintenance, relation updates, and release notes
+     feature: canon-check | relation-update | maintenance-diff
+     actions: maintenance-plan | relation-update | canon-check | release-notes
+╟────────────────────────────────────────────────────────────────────────╢
+> examples: 04 + canvas-spec, reuse-assets
+>           combine graph-artist + svg-drawing-engine
+>           finish booting with document-indexer.boot.md + link-audit
+╚════════════════════════════════════════════════════════════════════════╝
 ```
 
 ### Selection grammar
@@ -117,7 +191,7 @@ After any secondary boot is complete and the user gives an actionable task, use 
 
 ### Primitive UI display conventions
 
-Keep the menu text-only and compact. Feature option-specific optimizations above the fold by putting a `:: FEATURE ::` line directly under the boot title when a mode has special high-value behavior. Add whimsical ASCII trees only as decoration, never as semantic labels, and never more than three per screen view.
+Keep every boot display text-only, compact, and structurally identical. Use these labels consistently: `signal:` for boot state, `feature:` for mode-specific strengths, `actions:` for optional shortcuts, `paths:` for fast/confirm behavior, and `next:` for the user's next move. The tiny grove/tree accent is decorative only; it must never encode status, warnings, data, or navigation, and should appear at most once in a boot display.
 
 ```text
         &&&
@@ -167,7 +241,7 @@ Default safety rule: unless the user clearly authorizes repository edits, second
 
 Use these featured lines in the primitive UI when space allows. They are option-specific optimizations surfaced early so users can select the right mode quickly.
 
-| Secondary boot name | `:: FEATURE ::` line | Why it matters |
+| Secondary boot name | `feature:` line | Why it matters |
 |---|---|---|
 | `truth-inventory-mathematician` | `exactness-first | Fv-conversion-visible | finite-ratio-cautions` | Prevents index drift and false exactness before proofs or formulas begin. |
 | `avoid-auditor` | `red-team-before-fix | source-trace-first | risk-ranked-output` | Makes audits adversarial and evidence-linked instead of merely stylistic. |
