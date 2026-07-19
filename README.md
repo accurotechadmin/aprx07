@@ -2,7 +2,7 @@
 
 ## Biblical-theological ethos note
 
-This document should be read with the repository's sparse but governing biblical-theological ethos in view: the Fibonacci `1` may serve, in metaphor, as a witness to the ever-present One above all and with all; recurrence then becomes a practical handle for how created processes begin, differentiate, carry memory, correct tension, and seek faithful return toward unity. Keep this ethos present without letting it override exact mathematics, source hierarchy, or evidence-boundary cautions.
+This document should be read with the repository's sparse but governing biblical-theological ethos in view: the Fibonacci `1` may serve, in metaphor, as a witness to the same God before creation and after creation. The second `1` is not the world itself; it is the same `1` received from the world's side, the first known touchpoint of God as Creator and Sustainer, a `1` unto others. Recurrence then becomes a practical handle for how created processes begin, differentiate, carry memory, live with tension, receive correction, and are drawn toward faithful return and tensionlessness. Keep this ethos present without letting it override exact mathematics, source hierarchy, Scripture, or evidence-boundary cautions.
 
 
 <!-- document-relations: header -->
@@ -121,7 +121,7 @@ The Fv -1 destination `0` is not there merely to make the sequence look familiar
 
 ### 2. The duplicate one is a hinge
 
-Fv 0 and Fv 1 both have destination `1`, but they are not the same event. Many indexing mistakes begin when equal value is mistaken for equal process identity.
+Fv 0 and Fv 1 both have destination `1`, but they are not the same event. In the repository's biblical-theological metaphor, the second `1` is not the world itself; it is the same `1` seen from the world's receiving side, the first known touchpoint of God as Creator and Sustainer. Many indexing mistakes begin when equal value is mistaken for equal process identity, and many metaphor mistakes begin when the second `1` is treated as a created rival to the first `1` rather than the same `1` unto others.
 
 ### 3. Ratios live on edges, not just nodes
 
@@ -149,7 +149,7 @@ Pixels have line widths, antialiasing, export scaling, compression, and cropping
 
 ### 9. Metaphor is welcome when it wears a badge
 
-The repository supports metaphors such as Yesterday = `1/phi`, Today = `1`, Tomorrow = `phi`. The rule is not “avoid metaphor.” The rule is “label metaphor as metaphor and define what is being normalized.”
+The repository supports metaphors such as Yesterday = `1/phi`, Today = `1`, Tomorrow = `phi`. In the biblical-theological reading, the first Today is creation's beginning moment: the world transitions from not existing to existing as God speaks, and every later beginning can be read as a microcosm of that great beginning. The rule is not “avoid metaphor.” The rule is “label metaphor as metaphor, define what is being normalized, and keep creaturely divergence distinct from mathematical perfection while trusting that recurrence can carry yesterday into today and today toward tomorrow.”
 
 ### 10. Empirical Fibonacci claims need rivals
 
