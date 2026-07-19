@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Canonical Fv destinations — whole series with first-12 focus</title>
+<desc id="desc">Canonical Fibonacci Fv -1 through Fv 28 table with first 12 positive steps emphasized in a zero-baseline bar view.</desc>
+<rect x="0" y="0" width="1200" height="900" rx="0" fill="#fbfdff" stroke="none" stroke-width="0"/>
+<text x="600.0" y="38" font-family="Inter, Arial, sans-serif" font-size="26" fill="#0f172a" font-weight="800" text-anchor="middle">Canonical Fv destinations — whole series with first-12 focus</text>
+<text x="600.0" y="64" font-family="Inter, Arial, sans-serif" font-size="14" fill="#475569" font-weight="500" text-anchor="middle">Full reference included; specialization reveals early growth without hiding the complete Fv 1-28 span.</text>
+<text x="40" y="108" font-family="Inter, Arial, sans-serif" font-size="13" fill="#475569" font-weight="700" text-anchor="start">Full canonical reference: Fv -1 through Fv 28 (D_v = F_(v+1))</text>
+<rect x="40" y="114" width="104" height="22" rx="3" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="130" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv -1: 0</text>
+<rect x="40" y="138" width="104" height="22" rx="3" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="154" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv  0: 1</text>
+<rect x="40" y="162" width="104" height="22" rx="3" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="178" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv  1: 1</text>
+<rect x="40" y="186" width="104" height="22" rx="3" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="202" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv  2: 2</text>
+<rect x="40" y="210" width="104" height="22" rx="3" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="226" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv  3: 3</text>
+<rect x="40" y="234" width="104" height="22" rx="3" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="250" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv  4: 5</text>
+<rect x="40" y="258" width="104" height="22" rx="3" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="274" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv  5: 8</text>
+<rect x="40" y="282" width="104" height="22" rx="3" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="298" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv  6: 13</text>
+<rect x="40" y="306" width="104" height="22" rx="3" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="322" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv  7: 21</text>
+<rect x="40" y="330" width="104" height="22" rx="3" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="346" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv  8: 34</text>
+<rect x="152" y="114" width="104" height="22" rx="3" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<text x="159" y="130" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv  9: 55</text>
+<rect x="152" y="138" width="104" height="22" rx="3" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="159" y="154" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv 10: 89</text>
+<rect x="152" y="162" width="104" height="22" rx="3" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<text x="159" y="178" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv 11: 144</text>
+<rect x="152" y="186" width="104" height="22" rx="3" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="159" y="202" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv 12: 233</text>
+<rect x="152" y="210" width="104" height="22" rx="3" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<text x="159" y="226" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv 13: 377</text>
+<rect x="152" y="234" width="104" height="22" rx="3" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="159" y="250" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv 14: 610</text>
+<rect x="152" y="258" width="104" height="22" rx="3" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<text x="159" y="274" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv 15: 987</text>
+<rect x="152" y="282" width="104" height="22" rx="3" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="159" y="298" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv 16: 1597</text>
+<rect x="152" y="306" width="104" height="22" rx="3" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<text x="159" y="322" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv 17: 2584</text>
+<rect x="152" y="330" width="104" height="22" rx="3" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="159" y="346" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv 18: 4181</text>
+<rect x="264" y="114" width="104" height="22" rx="3" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<text x="271" y="130" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv 19: 6765</text>
+<rect x="264" y="138" width="104" height="22" rx="3" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="271" y="154" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv 20: 10946</text>
+<rect x="264" y="162" width="104" height="22" rx="3" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<text x="271" y="178" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv 21: 17711</text>
+<rect x="264" y="186" width="104" height="22" rx="3" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="271" y="202" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv 22: 28657</text>
+<rect x="264" y="210" width="104" height="22" rx="3" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<text x="271" y="226" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv 23: 46368</text>
+<rect x="264" y="234" width="104" height="22" rx="3" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="271" y="250" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv 24: 75025</text>
+<rect x="264" y="258" width="104" height="22" rx="3" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<text x="271" y="274" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv 25: 121393</text>
+<rect x="264" y="282" width="104" height="22" rx="3" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="271" y="298" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv 26: 196418</text>
+<rect x="264" y="306" width="104" height="22" rx="3" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<text x="271" y="322" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv 27: 317811</text>
+<rect x="264" y="330" width="104" height="22" rx="3" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="271" y="346" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="400" text-anchor="start">Fv 28: 514229</text><text x="420" y="152" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0f172a" font-weight="800" text-anchor="start">Specialized view: first 12 positive Fv steps</text>
+<line x1="420" y1="440" x2="1140" y2="440" stroke="#334155"/>
+<rect x="430.80" y="439.03" width="37.20" height="0.97" fill="#2563eb" opacity="0.86"/>
+<text x="449.40000000000003" y="458" font-family="Inter, Arial, sans-serif" font-size="11" fill="#334155" font-weight="600" text-anchor="middle">1</text>
+<text x="449.40000000000003" y="433.0300429184549" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="600" text-anchor="middle">1</text>
+<rect x="490.80" y="438.06" width="37.20" height="1.94" fill="#f97316" opacity="0.86"/>
+<text x="509.40000000000003" y="458" font-family="Inter, Arial, sans-serif" font-size="11" fill="#334155" font-weight="600" text-anchor="middle">2</text>
+<text x="509.40000000000003" y="432.0600858369099" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="600" text-anchor="middle">2</text>
+<rect x="550.80" y="437.09" width="37.20" height="2.91" fill="#f97316" opacity="0.86"/>
+<text x="569.4" y="458" font-family="Inter, Arial, sans-serif" font-size="11" fill="#334155" font-weight="600" text-anchor="middle">3</text>
+<text x="569.4" y="431.0901287553648" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="600" text-anchor="middle">3</text>
+<rect x="610.80" y="435.15" width="37.20" height="4.85" fill="#f97316" opacity="0.86"/>
+<text x="629.4" y="458" font-family="Inter, Arial, sans-serif" font-size="11" fill="#334155" font-weight="600" text-anchor="middle">4</text>
+<text x="629.4" y="429.15021459227466" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="600" text-anchor="middle">5</text>
+<rect x="670.80" y="432.24" width="37.20" height="7.76" fill="#f97316" opacity="0.86"/>
+<text x="689.4" y="458" font-family="Inter, Arial, sans-serif" font-size="11" fill="#334155" font-weight="600" text-anchor="middle">5</text>
+<text x="689.4" y="426.2403433476395" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="600" text-anchor="middle">8</text>
+<rect x="730.80" y="427.39" width="37.20" height="12.61" fill="#f97316" opacity="0.86"/>
+<text x="749.4" y="458" font-family="Inter, Arial, sans-serif" font-size="11" fill="#334155" font-weight="600" text-anchor="middle">6</text>
+<text x="749.4" y="421.3905579399142" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="600" text-anchor="middle">13</text>
+<rect x="790.80" y="419.63" width="37.20" height="20.37" fill="#f97316" opacity="0.86"/>
+<text x="809.4" y="458" font-family="Inter, Arial, sans-serif" font-size="11" fill="#334155" font-weight="600" text-anchor="middle">7</text>
+<text x="809.4" y="413.6309012875536" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="600" text-anchor="middle">21</text>
+<rect x="850.80" y="407.02" width="37.20" height="32.98" fill="#f97316" opacity="0.86"/>
+<text x="869.4" y="458" font-family="Inter, Arial, sans-serif" font-size="11" fill="#334155" font-weight="600" text-anchor="middle">8</text>
+<text x="869.4" y="401.0214592274678" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="600" text-anchor="middle">34</text>
+<rect x="910.80" y="386.65" width="37.20" height="53.35" fill="#f97316" opacity="0.86"/>
+<text x="929.4" y="458" font-family="Inter, Arial, sans-serif" font-size="11" fill="#334155" font-weight="600" text-anchor="middle">9</text>
+<text x="929.4" y="380.6523605150215" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="600" text-anchor="middle">55</text>
+<rect x="970.80" y="353.67" width="37.20" height="86.33" fill="#f97316" opacity="0.86"/>
+<text x="989.4" y="458" font-family="Inter, Arial, sans-serif" font-size="11" fill="#334155" font-weight="600" text-anchor="middle">10</text>
+<text x="989.4" y="347.6738197424893" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="600" text-anchor="middle">89</text>
+<rect x="1030.80" y="300.33" width="37.20" height="139.67" fill="#f97316" opacity="0.86"/>
+<text x="1049.3999999999999" y="458" font-family="Inter, Arial, sans-serif" font-size="11" fill="#334155" font-weight="600" text-anchor="middle">11</text>
+<text x="1049.3999999999999" y="294.3261802575107" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="600" text-anchor="middle">144</text>
+<rect x="1090.80" y="214.00" width="37.20" height="226.00" fill="#f97316" opacity="0.86"/>
+<text x="1109.3999999999999" y="458" font-family="Inter, Arial, sans-serif" font-size="11" fill="#334155" font-weight="600" text-anchor="middle">12</text>
+<text x="1109.3999999999999" y="208.0" font-family="Inter, Arial, sans-serif" font-size="11" fill="#0f172a" font-weight="600" text-anchor="middle">233</text>
+<text x="780.0" y="482" font-family="Inter, Arial, sans-serif" font-size="12" fill="#475569" font-weight="400" text-anchor="middle">Fv process step v (discrete observations; bars use a zero baseline)</text><text x="420" y="520" font-family="Inter, Arial, sans-serif" font-size="14" fill="#172033" font-weight="400" text-anchor="start">Low hanging fruit: hide D_v and recover each orange bar by adding the prior two.  Basic: with seeds fixed, all bars are known by recurrence.  Nuanced: ratios through Fv 12 still oscillate around phi; 233/144 is close, finite, and rational.</text><text x="420" y="560" font-family="Inter, Arial, sans-serif" font-size="18" fill="#0f172a" font-weight="800" text-anchor="start">Fv 12 destination = 233; previous pair 89 + 144 = 233</text>
+<text x="600.0" y="878" font-family="Inter, Arial, sans-serif" font-size="12" fill="#64748b" font-weight="400" text-anchor="middle">Boundary: exact recurrence data and labeled finite views; the picture is not a continuous Fibonacci curve and not a proof that any finite ratio equals phi.</text>
+</svg>
