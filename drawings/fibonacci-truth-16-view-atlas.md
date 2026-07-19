@@ -34,7 +34,7 @@ D_v = F_(v+1)
 
 This panel shows the three seed addresses that stabilize the repository convention: `Fv -1` has destination `0`, `Fv 0` has destination `1`, and `Fv 1` also has destination `1`.
 
-The important visual idea is that the duplicate destination `1` does not mean the two process steps are identical. Equal value is not equal address. This prevents the two most common indexing errors: omitting the zero and merging the duplicate one.
+The important visual idea is that the duplicate destination `1` does not mean the two process steps are identical. Equal value is not equal address. This revision makes that distinction more intuitive by labeling each seed as an address role: zero anchor, first one, and second one. This prevents the two most common indexing errors: omitting the zero and merging the duplicate one.
 
 ### 02 Known-from-Known — `EXACT`
 
@@ -44,23 +44,23 @@ This panel writes the recurrence directly:
 D_v = D_(v-1) + D_(v-2)
 ```
 
-The displayed examples show how `D_2` through `D_7` follow from the seeds. The panel is exact mathematics: once the seeds and recurrence rule are fixed, later formal terms are determined. The panel also warns that formal recurrence determinism should not be promoted into a claim about real-world fate or prediction.
+The displayed examples show how `D_2` through `D_7` follow from the seeds, with more color separation so source terms and results read as a formal engine. The panel is exact mathematics: once the seeds and recurrence rule are fixed, later formal terms are determined. The panel also warns that formal recurrence determinism should not be promoted into a claim about real-world fate or prediction.
 
 ### 03 Destination Scale — `FINITE`
 
-This bar chart shows destination values from `Fv -1` through `Fv 12` on a linear scale. It includes step labels and selected value labels so the viewer can see both the address and the value.
+This bar chart shows destination values from `Fv -1` through `Fv 12` on a linear scale. It includes step labels, tick marks, grid lines, and selected value labels so the viewer can see both the address and the value rather than only the shape of growth.
 
 The visual truth is finite and computed. A linear bar chart is honest for magnitude, but it also visibly compresses early values once later values become larger. That compression is a feature of the scale, not a claim that early values are unimportant.
 
 ### 04 Log Growth View — `FINITE`
 
-This panel plots `log10(D_v)` for positive destinations over `Fv 1` through `Fv 28`. It makes the near-exponential growth pattern easier to see without pretending the original values are small.
+This panel plots `log10(D_v)` for positive destinations over `Fv 1` through `Fv 28`. It makes the near-exponential growth pattern easier to see without pretending the original values are small, and it labels selected steps so the viewer can connect the line back to discrete Fv addresses.
 
 The plotted marks are still discrete Fibonacci observations. The connecting line shows order; it does not create continuous Fibonacci states between integer steps.
 
 ### 05 Consecutive Pairs — `EXACT`
 
-This panel plots adjacent pairs `(D_(v-1), D_v)`. The slope from the origin to a point is the forward ratio `R_v = D_v / D_(v-1)` when the denominator is positive.
+This panel plots adjacent pairs `(D_(v-1), D_v)`. The slope from the origin to a point is the forward ratio `R_v = D_v / D_(v-1)` when the denominator is positive. A visual φ-slope cue now makes the pair-geometry connection more immediate.
 
 The figure shifts attention from isolated values to adjacent relationships. Ratios live on pairs or transitions, not on a single node alone.
 
@@ -72,7 +72,7 @@ This panel plots forward ratios:
 R_v = D_v / D_(v-1)
 ```
 
-A dashed reference line marks `phi ≈ 1.618034`. The finite ratio points alternate around the reference and approach it. The panel is marked `LIMIT` because `phi` is the limiting value, not a finite destination ratio. Every plotted finite ratio is rational, and none equals `phi` exactly.
+A dashed reference line marks `phi ≈ 1.618034`. The finite ratio points alternate around the reference and approach it. The improved panel emphasizes that finite ratios overshoot and undershoot the limit without landing on it. The panel is marked `LIMIT` because `phi` is the limiting value, not a finite destination ratio. Every plotted finite ratio is rational, and none equals `phi` exactly.
 
 ### 07 Reciprocal → 1/φ — `LIMIT`
 
@@ -82,7 +82,7 @@ This panel plots reciprocal ratios:
 Q_v = D_(v-1) / D_v
 ```
 
-A dashed reference line marks `1/phi ≈ 0.618034`. As with the forward ratio panel, the finite points approach the limiting value without equaling it exactly.
+A dashed reference line marks `1/phi ≈ 0.618034`. As with the forward ratio panel, the finite points approach the limiting value without equaling it exactly. The panel is paired visually with the forward-ratio panel so the reciprocal relationship reads as a mirror rather than as an unrelated chart.
 
 ### 08 Alternating Error — `FINITE`
 
@@ -92,7 +92,7 @@ This panel plots the signed error:
 R_v - phi
 ```
 
-The zero line is the reference. Stems above and below the line show that finite forward ratios alternate around `phi` while shrinking in magnitude. This panel helps prevent a common rounding mistake: late values may look visually indistinguishable from the limit, but their signed relationship to the limit still matters.
+The zero line is the reference. Stems above and below the line show that finite forward ratios alternate around `phi` while shrinking in magnitude. The richer over/under framing makes the hidden rhythm visible. This panel helps prevent a common rounding mistake: late values may look visually indistinguishable from the limit, but their signed relationship to the limit still matters.
 
 ### 09 Shrinking Abs Error — `FINITE`
 
@@ -102,23 +102,23 @@ This panel plots a log-style closeness score:
 -log10(|R_v - phi|)
 ```
 
-Higher marks mean closer finite approximation to `phi`. This is not an exactness graph; it is a finite-error graph. The richer scale and labels make the convergence story visible without letting the line escape the panel boundary.
+Higher marks mean closer finite approximation to `phi`. This is not an exactness graph; it is a finite-error graph. The richer scale, labels, and bounded plotting area make the convergence story visible without letting the line escape the panel boundary or become a false exactness claim.
 
 ### 10 φ Reference Rectangle — `MODEL`
 
 This panel shows a rectangle with width/height equal to `phi`. It includes a square region and the remaining width `phi - 1 = 1/phi`.
 
-The panel is a reference model, not a finite Fibonacci ratio. It is useful for geometry and design comparisons, but it should not be confused with a Fibonacci square spiral or with a finite adjacent quotient.
+The panel is a reference model, not a finite Fibonacci ratio. It is useful for geometry and design comparisons, and the added dimension labels show both the unit square and the `phi - 1 = 1/phi` remainder. It should not be confused with a Fibonacci square spiral or with a finite adjacent quotient.
 
 ### 11 Square Spiral Approx — `APPROX`
 
-This panel shows Fibonacci squares with side lengths `1, 1, 2, 3, 5, 8, 13`. The panel is labeled as an approximation because a square-based Fibonacci spiral uses quarter-circle arcs inside true squares. It is not the same object as an exact logarithmic golden spiral.
+This panel now shows a larger spiral-like scaffold of Fibonacci squares with side lengths `1, 1, 2, 3, 5, 8, 13, 21`. The smaller seed squares remain visible and the larger squares make the growth pattern more intuitive. The dashed gold path is an illustrative guide over the square-based quarter-turn construction. The panel is labeled as an approximation because a square-based Fibonacci spiral uses quarter-circle arcs inside true squares. It is not the same object as an exact logarithmic golden spiral.
 
 The panel’s purpose is to show the side-length construction while keeping the geometry caveat visible.
 
 ### 12 Discrete Steps — `EXACT`
 
-This panel plots destination marks for `Fv 0` through `Fv 8`. The markers are the actual observations. The dashed line shows ordering and visual connection only; it does not imply uncomputed intermediate Fibonacci states.
+This panel plots destination marks for `Fv 0` through `Fv 8`. The markers are the actual observations and the labels preserve the destination values. The dashed line shows ordering and visual connection only; it does not imply uncomputed intermediate Fibonacci states.
 
 This panel explicitly guards against smooth-curve overinterpretation.
 
@@ -150,7 +150,7 @@ The conversion table makes visible why `Fv -1` maps to conventional `F_0`, while
 
 ### 16 Truth Checkpoints — `AUDIT`
 
-This panel is an audit checklist for future Fibonacci visuals and explanations. It asks the viewer to confirm convention, range, seeds, finite-ratio status, limiting references, geometry labels, metaphor badges, and evidence boundaries.
+This panel is an audit checklist for future Fibonacci visuals and explanations. It asks the viewer to confirm convention, range, seeds, finite-ratio status, limiting references, geometry labels, metaphor badges, and evidence boundaries. The checklist is intended to be read as a reusable quality gate for every future panel, not merely as a decorative ending.
 
 The point is not only to admire a finished figure, but to make the figure auditable.
 
@@ -163,7 +163,9 @@ This revision keeps all sixteen original graph ideas but improves the presentati
 - adding axes, tick labels, selected numeric labels, and panel-specific notes;
 - moving the global caption out of the panel grid;
 - preventing plotted marks from escaping panel boundaries;
-- adding richer explanations and caveats in this companion guide.
+- adding richer explanations and caveats in this companion guide;
+- deepening each panel with more intuitive cues, selected numbers, reference structures, or interpretation rules;
+- expanding the square-spiral panel from `1,1,2,3,5,8,13` to `1,1,2,3,5,8,13,21` and arranging it as a more readable spiral scaffold.
 
 ## Safe interpretation summary
 

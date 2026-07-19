@@ -27,7 +27,7 @@
 <line x1="217.0" y1="289.0" x2="311.5" y2="289.0" stroke="#64748b" stroke-width="2" stroke-dasharray="6 6"/>
 <line x1="427.5" y1="289.0" x2="522.0" y2="289.0" stroke="#64748b" stroke-width="2" stroke-dasharray="6 6"/>
 <text x="78.0" y="505.8" font-size="17" font-weight="650" text-anchor="start" fill="#b9c7dc">Do not omit Fv -1 or merge the duplicate destination 1.</text>
-<text x="78.0" y="536.8" font-size="14" font-weight="400" text-anchor="start" fill="#8ba0b9">Question: where does the repository address system begin?</text>
+<text x="78.0" y="536.8" font-size="14" font-weight="400" text-anchor="start" fill="#8ba0b9">Question: where does the repository address system begin?  Process step ≠ destination value.</text>
 </g>
 <defs><clipPath id="clip2"><rect x="741.0" y="161.0" width="631.0" height="406.8" rx="8"/></clipPath></defs>
 <rect x="727.0" y="105.0" width="659.0" height="502.8" rx="20" fill="#0f1b2f" stroke="#315173" stroke-width="1.8"/>
@@ -42,7 +42,7 @@
 <text x="771.0" y="383.0" font-size="22" font-weight="800" text-anchor="start" fill="#a78bfa" class="mono">D_6 = D_5 + D_4 = 8 + 5 = 13</text>
 <text x="771.0" y="426.0" font-size="22" font-weight="800" text-anchor="start" fill="#2dd4bf" class="mono">D_7 = D_6 + D_5 = 13 + 8 = 21</text>
 <text x="771.0" y="501.8" font-size="16" font-weight="650" text-anchor="start" fill="#b9c7dc">The rule determines later formal terms; it does not imply real-world fate.</text>
-<text x="771.0" y="533.8" font-size="14" font-weight="400" text-anchor="start" fill="#8ba0b9">Shown range: recurrence examples Fv 2..7.</text>
+<text x="771.0" y="533.8" font-size="14" font-weight="400" text-anchor="start" fill="#8ba0b9">Shown range: Fv 2..7.  Seeds + rule are the whole formal engine.</text>
 </g>
 <defs><clipPath id="clip3"><rect x="1428.0" y="161.0" width="631.0" height="406.8" rx="8"/></clipPath></defs>
 <rect x="1414.0" y="105.0" width="659.0" height="502.8" rx="20" fill="#0f1b2f" stroke="#315173" stroke-width="1.8"/>
@@ -92,7 +92,7 @@
 <rect x="1958.7" y="213.0" width="23.5" height="272.8" rx="4" fill="#38bdf8" stroke="#38bdf8" stroke-width="0"/>
 <text x="1970.4" y="503.8" font-size="12" font-weight="600" text-anchor="middle" fill="#cbd5e1">12</text>
 <text x="1970.4" y="206.0" font-size="12" font-weight="700" text-anchor="middle" fill="#e0f2fe">233</text>
-<text x="1456.0" y="193.0" font-size="15" font-weight="600" text-anchor="start" fill="#b9c7dc">Linear bar scale, Fv -1..12. Early values are intentionally tiny.</text>
+<text x="1456.0" y="193.0" font-size="15" font-weight="600" text-anchor="start" fill="#b9c7dc">Linear bar scale, Fv -1..12. Labels reveal both address and magnitude.</text>
 </g>
 <defs><clipPath id="clip4"><rect x="2115.0" y="161.0" width="631.0" height="406.8" rx="8"/></clipPath></defs>
 <rect x="2101.0" y="105.0" width="659.0" height="502.8" rx="20" fill="#0f1b2f" stroke="#315173" stroke-width="1.8"/>
@@ -131,7 +131,7 @@
 <text x="2638.7" y="233.5" font-size="11" font-weight="700" text-anchor="middle" fill="#bbf7d0">25</text>
 <circle cx="2696.0" cy="215.0" r="5" fill="#bbf7d0" stroke="none" stroke-width="1"/>
 <text x="2696.0" y="204.0" font-size="11" font-weight="700" text-anchor="middle" fill="#bbf7d0">28</text>
-<text x="2143.0" y="193.0" font-size="15" font-weight="600" text-anchor="start" fill="#b9c7dc">Log transform makes multiplicative growth readable; data remain discrete.</text>
+<text x="2143.0" y="193.0" font-size="15" font-weight="600" text-anchor="start" fill="#b9c7dc">Log transform makes multiplicative growth readable; markers remain discrete observations.</text>
 </g>
 <defs><clipPath id="clip5"><rect x="54.0" y="691.8" width="631.0" height="406.8" rx="8"/></clipPath></defs>
 <rect x="40.0" y="635.8" width="659.0" height="502.8" rx="20" fill="#0f1b2f" stroke="#315173" stroke-width="1.8"/>
@@ -149,6 +149,8 @@
 <text x="117.0" y="881.1" font-size="11" font-weight="500" text-anchor="end" fill="#8ba0b9">45</text>
 <line x1="121.0" y1="739.8" x2="629.0" y2="739.8" stroke="#22384d" stroke-width="1" stroke-dasharray="3 5"/>
 <text x="117.0" y="743.8" font-size="11" font-weight="500" text-anchor="end" fill="#8ba0b9">89</text>
+<line x1="126.0" y1="1014.5" x2="436.8" y2="739.8" stroke="#facc15" stroke-width="1.5" stroke-dasharray="8 7"/>
+<text x="450.0" y="762.0" font-size="12" font-weight="800" text-anchor="start" fill="#fde68a">near φ slope</text>
 <polyline points="131.7,1011.4 131.7,1008.3 137.3,1005.2 143.0,999.1 154.3,989.8 171.2,974.4 199.5,949.7 244.7,909.5 318.2,844.7 436.8,739.8" fill="none" stroke="#fbbf24" stroke-width="4" />
 <circle cx="131.7" cy="1011.4" r="7" fill="#fff7cc" stroke="#f59e0b" stroke-width="2"/>
 <circle cx="131.7" cy="1008.3" r="7" fill="#fff7cc" stroke="#f59e0b" stroke-width="2"/>
@@ -165,7 +167,7 @@
 <text x="164.3" y="981.8" font-size="12" font-weight="700" text-anchor="start" fill="#fde68a">v=5</text>
 <text x="254.7" y="901.5" font-size="12" font-weight="700" text-anchor="start" fill="#fde68a">v=8</text>
 <text x="446.8" y="731.8" font-size="12" font-weight="700" text-anchor="start" fill="#fde68a">v=10</text>
-<text x="82.0" y="723.8" font-size="15" font-weight="600" text-anchor="start" fill="#b9c7dc">Adjacent pairs expose ratio as slope: R_v = D_v / D_(v-1).</text>
+<text x="82.0" y="723.8" font-size="15" font-weight="600" text-anchor="start" fill="#b9c7dc">Adjacent pairs expose ratio as slope: R_v = D_v / D_(v-1); compare with φ-slope mentally.</text>
 </g>
 <defs><clipPath id="clip6"><rect x="741.0" y="691.8" width="631.0" height="406.8" rx="8"/></clipPath></defs>
 <rect x="727.0" y="635.8" width="659.0" height="502.8" rx="20" fill="#0f1b2f" stroke="#315173" stroke-width="1.8"/>
@@ -208,7 +210,7 @@
 <circle cx="1254.4" cy="854.3" r="5" fill="#ffd1dc" stroke="none" stroke-width="1"/>
 <circle cx="1286.2" cy="854.3" r="5" fill="#ffd1dc" stroke="none" stroke-width="1"/>
 <circle cx="1318.0" cy="854.3" r="5" fill="#ffd1dc" stroke="none" stroke-width="1"/>
-<text x="769.0" y="723.8" font-size="15" font-weight="600" text-anchor="start" fill="#b9c7dc">Finite R_v are rational; none equals φ exactly.</text>
+<text x="769.0" y="723.8" font-size="15" font-weight="600" text-anchor="start" fill="#b9c7dc">Finite R_v are rational; fractions overshoot/undershoot φ without landing on it.</text>
 </g>
 <defs><clipPath id="clip7"><rect x="1428.0" y="691.8" width="631.0" height="406.8" rx="8"/></clipPath></defs>
 <rect x="1414.0" y="635.8" width="659.0" height="502.8" rx="20" fill="#0f1b2f" stroke="#315173" stroke-width="1.8"/>
@@ -251,7 +253,7 @@
 <circle cx="1941.4" cy="937.2" r="5" fill="#ccfbf1" stroke="none" stroke-width="1"/>
 <circle cx="1973.2" cy="937.2" r="5" fill="#ccfbf1" stroke="none" stroke-width="1"/>
 <circle cx="2005.0" cy="937.2" r="5" fill="#ccfbf1" stroke="none" stroke-width="1"/>
-<text x="1456.0" y="723.8" font-size="15" font-weight="600" text-anchor="start" fill="#b9c7dc">Finite Q_v are rational; none equals 1/φ exactly.</text>
+<text x="1456.0" y="723.8" font-size="15" font-weight="600" text-anchor="start" fill="#b9c7dc">Finite Q_v mirror forward ratios; they approach 1/φ without landing on it.</text>
 </g>
 <defs><clipPath id="clip8"><rect x="2115.0" y="691.8" width="631.0" height="406.8" rx="8"/></clipPath></defs>
 <rect x="2101.0" y="635.8" width="659.0" height="502.8" rx="20" fill="#0f1b2f" stroke="#315173" stroke-width="1.8"/>
@@ -304,7 +306,7 @@
 <circle cx="2657.4" cy="853.7" r="5" fill="#ddd6fe" stroke="none" stroke-width="1"/>
 <line x1="2689.0" y1="853.7" x2="2689.0" y2="853.7" stroke="#a78bfa" stroke-width="3" />
 <circle cx="2689.0" cy="853.7" r="5" fill="#ddd6fe" stroke="none" stroke-width="1"/>
-<text x="2143.0" y="723.8" font-size="15" font-weight="600" text-anchor="start" fill="#b9c7dc">Signed error alternates around zero while shrinking in magnitude.</text>
+<text x="2143.0" y="723.8" font-size="15" font-weight="600" text-anchor="start" fill="#b9c7dc">Signed error makes the hidden over/under rhythm visible around φ.</text>
 </g>
 <defs><clipPath id="clip9"><rect x="54.0" y="1222.5" width="631.0" height="406.8" rx="8"/></clipPath></defs>
 <rect x="40.0" y="1166.5" width="659.0" height="502.8" rx="20" fill="#0f1b2f" stroke="#315173" stroke-width="1.8"/>
@@ -344,7 +346,7 @@
 <text x="326.4" y="1371.5" font-size="11" font-weight="700" text-anchor="middle" fill="#e9d5ff">v=8</text>
 <text x="493.4" y="1264.5" font-size="11" font-weight="700" text-anchor="middle" fill="#e9d5ff">v=13</text>
 <text x="627.0" y="1264.5" font-size="11" font-weight="700" text-anchor="middle" fill="#e9d5ff">v=17</text>
-<text x="82.0" y="1254.5" font-size="15" font-weight="600" text-anchor="start" fill="#b9c7dc">Higher means closer to φ; this is still finite approximation.</text>
+<text x="82.0" y="1254.5" font-size="15" font-weight="600" text-anchor="start" fill="#b9c7dc">Higher means more decimal closeness to φ, not exact equality.</text>
 </g>
 <defs><clipPath id="clip10"><rect x="741.0" y="1222.5" width="631.0" height="406.8" rx="8"/></clipPath></defs>
 <rect x="727.0" y="1166.5" width="659.0" height="502.8" rx="20" fill="#0f1b2f" stroke="#315173" stroke-width="1.8"/>
@@ -358,7 +360,7 @@
 <text x="1056.5" y="1532.5" font-size="18" font-weight="800" text-anchor="middle" fill="#dbeafe">width / height = φ ≈ 1.618034</text>
 <text x="1005.5" y="1303.5" font-size="15" font-weight="700" text-anchor="middle" fill="#fde68a">1 square</text>
 <text x="1139.0" y="1303.5" font-size="15" font-weight="700" text-anchor="middle" fill="#93c5fd">remainder φ−1 = 1/φ</text>
-<text x="769.0" y="1254.5" font-size="15" font-weight="600" text-anchor="start" fill="#b9c7dc">A φ rectangle is a reference model, not a finite Fibonacci ratio.</text>
+<text x="769.0" y="1254.5" font-size="15" font-weight="600" text-anchor="start" fill="#b9c7dc">A φ rectangle models self-similar proportion; finite Fibonacci ratios only approximate it.</text>
 </g>
 <defs><clipPath id="clip11"><rect x="1428.0" y="1222.5" width="631.0" height="406.8" rx="8"/></clipPath></defs>
 <rect x="1414.0" y="1166.5" width="659.0" height="502.8" rx="20" fill="#0f1b2f" stroke="#315173" stroke-width="1.8"/>
@@ -366,23 +368,26 @@
 <rect x="1957.0" y="1181.5" width="90.0" height="30.0" rx="15" fill="#1d2a3f" stroke="#4b6380" stroke-width="1.3"/>
 <text x="2002.0" y="1202.5" font-size="13" font-weight="850" text-anchor="middle" fill="#fde68a">APPROX</text>
 <g clip-path="url(#clip11)">
-<rect x="1698.0" y="1452.5" width="13.0" height="13.0" rx="0" fill="none" stroke="#38bdf8" stroke-width="2"/>
-<text x="1704.5" y="1464.0" font-size="13" font-weight="800" text-anchor="middle" fill="#bae6fd">1</text>
-<rect x="1711.0" y="1452.5" width="13.0" height="13.0" rx="0" fill="none" stroke="#38bdf8" stroke-width="2"/>
-<text x="1717.5" y="1464.0" font-size="13" font-weight="800" text-anchor="middle" fill="#bae6fd">1</text>
-<rect x="1698.0" y="1426.5" width="26.0" height="26.0" rx="0" fill="none" stroke="#38bdf8" stroke-width="2"/>
-<text x="1711.0" y="1444.5" font-size="13" font-weight="800" text-anchor="middle" fill="#bae6fd">2</text>
-<rect x="1659.0" y="1426.5" width="39.0" height="39.0" rx="0" fill="none" stroke="#38bdf8" stroke-width="2"/>
-<text x="1678.5" y="1451.0" font-size="13" font-weight="800" text-anchor="middle" fill="#bae6fd">3</text>
-<rect x="1659.0" y="1465.5" width="65.0" height="65.0" rx="0" fill="none" stroke="#38bdf8" stroke-width="2"/>
-<text x="1691.5" y="1503.0" font-size="13" font-weight="800" text-anchor="middle" fill="#bae6fd">5</text>
-<rect x="1724.0" y="1361.5" width="104.0" height="104.0" rx="0" fill="none" stroke="#38bdf8" stroke-width="2"/>
-<text x="1776.0" y="1418.5" font-size="13" font-weight="800" text-anchor="middle" fill="#bae6fd">8</text>
-<rect x="1828.0" y="1361.5" width="169.0" height="169.0" rx="0" fill="none" stroke="#38bdf8" stroke-width="2"/>
-<text x="1912.5" y="1451.0" font-size="13" font-weight="800" text-anchor="middle" fill="#bae6fd">13</text>
-<path d="M 1698.0 1465.5 A 13.0 13.0 0 0 0 1711.0 1452.5 A 13.0 13.0 0 0 0 1724.0 1465.5" fill="none" stroke="#fbbf24" stroke-width="3"/>
-<text x="1456.0" y="1254.5" font-size="15" font-weight="600" text-anchor="start" fill="#b9c7dc">Squares 1,1,2,3,5,8,13; arcs are a Fibonacci spiral approximation.</text>
-<text x="1456.0" y="1595.2" font-size="15" font-weight="700" text-anchor="start" fill="#fde68a">Not an exact logarithmic golden spiral.</text>
+<rect x="1736.0" y="1418.0" width="10.0" height="10.0" rx="0" fill="none" stroke="#38bdf8" stroke-width="2"/>
+<text x="1741.0" y="1428.0" font-size="12" font-weight="850" text-anchor="middle" fill="#bae6fd">1</text>
+<rect x="1746.0" y="1418.0" width="10.0" height="10.0" rx="0" fill="none" stroke="#38bdf8" stroke-width="2"/>
+<text x="1751.0" y="1428.0" font-size="12" font-weight="850" text-anchor="middle" fill="#bae6fd">1</text>
+<rect x="1736.0" y="1428.0" width="20.0" height="20.0" rx="0" fill="none" stroke="#38bdf8" stroke-width="2"/>
+<text x="1746.0" y="1443.0" font-size="12" font-weight="850" text-anchor="middle" fill="#bae6fd">2</text>
+<rect x="1706.0" y="1418.0" width="30.0" height="30.0" rx="0" fill="none" stroke="#38bdf8" stroke-width="2"/>
+<text x="1721.0" y="1438.0" font-size="12" font-weight="850" text-anchor="middle" fill="#bae6fd">3</text>
+<rect x="1706.0" y="1368.0" width="50.0" height="50.0" rx="0" fill="none" stroke="#38bdf8" stroke-width="2"/>
+<text x="1731.0" y="1398.0" font-size="12" font-weight="850" text-anchor="middle" fill="#bae6fd">5</text>
+<rect x="1756.0" y="1368.0" width="80.0" height="80.0" rx="0" fill="none" stroke="#38bdf8" stroke-width="2"/>
+<text x="1796.0" y="1413.0" font-size="16" font-weight="850" text-anchor="middle" fill="#bae6fd">8</text>
+<rect x="1706.0" y="1448.0" width="130.0" height="130.0" rx="0" fill="none" stroke="#38bdf8" stroke-width="2"/>
+<text x="1771.0" y="1518.0" font-size="16" font-weight="850" text-anchor="middle" fill="#bae6fd">13</text>
+<rect x="1496.0" y="1368.0" width="210.0" height="210.0" rx="0" fill="none" stroke="#38bdf8" stroke-width="2"/>
+<text x="1601.0" y="1478.0" font-size="16" font-weight="850" text-anchor="middle" fill="#bae6fd">21</text>
+<path d="M 1746.0 1428.0 C 1756.0 1418.0, 1771.0 1430.0, 1756.0 1448.0 C 1731.0 1476.0, 1681.0 1453.0, 1706.0 1368.0 C 1778.0 1323.0, 1866.0 1383.0, 1836.0 1498.0 C 1776.0 1628.0, 1546.0 1603.0, 1496.0 1368.0" fill="none" stroke="#fbbf24" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 7"/>
+<text x="1456.0" y="1254.5" font-size="15" font-weight="600" text-anchor="start" fill="#b9c7dc">Squares 1,1,2,3,5,8,13,21 arranged as an expanding spiral scaffold.</text>
+<text x="1456.0" y="1282.5" font-size="14" font-weight="600" text-anchor="start" fill="#8ba0b9">Dashed gold path is a visual guide over square-based quarter-turn growth.</text>
+<text x="1456.0" y="1587.2" font-size="15" font-weight="700" text-anchor="start" fill="#fde68a">Still not an exact logarithmic golden spiral.</text>
 </g>
 <defs><clipPath id="clip12"><rect x="2115.0" y="1222.5" width="631.0" height="406.8" rx="8"/></clipPath></defs>
 <rect x="2101.0" y="1166.5" width="659.0" height="502.8" rx="20" fill="#0f1b2f" stroke="#315173" stroke-width="1.8"/>
@@ -419,7 +424,7 @@
 <text x="2627.1" y="1366.3" font-size="11" font-weight="700" text-anchor="middle" fill="#fde68a">21</text>
 <circle cx="2691.0" cy="1274.5" r="7" fill="#fbbf24" stroke="none" stroke-width="1"/>
 <text x="2691.0" y="1263.5" font-size="11" font-weight="700" text-anchor="middle" fill="#fde68a">34</text>
-<text x="2143.0" y="1254.5" font-size="15" font-weight="600" text-anchor="start" fill="#b9c7dc">Markers are actual integer-step observations; dashed links show order only.</text>
+<text x="2143.0" y="1254.5" font-size="15" font-weight="600" text-anchor="start" fill="#b9c7dc">Markers are actual integer-step observations; dashed links show order, not continuity.</text>
 </g>
 <defs><clipPath id="clip13"><rect x="54.0" y="1753.2" width="631.0" height="406.8" rx="8"/></clipPath></defs>
 <rect x="40.0" y="1697.2" width="659.0" height="502.8" rx="20" fill="#0f1b2f" stroke="#315173" stroke-width="1.8"/>
@@ -438,7 +443,7 @@
 <text x="583.3" y="1849.2" font-size="15" font-weight="800" text-anchor="middle" fill="#fb7185">1.618034</text>
 <text x="583.3" y="2046.2" font-size="17" font-weight="850" text-anchor="middle" fill="#fb7185">Tomorrow</text>
 <text x="116.8" y="1941.2" font-size="1" font-weight="400" text-anchor="start" fill="#f8fafc"></text>
-<text x="82.0" y="1785.2" font-size="15" font-weight="600" text-anchor="start" fill="#b9c7dc">Interpretive coordinate; unequal distances around today.</text>
+<text x="82.0" y="1785.2" font-size="15" font-weight="600" text-anchor="start" fill="#b9c7dc">Interpretive coordinate: yesterday/today/tomorrow are φ-scaled, not evenly spaced.</text>
 <text x="82.0" y="2106.0" font-size="15" font-weight="650" text-anchor="start" fill="#cbd5e1">Past interval = 1/φ² ≈ 0.381966; future interval = 1/φ ≈ 0.618034.</text>
 </g>
 <defs><clipPath id="clip14"><rect x="741.0" y="1753.2" width="631.0" height="406.8" rx="8"/></clipPath></defs>
@@ -465,7 +470,7 @@
 <rect x="775.0" y="2004.2" width="118.0" height="30.0" rx="15" fill="#fb7185" stroke="#fb7185" stroke-width="0"/>
 <text x="834.0" y="2024.2" font-size="13" font-weight="900" text-anchor="middle" fill="#06111f">METAPHOR</text>
 <text x="913.0" y="2025.2" font-size="17" font-weight="650" text-anchor="start" fill="#dbeafe">symbolic mapping</text>
-<text x="769.0" y="2118.0" font-size="16" font-weight="800" text-anchor="start" fill="#fde68a">Rule: never promote resemblance or metaphor into proof.</text>
+<text x="769.0" y="2118.0" font-size="16" font-weight="800" text-anchor="start" fill="#fde68a">Rule: claim strength must move from data/evidence, never from visual resemblance alone.</text>
 </g>
 <defs><clipPath id="clip15"><rect x="1428.0" y="1753.2" width="631.0" height="406.8" rx="8"/></clipPath></defs>
 <rect x="1414.0" y="1697.2" width="659.0" height="502.8" rx="20" fill="#0f1b2f" stroke="#315173" stroke-width="1.8"/>
@@ -484,7 +489,7 @@
 <text x="1482.0" y="2035.2" font-size="18" font-weight="800" text-anchor="start" fill="#e0f2fe" class="mono">Fv  6  →  F_7   →  D_6 = 13</text>
 <text x="1482.0" y="2063.2" font-size="18" font-weight="800" text-anchor="start" fill="#e0f2fe" class="mono">Fv  7  →  F_8   →  D_7 = 21</text>
 <text x="1482.0" y="2091.2" font-size="18" font-weight="800" text-anchor="start" fill="#e0f2fe" class="mono">Fv  8  →  F_9   →  D_8 = 34</text>
-<text x="1456.0" y="2126.0" font-size="16" font-weight="700" text-anchor="start" fill="#b9c7dc">Conversion identity: D_v = F_(v+1).</text>
+<text x="1456.0" y="2126.0" font-size="16" font-weight="700" text-anchor="start" fill="#b9c7dc">Conversion identity: D_v = F_(v+1); this preserves the zero and duplicate one.</text>
 </g>
 <defs><clipPath id="clip16"><rect x="2115.0" y="1753.2" width="631.0" height="406.8" rx="8"/></clipPath></defs>
 <rect x="2101.0" y="1697.2" width="659.0" height="502.8" rx="20" fill="#0f1b2f" stroke="#315173" stroke-width="1.8"/>
@@ -500,7 +505,7 @@
 <text x="2155.0" y="1975.2" font-size="18" font-weight="800" text-anchor="start" fill="#bbf7d0">✓ separate geometry approximation</text>
 <text x="2155.0" y="2009.2" font-size="18" font-weight="800" text-anchor="start" fill="#bbf7d0">✓ badge metaphor as metaphor</text>
 <text x="2155.0" y="2043.2" font-size="18" font-weight="800" text-anchor="start" fill="#bbf7d0">✓ avoid resemblance → mechanism/proof</text>
-<text x="2143.0" y="2126.0" font-size="16" font-weight="700" text-anchor="start" fill="#b9c7dc">Question answered: which truths are different kinds?</text>
+<text x="2143.0" y="2126.0" font-size="16" font-weight="700" text-anchor="start" fill="#b9c7dc">Question answered: which truths are different kinds, and what audit protects them?</text>
 </g>
 <text x="1400.0" y="2220.0" font-size="17" font-weight="600" text-anchor="middle" fill="#cbd5e1">Caption: Values use the repository Fv convention. Exact recurrence, finite computation, limiting behavior, geometry approximation, evidence status, and metaphor are deliberately separated.</text>
 </svg>
