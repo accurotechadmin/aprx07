@@ -1,7 +1,7 @@
 # Fibonacci Generation Lattice: Recommended Graphs, Figures, and Documents
 
 <!-- document-relations: header -->
-> **Directly related documents:** [Cohesion Audit](Fibonacci_Cohesion_Audit.md) · [Glossary](Fibonacci_Glossary.md) · [Glossary Seed](Fibonacci_Glossary_Seed.md) · [Claim Index](Fibonacci_Statement_Claim_Index.md) · [Curated Graphs](curated_fibonacci_insight_graphs.md) · [Drawing Guide](draw.md) · [Boot-Up Prompt](fibonacci_boot_up_full_prompt.md) · [Orange Recommendations](fibonacci_orange_pressing_recommendations.md) · [Insight-Graph Suite](insightgraphsuite.md) · [Essences SSOT](the_essences.md).
+> **Directly related documents:** [Cohesion Audit](Fibonacci_Cohesion_Audit.md) · [Glossary](Fibonacci_Glossary.md) · [Glossary Seed](Fibonacci_Glossary_Seed.md) · [Claim Index](Fibonacci_Statement_Claim_Index.md) · [README](README.md) · [Boot](boot.md) · [Curated Graphs](curated_fibonacci_insight_graphs.md) · [Drawing Guide](draw.md) · [Boot-Up Prompt](fibonacci_boot_up_full_prompt.md) · [Orange Recommendations](fibonacci_orange_pressing_recommendations.md) · [Insight-Graph Suite](insightgraphsuite.md) · [Secondary Boots](secondary_boot_prompts.md) · [Essences SSOT](the_essences.md).
 <!-- /document-relations: header -->
 
 
@@ -232,11 +232,14 @@ These twenty artifacts are the best first expansion because they establish the c
 - [Fibonacci Inventory Glossary](Fibonacci_Glossary.md)
 - [Fibonacci Glossary Seed — Raw Vocabulary and Fresh-Session Prompt](Fibonacci_Glossary_Seed.md)
 - [Fibonacci Documentation Statement and Claim Index](Fibonacci_Statement_Claim_Index.md)
+- [Fibonacci Explorer Repository](README.md)
+- [Boot Prompt for Fibonacci Explorers, Mathematicians, and Artists](boot.md)
 - [Curated Fibonacci Insight Graphs](curated_fibonacci_insight_graphs.md)
 - [Expert Fibonacci Graph-Drawing Guide](draw.md)
 - [Full Fibonacci Repository Boot-Up Prompt](fibonacci_boot_up_full_prompt.md)
 - [Fibonacci Orange-Pressing Recommendations](fibonacci_orange_pressing_recommendations.md)
 - [Fibonacci Insight-Graph Suite: Authoritative Boot-Up Primer](insightgraphsuite.md)
+- [Secondary Fibonacci Boot Prompts](secondary_boot_prompts.md)
 - [The Essences: Canon / SSOT for Fibonacci Boot-Up Prompts](the_essences.md)
 
 ### Documents that link to this document
@@ -244,11 +247,14 @@ These twenty artifacts are the best first expansion because they establish the c
 - [Fibonacci Inventory Glossary](Fibonacci_Glossary.md)
 - [Fibonacci Glossary Seed — Raw Vocabulary and Fresh-Session Prompt](Fibonacci_Glossary_Seed.md)
 - [Fibonacci Documentation Statement and Claim Index](Fibonacci_Statement_Claim_Index.md)
+- [Fibonacci Explorer Repository](README.md)
+- [Boot Prompt for Fibonacci Explorers, Mathematicians, and Artists](boot.md)
 - [Curated Fibonacci Insight Graphs](curated_fibonacci_insight_graphs.md)
 - [Expert Fibonacci Graph-Drawing Guide](draw.md)
 - [Full Fibonacci Repository Boot-Up Prompt](fibonacci_boot_up_full_prompt.md)
 - [Fibonacci Orange-Pressing Recommendations](fibonacci_orange_pressing_recommendations.md)
 - [Fibonacci Insight-Graph Suite: Authoritative Boot-Up Primer](insightgraphsuite.md)
+- [Secondary Fibonacci Boot Prompts](secondary_boot_prompts.md)
 - [The Essences: Canon / SSOT for Fibonacci Boot-Up Prompts](the_essences.md)
 <!-- /document-relations: footer -->
 
