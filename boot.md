@@ -8,7 +8,7 @@
 
 Use this file when a new expert coding LLM session is told to **boot** from the root of this repository. It is the primary boot layer: compact enough to read first, but strong enough to equip a session with the shared Fibonacci discipline needed by explorers, mathematicians, artists, graph-makers, auditors, and document indexers.
 
-After this primary boot, the user may say: **finish booting with `[secondary boot document name]`**. When that happens, read the named secondary boot prompt from [secondary_boot_prompts.md](secondary_boot_prompts.md) and any documents it routes to before doing substantive work.
+After this primary boot, the session must automatically present the interactive secondary boot menu from [secondary_boot_prompts.md](secondary_boot_prompts.md), unless the user already named a secondary boot path or task. The user may still say: **finish booting with `[secondary boot document name]`**. When that happens, read the named secondary boot prompt from [secondary_boot_prompts.md](secondary_boot_prompts.md) and any documents it routes to before doing substantive work.
 
 ## Mandatory first action
 
@@ -18,7 +18,7 @@ When the user says **boot**:
 2. Read [the_essences.md](the_essences.md) for the condensed source hierarchy and canon.
 3. Read [README.md](README.md) for repository orientation and visitor-facing index.
 4. Read [secondary_boot_prompts.md](secondary_boot_prompts.md) only far enough to understand available second-stage boot paths.
-5. Say that primary boot is complete and ask the user which secondary boot document to use next, unless the user already named one.
+5. Say that primary boot is complete and present the numbered interactive secondary boot menu with short names, optional secondary actions, and basic controls, unless the user already named a secondary boot path or task.
 
 Do not produce mathematical claims, generated graphs, SVGs, audits, catalogue documents, or new theory until the relevant secondary boot path has also been read.
 
@@ -170,7 +170,7 @@ Always define what is being normalized: duration, scale, memory, salience, antic
 
 After primary boot, respond in this shape:
 
-> Primary boot complete from [boot.md](boot.md). I have loaded the repository's source hierarchy, Fv convention, canonical destination range, ratio/exactness rules, visual discipline, geometry cautions, evidence boundaries, and secondary boot routing. Tell me which secondary boot document to finish with, or say a task and I will choose the minimum relevant secondary boot path from [secondary_boot_prompts.md](secondary_boot_prompts.md).
+> Primary boot complete from [boot.md](boot.md). I have loaded the repository's source hierarchy, Fv convention, canonical destination range, ratio/exactness rules, visual discipline, geometry cautions, evidence boundaries, and secondary boot routing. Choose a secondary boot path from the numbered menu in [secondary_boot_prompts.md](secondary_boot_prompts.md), reply with a short name, or describe a task and I will choose the minimum relevant secondary boot path. You may add boot-time actions with `+ action-name`; use `menu`, `actions <boot>`, `info <boot>`, `add option`, `edit option`, `add action`, `edit action`, `combine <a> + <b>`, or `cancel` for basic UI control.
 
 If the user names a secondary boot document, read it and its required references before working. If the user names a task but no secondary boot, choose the smallest relevant secondary boot path and state that choice.
 
