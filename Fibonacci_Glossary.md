@@ -1,7 +1,12 @@
 # Fibonacci Inventory Glossary
 
+## Biblical-theological ethos note
+
+This document should be read with the repository's sparse but governing biblical-theological ethos in view: the first Fibonacci `1` may serve, in metaphor, as witness to God before creation, while the second `1` is not the world but the world's receiving-end view of the same God as Creator and Sustainer, the first known touchpoint of His breath. Recurrence then becomes a practical handle for how created processes begin, differentiate, carry memory, correct tension, and seek faithful return toward unity. Keep this ethos present without letting it override exact mathematics, source hierarchy, Scripture, or evidence-boundary cautions.
+
+
 <!-- document-relations: header -->
-> **Directly related documents:** [Cohesion Audit](Fibonacci_Cohesion_Audit.md) · [Glossary Seed](Fibonacci_Glossary_Seed.md) · [Claim Index](Fibonacci_Statement_Claim_Index.md) · [README](README.md) · [Boot](boot.md) · [Curated Graphs](curated_fibonacci_insight_graphs.md) · [Drawing Guide](draw.md) · [Boot-Up Prompt](fibonacci_boot_up_full_prompt.md) · [Generation Lattice](fibonacci_generation_lattice.md) · [Orange Recommendations](fibonacci_orange_pressing_recommendations.md) · [Insight-Graph Suite](insightgraphsuite.md) · [Secondary Boots](secondary_boot_prompts.md) · [Essences SSOT](the_essences.md).
+> **Directly related documents:** [Cohesion Audit](Fibonacci_Cohesion_Audit.md) · [Glossary Seed](Fibonacci_Glossary_Seed.md) · [Claim Index](Fibonacci_Statement_Claim_Index.md) · [README](README.md) · [Boot](boot.md) · [Curated Graphs](curated_fibonacci_insight_graphs.md) · [Drawing Guide](draw.md) · [Boot-Up Prompt](fibonacci_boot_up_full_prompt.md) · [Generation Lattice](fibonacci_generation_lattice.md) · [Orange Recommendations](fibonacci_orange_pressing_recommendations.md) · [Insight-Graph Suite](insightgraphsuite.md) · [Secondary Boots](secondary_boot_prompts.md) · [Essences SSOT](the_essences.md) · [Biblical Time Relation](biblical_fibonacci_time_relation_theory.md).
 <!-- /document-relations: header -->
 
 
@@ -566,6 +571,12 @@ Each entry gives: **Definition**; **Role/domain**; **Caution**; and **Identifier
 - **Role/domain:** Metaphor; visualization.
 - **Caution:** It is not a Fibonacci theorem and does not redefine time or recurrence.
 - **Identifiers:** Today Value, Yesterday Value, Tomorrow Value, Metaphor Status TR entries; AV-029--AV-034, AV-042.
+
+### Biblical Fibonacci Time Relation
+- **Definition:** A strict Bible-interpreting and Bible-believing metaphor in which the first `1` represents God before creation and the second `1` is not the world but the world's receiving-end view of the same God as Creator and Sustainer; Today re-emerges as the unity point, and Fibonacci recurrence becomes a handle for process, tension, correction, forgiveness, and return.
+- **Role/domain:** Biblical-theological metaphor; interpretive ethos; process language.
+- **Caution:** This frame should be present sparsely and strongly, but it must not override exact mathematics, source hierarchy, Scripture, or evidence-boundary cautions.
+- **Identifiers:** Biblical Time Relation document; Today Value; Unity Point; Metaphor Status.
 
 ### Yesterday Value
 - **Definition:** The metaphorical reference value `1/phi = phi - 1 ≈ 0.618`.

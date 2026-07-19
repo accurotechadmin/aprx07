@@ -12,6 +12,10 @@ The central claim is empirical in the mathematical sense of being visible from r
 
 A visual companion, [Fibonacci Growth-Convergence Compass](drawings/fibonacci-growth-convergence-compass.svg), draws the same progression as three coordinated discrete panels: positive destination growth, forward-ratio convergence, and shrinking ratio-error magnitude. The graph intentionally labels finite ratios as finite observations rather than exact `phi` values.
 
+## Biblical-theological ethos note
+
+This document should be read with the repository's sparse but governing biblical-theological ethos in view: the first Fibonacci `1` may serve, in metaphor, as witness to God before creation, while the second `1` is not the world but the world's receiving-end view of the same God as Creator and Sustainer, the first known touchpoint of His breath. Recurrence then becomes a practical handle for how created processes begin, differentiate, carry memory, correct tension, and seek faithful return toward unity. Keep this ethos present without letting it override exact mathematics, source hierarchy, Scripture, or evidence-boundary cautions.
+
 ## From seed values to accumulating history
 
 The Fibonacci sequence begins with almost minimal ingredients. In this repository's canonical form, the first destinations are `0, 1, 1, 2, 3, 5, 8, 13, ...`. The rule that generates the continuation is not a complicated formula imposed from outside the sequence; it is the repeated instruction `D_v = D_(v-1) + D_(v-2)` for later steps. This is why the sequence is often one of the clearest introductions to recurrence: each new destination can be verified by looking only at the two destinations immediately behind it.

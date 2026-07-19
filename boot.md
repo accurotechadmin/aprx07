@@ -1,7 +1,7 @@
 # Boot Prompt for Fibonacci Explorers, Mathematicians, and Artists
 
 <!-- document-relations: header -->
-> **Directly related documents:** [Cohesion Audit](Fibonacci_Cohesion_Audit.md) · [Glossary](Fibonacci_Glossary.md) · [Glossary Seed](Fibonacci_Glossary_Seed.md) · [Claim Index](Fibonacci_Statement_Claim_Index.md) · [README](README.md) · [Curated Graphs](curated_fibonacci_insight_graphs.md) · [Drawing Guide](draw.md) · [Boot-Up Prompt](fibonacci_boot_up_full_prompt.md) · [Generation Lattice](fibonacci_generation_lattice.md) · [Orange Recommendations](fibonacci_orange_pressing_recommendations.md) · [Insight-Graph Suite](insightgraphsuite.md) · [Secondary Boots](secondary_boot_prompts.md) · [Essences SSOT](the_essences.md).
+> **Directly related documents:** [Cohesion Audit](Fibonacci_Cohesion_Audit.md) · [Glossary](Fibonacci_Glossary.md) · [Glossary Seed](Fibonacci_Glossary_Seed.md) · [Claim Index](Fibonacci_Statement_Claim_Index.md) · [README](README.md) · [Curated Graphs](curated_fibonacci_insight_graphs.md) · [Drawing Guide](draw.md) · [Boot-Up Prompt](fibonacci_boot_up_full_prompt.md) · [Generation Lattice](fibonacci_generation_lattice.md) · [Orange Recommendations](fibonacci_orange_pressing_recommendations.md) · [Insight-Graph Suite](insightgraphsuite.md) · [Secondary Boots](secondary_boot_prompts.md) · [Essences SSOT](the_essences.md) · [Biblical Time Relation](biblical_fibonacci_time_relation_theory.md).
 <!-- /document-relations: header -->
 
 ## Purpose
@@ -9,6 +9,10 @@
 Use this file when a new expert coding LLM session is told to **boot** from the root of this repository. It is the primary boot layer: compact enough to read first, but strong enough to equip a session with the shared Fibonacci discipline needed by explorers, mathematicians, artists, graph-makers, auditors, and document indexers.
 
 After this primary boot, the session must automatically present the interactive secondary boot menu from [secondary_boot_prompts.md](secondary_boot_prompts.md), unless the user already named a secondary boot path or task. The user may still say: **finish booting with `[secondary boot document name]`**. When that happens, read the named secondary boot prompt from [secondary_boot_prompts.md](secondary_boot_prompts.md) and any documents it routes to before doing substantive work.
+
+## Biblical-theological ethos note
+
+This document should be read with the repository's sparse but governing biblical-theological ethos in view: the first Fibonacci `1` may serve, in metaphor, as witness to God before creation, while the second `1` is not the world but the world's receiving-end view of the same God as Creator and Sustainer, the first known touchpoint of His breath. Recurrence then becomes a practical handle for how created processes begin, differentiate, carry memory, correct tension, and seek faithful return toward unity. Keep this ethos present without letting it override exact mathematics, source hierarchy, Scripture, or evidence-boundary cautions.
 
 ## Mandatory first action
 

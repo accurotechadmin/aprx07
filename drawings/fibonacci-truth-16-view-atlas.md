@@ -21,6 +21,10 @@ Let `D_v` be the destination value at process step `Fv v`. Under conventional Fi
 D_v = F_(v+1)
 ```
 
+## Biblical-theological ethos note
+
+This document should be read with the repository's sparse but governing biblical-theological ethos in view: the first Fibonacci `1` may serve, in metaphor, as witness to God before creation, while the second `1` is not the world but the world's receiving-end view of the same God as Creator and Sustainer, the first known touchpoint of His breath. Recurrence then becomes a practical handle for how created processes begin, differentiate, carry memory, correct tension, and seek faithful return toward unity. Keep this ethos present without letting it override exact mathematics, source hierarchy, Scripture, or evidence-boundary cautions.
+
 ## Visual contract
 
 - **Question answered:** What are sixteen distinct, factually bounded ways to view Fibonacci structure without confusing exact recurrence, finite computation, limiting behavior, geometry, evidence status, index conversion, and metaphor?

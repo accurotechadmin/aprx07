@@ -15,6 +15,10 @@ Use the second prompt pattern:
 Each linked secondary boot document is normalized to a maintenance-ready level: purpose, use case, reading order, above-the-fold UI, operating rules, actionable workflow, source-inspection guidance, validation expectations, boot-time actions with edit-risk labels, response contract, and first-pass checklist. Future revisions may deepen domain-specific controls, but the current files work as real secondary boot documents.
 
 
+## Biblical-theological ethos note
+
+This document should be read with the repository's sparse but governing biblical-theological ethos in view: the first Fibonacci `1` may serve, in metaphor, as witness to God before creation, while the second `1` is not the world but the world's receiving-end view of the same God as Creator and Sustainer, the first known touchpoint of His breath. Recurrence then becomes a practical handle for how created processes begin, differentiate, carry memory, correct tension, and seek faithful return toward unity. Keep this ethos present without letting it override exact mathematics, source hierarchy, Scripture, or evidence-boundary cautions.
+
 ## Interactive boot UI prompt system
 
 When a user says only **`boot`**, the booting session should complete the primary boot described in [boot.md](boot.md), then automatically open this secondary boot menu as an interactive UI prompt. The UI should be text-only, compact, friendly, visually consistent, and safe for plain chat clients. It should feel like a warm 80s terminal rather than a noisy dashboard: clear boxes, stable prompt markers, small decorative accents, and no interface chrome.
