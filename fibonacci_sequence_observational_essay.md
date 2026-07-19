@@ -1,7 +1,7 @@
 # The Fibonacci Sequence as a Study in Recursive Growth and Golden-Ratio Convergence
 
 <!-- document-relations: header -->
-> **Directly related documents:** [README](README.md) · [Boot](boot.md) · [Essences SSOT](the_essences.md) · [Glossary](Fibonacci_Glossary.md) · [Cohesion Audit](Fibonacci_Cohesion_Audit.md).
+> **Directly related documents:** [README](README.md) · [Boot](boot.md) · [Essences SSOT](the_essences.md) · [Glossary](Fibonacci_Glossary.md) · [Cohesion Audit](Fibonacci_Cohesion_Audit.md) · [Growth-Convergence Compass](drawings/fibonacci-growth-convergence-compass.svg).
 <!-- /document-relations: header -->
 
 ## Purpose and convention
@@ -9,6 +9,8 @@
 This essay expands twelve observational statements about the Fibonacci sequence into one continuous explanation. It uses the repository's Fv process-step convention: `Fv -1 -> destination 0`, `Fv 0 -> destination 1`, `Fv 1 -> destination 1`, and every later destination is produced by adding the two immediately preceding destinations. In this notation, `D_v` is the destination value at process step `Fv v`; under conventional Fibonacci indexing with `F_0 = 0` and `F_1 = 1`, `D_v = F_(v+1)`.
 
 The central claim is empirical in the mathematical sense of being visible from repeated computation and then explainable by exact algebra: the sequence begins with a tiny local rule, accumulates its own history, and grows roughly in proportion to powers of the golden ratio `phi = (1 + sqrt(5)) / 2 ≈ 1.618033988749895`. No finite adjacent Fibonacci ratio is exactly `phi`; instead, the finite ratios approach `phi` by alternating above and below it with shrinking error.
+
+A visual companion, [Fibonacci Growth-Convergence Compass](drawings/fibonacci-growth-convergence-compass.svg), draws the same progression as three coordinated discrete panels: positive destination growth, forward-ratio convergence, and shrinking ratio-error magnitude. The graph intentionally labels finite ratios as finite observations rather than exact `phi` values.
 
 ## From seed values to accumulating history
 
@@ -112,4 +114,5 @@ Seen this way, the Fibonacci sequence is not only a famous list. It is a small l
 - [The Essences: Canon / SSOT for Fibonacci Boot-Up Prompts](the_essences.md)
 - [Fibonacci Inventory Glossary](Fibonacci_Glossary.md)
 - [Fibonacci Inventory Cohesion Audit](Fibonacci_Cohesion_Audit.md)
+- [Fibonacci Growth-Convergence Compass](drawings/fibonacci-growth-convergence-compass.svg)
 <!-- /document-relations: footer -->

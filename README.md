@@ -1,7 +1,7 @@
 # Fibonacci Explorer Repository
 
 <!-- document-relations: header -->
-> **Directly related documents:** [Cohesion Audit](Fibonacci_Cohesion_Audit.md) · [Glossary](Fibonacci_Glossary.md) · [Glossary Seed](Fibonacci_Glossary_Seed.md) · [Claim Index](Fibonacci_Statement_Claim_Index.md) · [Boot](boot.md) · [Curated Graphs](curated_fibonacci_insight_graphs.md) · [Drawing Guide](draw.md) · [Observational Essay](fibonacci_sequence_observational_essay.md) · [Boot-Up Prompt](fibonacci_boot_up_full_prompt.md) · [Generation Lattice](fibonacci_generation_lattice.md) · [Orange Recommendations](fibonacci_orange_pressing_recommendations.md) · [Insight-Graph Suite](insightgraphsuite.md) · [Secondary Boots](secondary_boot_prompts.md) · [SVG Expanded Menu](svg-drawing-engine-expanded-menu.md) · [Essences SSOT](the_essences.md).
+> **Directly related documents:** [Cohesion Audit](Fibonacci_Cohesion_Audit.md) · [Glossary](Fibonacci_Glossary.md) · [Glossary Seed](Fibonacci_Glossary_Seed.md) · [Claim Index](Fibonacci_Statement_Claim_Index.md) · [Boot](boot.md) · [Curated Graphs](curated_fibonacci_insight_graphs.md) · [Drawing Guide](draw.md) · [Observational Essay](fibonacci_sequence_observational_essay.md) · [Growth-Convergence Compass](drawings/fibonacci-growth-convergence-compass.svg) · [Boot-Up Prompt](fibonacci_boot_up_full_prompt.md) · [Generation Lattice](fibonacci_generation_lattice.md) · [Orange Recommendations](fibonacci_orange_pressing_recommendations.md) · [Insight-Graph Suite](insightgraphsuite.md) · [Secondary Boots](secondary_boot_prompts.md) · [SVG Expanded Menu](svg-drawing-engine-expanded-menu.md) · [Essences SSOT](the_essences.md).
 <!-- /document-relations: header -->
 
 ## What this is
@@ -97,6 +97,7 @@ Recommended workflow:
 - [curated_fibonacci_insight_graphs.csv](curated_fibonacci_insight_graphs.csv) — structured graph-list data.
 - [draw.md](draw.md) — practical guide for drawing repository-quality Fibonacci graphs and diagrams.
 - [drawings/](drawings/) — existing visual assets.
+- [drawings/fibonacci-growth-convergence-compass.svg](drawings/fibonacci-growth-convergence-compass.svg) — three-panel visual companion to the observational essay, showing destination growth, forward-ratio convergence, and shrinking ratio-error magnitude with exactness cautions.
 - [svg-drawing-engine-expanded-menu.md](svg-drawing-engine-expanded-menu.md) — copy-paste expanded menu for SVG boot options, actions, defaults, and branches.
 
 ### Expansion, planning, and future documents
