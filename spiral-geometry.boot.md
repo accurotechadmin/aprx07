@@ -21,6 +21,30 @@ Use this path when the user's task primarily needs: fibonacci square layouts, qu
 5. [draw.md](draw.md)
 6. [insightgraphsuite.md](insightgraphsuite.md)
 
+
+## Above-the-fold boot display
+
+When this option is selected, show its featured optimization line before optional actions so the user's next choice is guided by the strongest mode-specific lessons.
+
+```text
+╔════════════════════════════════════════════════════════════════╗
+║ FIBONACCI EXPLORER // SPIRAL-GEOMETRY                     ║
+║ GEOMETRY MODE                                         ║
+╚════════════════════════════════════════════════════════════════╝
+> :: FEATURE :: square-integrity | arc-center-audit | golden-vs-fibonacci-separation
+> :: FAST PATH :: option number loads now; actions may be added next
+> :: CONFIRM PATH :: use actions/info/combine to preview before finalizing
+
+   /\
+  /**\
+ /****\
+   ||
+
+> No artifact has been created yet; awaiting actionable task.
+```
+
+Whimsical trees are decorative only. They must not encode status, warnings, data, or navigation. Keep them sparse: no more than three trees per screen view, and not every screen needs trees.
+
 ## Operating rules
 
 - Preserve the repository Fv convention unless the task explicitly requests another convention and a conversion is shown.
@@ -28,6 +52,20 @@ Use this path when the user's task primarily needs: fibonacci square layouts, qu
 - Name source documents for claims and prefer TR/AV/REF authority over synthesis or examples.
 - Before producing artifacts, state the question being answered, the data lineage, and what the result does not prove.
 - Keep edits draft-safe unless the user clearly asks for repository changes.
+
+
+## Actionable request workflow
+
+When the user gives an actionable task after this boot is complete:
+
+1. Parse the task, selected actions, output expectations, and audience.
+2. Declare the working contract: question, domain, Fv convention or conversion, source lineage, and evidence boundary.
+3. Apply the featured principle: Protect square geometry and prevent golden/Fibonacci spiral confusion.
+4. Inspect relevant inputs before producing new output: truth/avoid inventories, drawing guide, graph suite, and any target geometry asset.
+5. Build the factual skeleton before style, expansion, pedagogy, metaphor, or edits.
+6. Produce the requested output: square layout, arc-center audit, golden comparison, and claim caveats.
+7. Validate with the cheapest useful source, consistency, syntax, formula, or repository checks available.
+8. Report changes or conclusions with file citations and emoji-prefixed checks when files changed.
 
 ## Boot-time actions
 

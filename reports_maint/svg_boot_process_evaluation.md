@@ -163,6 +163,10 @@ When the user makes an actionable request after booting into option `4`, the ass
 - Add `menu compact` as a supported secondary boot UI control.
 - Add an explicit post-boot statement that no artifact has been created until the user gives a drawing task.
 
+## Implemented refinement pass
+
+A follow-up maintenance pass implemented the report's recommendations in the active boot documents. The global secondary menu now defines fast-path and confirm-path behavior, edit-risk labels, a universal actionable-task sequence, primitive UI display conventions, compact menu behavior, and featured above-the-fold optimizations for every boot option. The SVG boot file now acts as the reference implementation with an above-the-fold display, actionable SVG workflow, output-mode defaults, preferred validation commands, richer reuse-assets table, graph-artist routing guidance, and minimal prompt examples.
+
 ## Overall assessment
 
 The boot process successfully gets the session to a fully booted SVG option. Its strongest features are the two-stage safety model, the Fv convention protections, the SVG-specific artifact contract, the existing-asset reuse procedure, and the compact control vocabulary. The main improvements are procedural clarity after a numbered selection, richer asset context, a standardized actionable-task template, and clearer labeling of which boot actions are read-only versus file-modifying.
