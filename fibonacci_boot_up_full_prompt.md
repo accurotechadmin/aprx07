@@ -1,24 +1,29 @@
 # Full Fibonacci Repository Boot-Up Prompt
 
+<!-- document-relations: header -->
+> **Directly related documents:** [Cohesion Audit](Fibonacci_Cohesion_Audit.md) · [Glossary](Fibonacci_Glossary.md) · [Glossary Seed](Fibonacci_Glossary_Seed.md) · [Claim Index](Fibonacci_Statement_Claim_Index.md) · [Curated Graphs](curated_fibonacci_insight_graphs.md) · [Drawing Guide](draw.md) · [Generation Lattice](fibonacci_generation_lattice.md) · [Orange Recommendations](fibonacci_orange_pressing_recommendations.md) · [Insight-Graph Suite](insightgraphsuite.md) · [Essences SSOT](the_essences.md).
+<!-- /document-relations: header -->
+
+
 Use this prompt at the beginning of a new session that must become fully acquainted with this repository before doing Fibonacci writing, math, graphing, auditing, or visual production.
 
 ## Mission
 
-Boot up into the repository's Fibonacci discipline: read the governing documents in the required order, study every repository document, return to `the_essences.md`, and become ready to produce Fibonacci-accurate vernacular, calculations, tables, graphs, SVGs, and audits.
+Boot up into the repository's Fibonacci discipline: read the governing documents in the required order, study every repository document, return to [`the_essences.md`](the_essences.md), and become ready to produce Fibonacci-accurate vernacular, calculations, tables, graphs, SVGs, and audits.
 
 ## Required reading order
 
-1. Read `the_essences.md` in full first. Treat it as the condensed routing layer and single-source-of-truth summary for the boot-up process.
+1. Read [`the_essences.md`](the_essences.md) in full first. Treat it as the condensed routing layer and single-source-of-truth summary for the boot-up process.
 2. Read every other document in the repository line by line, including Markdown, CSV, spreadsheet, SVG/image assets by source and visual inspection when relevant, and text extracted from `.docx` files.
-3. Re-read `the_essences.md` in full after the corpus pass.
-4. Follow the document-specific routing named by `the_essences.md`: re-read `02_Fibonacci_Truth_Inventory.docx`, `01_Fibonacci_Avoids_and_Error_Inventory.docx`, `insightgraphsuite.md`, and `draw.md` before making any substantive Fibonacci claim or graphing decision.
-5. Use targeted refreshes of `03_Fibonacci_Inventory_Documents_Detailed_Description.docx`, `Fibonacci_Glossary.md`, `Fibonacci_Cohesion_Audit.md`, `Fibonacci_Statement_Claim_Index.md`, `curated_fibonacci_insight_graphs.md`, `curated_fibonacci_insight_graphs.csv`, `Fibonacci Boot-Up Primer.docx`, `Comprehensive Report on the Fibonacci Inventory Documents.docx`, `Fibonacci_Glossary_Seed.md`, `fibonacci_first_100_with_ratios.xlsx`, and `drawings/` assets according to the hierarchy and task.
+3. Re-read [`the_essences.md`](the_essences.md) in full after the corpus pass.
+4. Follow the document-specific routing named by [`the_essences.md`](the_essences.md): re-read [`02_Fibonacci_Truth_Inventory.docx`](02_Fibonacci_Truth_Inventory.docx), [`01_Fibonacci_Avoids_and_Error_Inventory.docx`](01_Fibonacci_Avoids_and_Error_Inventory.docx), [`insightgraphsuite.md`](insightgraphsuite.md), and [`draw.md`](draw.md) before making any substantive Fibonacci claim or graphing decision.
+5. Use targeted refreshes of [`03_Fibonacci_Inventory_Documents_Detailed_Description.docx`](03_Fibonacci_Inventory_Documents_Detailed_Description.docx), [`Fibonacci_Glossary.md`](Fibonacci_Glossary.md), [`Fibonacci_Cohesion_Audit.md`](Fibonacci_Cohesion_Audit.md), [`Fibonacci_Statement_Claim_Index.md`](Fibonacci_Statement_Claim_Index.md), [`curated_fibonacci_insight_graphs.md`](curated_fibonacci_insight_graphs.md), [`curated_fibonacci_insight_graphs.csv`](curated_fibonacci_insight_graphs.csv), [`Fibonacci Boot-Up Primer.docx`](Fibonacci%20Boot-Up%20Primer.docx), [`Comprehensive Report on the Fibonacci Inventory Documents.docx`](Comprehensive%20Report%20on%20the%20Fibonacci%20Inventory%20Documents.docx), [`Fibonacci_Glossary_Seed.md`](Fibonacci_Glossary_Seed.md), [`fibonacci_first_100_with_ratios.xlsx`](fibonacci_first_100_with_ratios.xlsx), and `drawings/` assets according to the hierarchy and task.
 
 ## Source hierarchy to state back before working
 
 1. Truth Inventory (`TR`) for positive facts.
 2. Avoids Inventory (`AV`) and reference appendix (`REF`) for failure modes and canonical Fv -1 through Fv 28 destinations.
-3. `insightgraphsuite.md` and `draw.md` for graph-selection and drawing standards.
+3. [`insightgraphsuite.md`](insightgraphsuite.md) and [`draw.md`](draw.md) for graph-selection and drawing standards.
 4. Detailed Description for structure and crosswalk.
 5. Cohesion Audit and Statement/Claim Index for verification and traceability.
 6. Glossary and Glossary Seed for vocabulary and provenance.
@@ -86,3 +91,33 @@ After the boot-up reading and audit, produce a concise but complete boot-up repo
 - errors or discrepancies found and fixed, if any;
 - remaining open questions, if any;
 - readiness statement for producing Fibonacci-accurate vernacular, graphs, SVGs, calculations, and audits.
+---
+
+<!-- document-relations: footer -->
+## Document link index
+
+### Documents this document links to
+- [Fibonacci Inventory Cohesion Audit](Fibonacci_Cohesion_Audit.md)
+- [Fibonacci Inventory Glossary](Fibonacci_Glossary.md)
+- [Fibonacci Glossary Seed — Raw Vocabulary and Fresh-Session Prompt](Fibonacci_Glossary_Seed.md)
+- [Fibonacci Documentation Statement and Claim Index](Fibonacci_Statement_Claim_Index.md)
+- [Curated Fibonacci Insight Graphs](curated_fibonacci_insight_graphs.md)
+- [Expert Fibonacci Graph-Drawing Guide](draw.md)
+- [Fibonacci Generation Lattice: Recommended Graphs, Figures, and Documents](fibonacci_generation_lattice.md)
+- [Fibonacci Orange-Pressing Recommendations](fibonacci_orange_pressing_recommendations.md)
+- [Fibonacci Insight-Graph Suite: Authoritative Boot-Up Primer](insightgraphsuite.md)
+- [The Essences: Canon / SSOT for Fibonacci Boot-Up Prompts](the_essences.md)
+
+### Documents that link to this document
+- [Fibonacci Inventory Cohesion Audit](Fibonacci_Cohesion_Audit.md)
+- [Fibonacci Inventory Glossary](Fibonacci_Glossary.md)
+- [Fibonacci Glossary Seed — Raw Vocabulary and Fresh-Session Prompt](Fibonacci_Glossary_Seed.md)
+- [Fibonacci Documentation Statement and Claim Index](Fibonacci_Statement_Claim_Index.md)
+- [Curated Fibonacci Insight Graphs](curated_fibonacci_insight_graphs.md)
+- [Expert Fibonacci Graph-Drawing Guide](draw.md)
+- [Fibonacci Generation Lattice: Recommended Graphs, Figures, and Documents](fibonacci_generation_lattice.md)
+- [Fibonacci Orange-Pressing Recommendations](fibonacci_orange_pressing_recommendations.md)
+- [Fibonacci Insight-Graph Suite: Authoritative Boot-Up Primer](insightgraphsuite.md)
+- [The Essences: Canon / SSOT for Fibonacci Boot-Up Prompts](the_essences.md)
+<!-- /document-relations: footer -->
+

@@ -1,5 +1,10 @@
 # Fibonacci Inventory Glossary
 
+<!-- document-relations: header -->
+> **Directly related documents:** [Cohesion Audit](Fibonacci_Cohesion_Audit.md) · [Glossary Seed](Fibonacci_Glossary_Seed.md) · [Claim Index](Fibonacci_Statement_Claim_Index.md) · [Curated Graphs](curated_fibonacci_insight_graphs.md) · [Drawing Guide](draw.md) · [Boot-Up Prompt](fibonacci_boot_up_full_prompt.md) · [Generation Lattice](fibonacci_generation_lattice.md) · [Orange Recommendations](fibonacci_orange_pressing_recommendations.md) · [Insight-Graph Suite](insightgraphsuite.md) · [Essences SSOT](the_essences.md).
+<!-- /document-relations: header -->
+
+
 ## Governing convention and source hierarchy
 
 This glossary follows the repository's governing **Fv convention**: **Fv -1 -> destination 0**, **Fv 0 -> destination 1**, **Fv 1 -> destination 1**, and every later destination is obtained by adding the two immediately preceding destinations. **Fv** names a process step; **D_v** names the destination value at that step. Under conventional Fibonacci indexing with `F_0 = 0` and `F_1 = 1`, `D_v = F_(v+1)`.
@@ -1317,3 +1322,33 @@ Each entry gives: **Definition**; **Role/domain**; **Caution**; and **Identifier
 ## Audit-use note
 
 Use this glossary as a navigation aid alongside the governing documents. For correctness, check positive facts against the **Truth Inventory**, classify deviations with the **Avoids Inventory**, consult the **Detailed Description** for identifier namespaces and document organization, and use the **Comprehensive Report** for high-level synthesis and known limitations. In every audit, preserve the Fv convention, keep process steps distinct from destination values, maintain exact fractions and symbolic constants where exactness matters, mark rounded decimals as approximations, and avoid claiming that any finite Fibonacci ratio equals phi or `1/phi` exactly.
+---
+
+<!-- document-relations: footer -->
+## Document link index
+
+### Documents this document links to
+- [Fibonacci Inventory Cohesion Audit](Fibonacci_Cohesion_Audit.md)
+- [Fibonacci Glossary Seed — Raw Vocabulary and Fresh-Session Prompt](Fibonacci_Glossary_Seed.md)
+- [Fibonacci Documentation Statement and Claim Index](Fibonacci_Statement_Claim_Index.md)
+- [Curated Fibonacci Insight Graphs](curated_fibonacci_insight_graphs.md)
+- [Expert Fibonacci Graph-Drawing Guide](draw.md)
+- [Full Fibonacci Repository Boot-Up Prompt](fibonacci_boot_up_full_prompt.md)
+- [Fibonacci Generation Lattice: Recommended Graphs, Figures, and Documents](fibonacci_generation_lattice.md)
+- [Fibonacci Orange-Pressing Recommendations](fibonacci_orange_pressing_recommendations.md)
+- [Fibonacci Insight-Graph Suite: Authoritative Boot-Up Primer](insightgraphsuite.md)
+- [The Essences: Canon / SSOT for Fibonacci Boot-Up Prompts](the_essences.md)
+
+### Documents that link to this document
+- [Fibonacci Inventory Cohesion Audit](Fibonacci_Cohesion_Audit.md)
+- [Fibonacci Glossary Seed — Raw Vocabulary and Fresh-Session Prompt](Fibonacci_Glossary_Seed.md)
+- [Fibonacci Documentation Statement and Claim Index](Fibonacci_Statement_Claim_Index.md)
+- [Curated Fibonacci Insight Graphs](curated_fibonacci_insight_graphs.md)
+- [Expert Fibonacci Graph-Drawing Guide](draw.md)
+- [Full Fibonacci Repository Boot-Up Prompt](fibonacci_boot_up_full_prompt.md)
+- [Fibonacci Generation Lattice: Recommended Graphs, Figures, and Documents](fibonacci_generation_lattice.md)
+- [Fibonacci Orange-Pressing Recommendations](fibonacci_orange_pressing_recommendations.md)
+- [Fibonacci Insight-Graph Suite: Authoritative Boot-Up Primer](insightgraphsuite.md)
+- [The Essences: Canon / SSOT for Fibonacci Boot-Up Prompts](the_essences.md)
+<!-- /document-relations: footer -->
+
