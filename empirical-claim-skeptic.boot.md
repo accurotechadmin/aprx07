@@ -10,7 +10,7 @@ Auditing claims about nature, shells, bodies, markets, architecture, behavior, a
 
 ## Biblical-theological ethos note
 
-This document should be read with the repository's sparse but governing biblical-theological ethos in view: the Fibonacci `1` may serve, in metaphor, as a witness to the ever-present One above all and with all; recurrence then becomes a practical handle for how created processes begin, differentiate, carry memory, correct tension, and seek faithful return toward unity. Keep this ethos present without letting it override exact mathematics, source hierarchy, or evidence-boundary cautions.
+This document should be read with the repository's sparse but governing biblical-theological ethos in view: the Fibonacci `1` may serve, in metaphor, as a witness to the same God before creation and after creation. The second `1` is not the world itself; it is the same `1` received from the world's side, the first known touchpoint of God as Creator and Sustainer, a `1` unto others. Recurrence then becomes a practical handle for how created processes begin, differentiate, carry memory, live with tension, receive correction, and are drawn toward faithful return and tensionlessness. Keep this ethos present without letting it override exact mathematics, source hierarchy, Scripture, or evidence-boundary cautions.
 
 ## When to use
 
