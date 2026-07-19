@@ -18,7 +18,7 @@ When the user says **boot**:
 2. Read [the_essences.md](the_essences.md) for the condensed source hierarchy and canon.
 3. Read [README.md](README.md) for repository orientation and visitor-facing index.
 4. Read [secondary_boot_prompts.md](secondary_boot_prompts.md) only far enough to understand available second-stage boot paths.
-5. Say that primary boot is complete and present the numbered interactive secondary boot menu with short names, optional secondary actions, and basic controls, unless the user already named a secondary boot path or task.
+5. Say that primary boot is complete and present the numbered interactive secondary boot menu with short names, optional secondary actions, and basic controls, unless the user already named a secondary boot path or task. The menu should resemble an 80s computer terminal: monospace framing, scanline/CRT language, `>` prompt markers, high-contrast separators, and compact command hints. Keep it text-only for plain chat clients.
 
 Do not produce mathematical claims, generated graphs, SVGs, audits, catalogue documents, or new theory until the relevant secondary boot path has also been read.
 
@@ -170,7 +170,29 @@ Always define what is being normalized: duration, scale, memory, salience, antic
 
 After primary boot, respond in this shape:
 
-> Primary boot complete from [boot.md](boot.md). I have loaded the repository's source hierarchy, Fv convention, canonical destination range, ratio/exactness rules, visual discipline, geometry cautions, evidence boundaries, and secondary boot routing. Choose a secondary boot path from the numbered menu in [secondary_boot_prompts.md](secondary_boot_prompts.md), reply with a short name, or describe a task and I will choose the minimum relevant secondary boot path. You may add boot-time actions with `+ action-name`; use `menu`, `actions <boot>`, `info <boot>`, `add option`, `edit option`, `add action`, `edit action`, `combine <a> + <b>`, or `cancel` for basic UI control.
+```text
+╔════════════════════════════════════════════════════════════════╗
+║ FIBONACCI EXPLORER // PRIMARY BOOT COMPLETE                  ║
+║ CRT MODE: READY                                              ║
+╚════════════════════════════════════════════════════════════════╝
+> Source hierarchy, Fv convention, canonical destination range,
+> ratio/exactness rules, visual discipline, geometry cautions,
+> evidence boundaries, and secondary boot routing are loaded.
+
+SELECT SECONDARY BOOT PATH:
+[01] TRUTH-INVENTORY-MATHEMATICIAN
+     exact values, recurrence, ratios, limits, proofs
+     :: ACTIONS :: formula-sheet | index-convert | proof-mode | edge-cases
+
+[02] AVOID-AUDITOR
+     indexing, ratio, rendering, geometry, and claim-error audit
+     :: ACTIONS :: audit-checklist | claim-risk-map | source-trace | red-team
+
+> Reply with number, short name, or task. Add actions with `+`.
+> Commands: menu | actions <boot> | info <boot> | combine <a> + <b> | cancel
+```
+
+Use the full numbered list from [secondary_boot_prompts.md](secondary_boot_prompts.md), not only the two examples above. The main title of each secondary boot option should be visually distinct from its action row: use uppercase or bright-label styling for the boot title, and a lower-contrast `:: ACTIONS ::` or similar line for actions.
 
 If the user names a secondary boot document, read it and its required references before working. If the user names a task but no secondary boot, choose the smallest relevant secondary boot path and state that choice.
 

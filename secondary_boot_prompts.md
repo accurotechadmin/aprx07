@@ -6,13 +6,13 @@
 
 ## Purpose
 
-This is a menu of recommended secondary boot prompts. These are not the full secondary documents themselves. They are named boot paths that a future session can fully enter **after** completing the primary boot in [boot.md](boot.md).
+This is a menu of recommended secondary boot prompts. The listed boot paths now have first-draft `.boot.md` documents that a future session can fully enter **after** completing the primary boot in [boot.md](boot.md).
 
 Use the second prompt pattern:
 
 > finish booting with `[secondary boot name]`
 
-A future curated secondary boot document may be created from any item below. Until those documents exist, the booting session should use the named path, read the listed sources, and state what working mode it has entered.
+Each linked secondary boot document is normalized to an MVP level: purpose, use case, reading order, operating rules, boot-time actions, response contract, and first-pass checklist. Future revisions may deepen them, but the current drafts should work as real secondary boot documents.
 
 
 ## Interactive boot UI prompt system
@@ -31,25 +31,36 @@ When a user says only **`boot`**, the booting session should complete the primar
 
 ### Recommended prompt shape after primary boot
 
-```text
-Primary boot complete. Choose a secondary boot path:
+The secondary-choice UI should feel like an 80s computer terminal while remaining plain text. Use a boxed title, `>` prompt markers, bracketed numbers, uppercase boot titles, and a separate lower-contrast action row so actions are visually distinct from the main option title.
 
-1. truth-inventory-mathematician — exact values, recurrence, ratios, limits, proofs
-2. avoid-auditor — indexing, ratio, rendering, geometry, and claim-error audit
+```text
+╔════════════════════════════════════════════════════════════════╗
+║ FIBONACCI EXPLORER // SECONDARY BOOT MENU                    ║
+║ SELECT MODE                                                  ║
+╚════════════════════════════════════════════════════════════════╝
+
+[01] TRUTH-INVENTORY-MATHEMATICIAN
+     exact values, recurrence, ratios, limits, proofs
+     :: ACTIONS :: formula-sheet | index-convert | proof-mode | edge-cases
+
+[02] AVOID-AUDITOR
+     indexing, ratio, rendering, geometry, and claim-error audit
+     :: ACTIONS :: audit-checklist | claim-risk-map | source-trace | red-team
+
 ...
 
-Reply with a number, a short name, or a task description.
-Optional: add actions after a plus sign, e.g. "3 + sketch-plan, cite-sources".
-Controls: menu, actions <boot>, info <boot>, add option, edit option, add action, edit action, combine <a> + <b>, cancel.
+> INPUT: number | short-name | task description
+> ADD ACTIONS: 3 + sketch-plan, label-audit
+> CONTROLS: menu | actions <boot> | info <boot> | combine <a> + <b> | cancel
 ```
 
 ### Selection grammar
 
 - **Number:** `3` selects menu item 3.
-- **Short name:** `graph-artist` or `graph-artist.boot.md` selects the same path.
+- **Short name:** `graph-artist` or [`graph-artist.boot.md`](graph-artist.boot.md) selects the same path.
 - **With actions:** `3 + sketch-plan, cite-sources` selects a path and secondary actions.
 - **Combination:** `combine graph-artist + svg-drawing-engine` loads both paths, unless the task would be better served by choosing only one.
-- **Task inference:** `I need to audit a shell spiral claim` routes to the minimum relevant path, usually `empirical-claim-skeptic.boot.md` plus `spiral-geometry.boot.md` if geometry is central.
+- **Task inference:** `I need to audit a shell spiral claim` routes to the minimum relevant path, usually [`empirical-claim-skeptic.boot.md`](empirical-claim-skeptic.boot.md) plus [`spiral-geometry.boot.md`](spiral-geometry.boot.md) if geometry is central.
 
 ### Basic UI controls
 
@@ -85,41 +96,41 @@ Default safety rule: unless the user clearly authorizes repository edits, second
 
 | Secondary boot name | Suggested boot-time actions |
 |---|---|
-| `truth-inventory-mathematician.boot.md` | `formula-sheet` — summarize active formulas; `index-convert` — prepare Fv/conventional conversion notes; `proof-mode` — enable proof-first response framing; `edge-cases` — list exactness and finite-ratio cautions. |
-| `avoid-auditor.boot.md` | `audit-checklist` — prepare common error checklist; `claim-risk-map` — rank likely failure modes; `source-trace` — prepare source citation map; `red-team` — respond adversarially before proposing fixes. |
-| `graph-artist.boot.md` | `sketch-plan` — propose 2–5 visual concepts; `question-first` — force each graph to answer a stated question; `aesthetic-variants` — prepare restrained, vivid, and minimalist variants; `label-audit` — precheck title, axes, legend, and caveats. |
-| `svg-drawing-engine.boot.md` | `canvas-spec` — define dimensions and coordinate system; `export-check` — prepare SVG validation checklist; `accessibility-pass` — plan title/description/contrast labels; `reuse-assets` — inspect existing drawings before creating new ones. |
-| `spiral-geometry.boot.md` | `square-layout` — set up square and arc constraints; `golden-comparison` — separate Fibonacci spiral approximation from logarithmic golden spiral; `geometry-audit` — check centers, radii, tangency, and scaling; `claim-caveats` — prepare geometry limitation notes. |
-| `normalized-time-metaphor.boot.md` | `metaphor-badge` — state metaphor status and normalized quantity; `asymmetry-note` — include interval asymmetry; `concept-map` — draft planning/salience/memory axes; `caveat-card` — list what the metaphor does not prove. |
-| `document-indexer.boot.md` | `link-audit` — check bidirectional links; `catalog-row` — prepare catalogue metadata; `source-hierarchy-map` — summarize authority relationships; `staleness-check` — identify likely stale index entries. |
-| `claim-traceability.boot.md` | `claim-table` — prepare claim/source/status columns; `contradiction-scan` — look for tension across documents; `citation-pack` — collect relevant citations; `open-questions` — list unresolved claims. |
-| `glossary-terminologist.boot.md` | `term-card` — create definition/source/usage cards; `namespace-check` — preserve identifier namespaces; `synonym-merge` — identify duplicate terms; `definition-audit` — separate claims from vocabulary. |
-| `orange-pressing-expander.boot.md` | `branch-map` — generate expansion branches; `artifact-list` — propose documents, graphs, datasets, and lessons; `priority-sort` — rank expansions by value; `return-to-core` — map creative ideas back to exactness. |
-| `generation-lattice-planner.boot.md` | `lattice-position` — place work on horizontal/vertical lattice; `next-three` — propose next three artifacts; `dependency-map` — list prerequisites; `manifest-draft` — draft JSON/Markdown updates. |
-| `empirical-claim-skeptic.boot.md` | `rival-models` — list non-Fibonacci explanations; `evidence-grid` — separate resemblance, correlation, mechanism, and proof; `sample-check` — ask sample-size and measurement questions; `claim-softener` — rewrite overclaims safely. |
-| `spreadsheet-data.boot.md` | `range-declare` — state canonical vs extended range; `column-map` — map spreadsheet columns to terms; `recompute-check` — plan formula validation; `export-plan` — define CSV/table outputs. |
-| `teacher-lesson-builder.boot.md` | `lesson-outline` — draft staged lesson arc; `misconception-list` — prepare learner-safe warnings; `exercise-set` — create practice prompts; `reveal-sequence` — sequence examples from concrete to abstract. |
-| `repository-curator.boot.md` | `maintenance-plan` — identify add/archive/normalize work; `relation-update` — prepare link-index edits; `canon-check` — verify source hierarchy compliance; `release-notes` — draft summary of repository changes. |
+| [`truth-inventory-mathematician.boot.md`](truth-inventory-mathematician.boot.md) | `formula-sheet` — summarize active formulas; `index-convert` — prepare Fv/conventional conversion notes; `proof-mode` — enable proof-first response framing; `edge-cases` — list exactness and finite-ratio cautions. |
+| [`avoid-auditor.boot.md`](avoid-auditor.boot.md) | `audit-checklist` — prepare common error checklist; `claim-risk-map` — rank likely failure modes; `source-trace` — prepare source citation map; `red-team` — respond adversarially before proposing fixes. |
+| [`graph-artist.boot.md`](graph-artist.boot.md) | `sketch-plan` — propose 2–5 visual concepts; `question-first` — force each graph to answer a stated question; `aesthetic-variants` — prepare restrained, vivid, and minimalist variants; `label-audit` — precheck title, axes, legend, and caveats. |
+| [`svg-drawing-engine.boot.md`](svg-drawing-engine.boot.md) | `canvas-spec` — define dimensions and coordinate system; `export-check` — prepare SVG validation checklist; `accessibility-pass` — plan title/description/contrast labels; `reuse-assets` — inspect existing drawings before creating new ones. |
+| [`spiral-geometry.boot.md`](spiral-geometry.boot.md) | `square-layout` — set up square and arc constraints; `golden-comparison` — separate Fibonacci spiral approximation from logarithmic golden spiral; `geometry-audit` — check centers, radii, tangency, and scaling; `claim-caveats` — prepare geometry limitation notes. |
+| [`normalized-time-metaphor.boot.md`](normalized-time-metaphor.boot.md) | `metaphor-badge` — state metaphor status and normalized quantity; `asymmetry-note` — include interval asymmetry; `concept-map` — draft planning/salience/memory axes; `caveat-card` — list what the metaphor does not prove. |
+| [`document-indexer.boot.md`](document-indexer.boot.md) | `link-audit` — check bidirectional links; `catalog-row` — prepare catalogue metadata; `source-hierarchy-map` — summarize authority relationships; `staleness-check` — identify likely stale index entries. |
+| [`claim-traceability.boot.md`](claim-traceability.boot.md) | `claim-table` — prepare claim/source/status columns; `contradiction-scan` — look for tension across documents; `citation-pack` — collect relevant citations; `open-questions` — list unresolved claims. |
+| [`glossary-terminologist.boot.md`](glossary-terminologist.boot.md) | `term-card` — create definition/source/usage cards; `namespace-check` — preserve identifier namespaces; `synonym-merge` — identify duplicate terms; `definition-audit` — separate claims from vocabulary. |
+| [`orange-pressing-expander.boot.md`](orange-pressing-expander.boot.md) | `branch-map` — generate expansion branches; `artifact-list` — propose documents, graphs, datasets, and lessons; `priority-sort` — rank expansions by value; `return-to-core` — map creative ideas back to exactness. |
+| [`generation-lattice-planner.boot.md`](generation-lattice-planner.boot.md) | `lattice-position` — place work on horizontal/vertical lattice; `next-three` — propose next three artifacts; `dependency-map` — list prerequisites; `manifest-draft` — draft JSON/Markdown updates. |
+| [`empirical-claim-skeptic.boot.md`](empirical-claim-skeptic.boot.md) | `rival-models` — list non-Fibonacci explanations; `evidence-grid` — separate resemblance, correlation, mechanism, and proof; `sample-check` — ask sample-size and measurement questions; `claim-softener` — rewrite overclaims safely. |
+| [`spreadsheet-data.boot.md`](spreadsheet-data.boot.md) | `range-declare` — state canonical vs extended range; `column-map` — map spreadsheet columns to terms; `recompute-check` — plan formula validation; `export-plan` — define CSV/table outputs. |
+| [`teacher-lesson-builder.boot.md`](teacher-lesson-builder.boot.md) | `lesson-outline` — draft staged lesson arc; `misconception-list` — prepare learner-safe warnings; `exercise-set` — create practice prompts; `reveal-sequence` — sequence examples from concrete to abstract. |
+| [`repository-curator.boot.md`](repository-curator.boot.md) | `maintenance-plan` — identify add/archive/normalize work; `relation-update` — prepare link-index edits; `canon-check` — verify source hierarchy compliance; `release-notes` — draft summary of repository changes. |
 
 ## Recommended secondary boot list
 
 | Secondary boot name | Best for | Required repository sources to read next |
 |---|---|---|
-| `truth-inventory-mathematician.boot.md` | Exact Fibonacci values, recurrence, ratios, limits, proofs, convention conversions, and finite/exact distinction. | [02_Fibonacci_Truth_Inventory.docx](02_Fibonacci_Truth_Inventory.docx), [01_Fibonacci_Avoids_and_Error_Inventory.docx](01_Fibonacci_Avoids_and_Error_Inventory.docx), [Fibonacci_Glossary.md](Fibonacci_Glossary.md), [Fibonacci_Cohesion_Audit.md](Fibonacci_Cohesion_Audit.md) |
-| `avoid-auditor.boot.md` | Finding indexing errors, ratio reversals, rendering mistakes, geometry problems, weak claims, and document-integrity failures. | [01_Fibonacci_Avoids_and_Error_Inventory.docx](01_Fibonacci_Avoids_and_Error_Inventory.docx), [02_Fibonacci_Truth_Inventory.docx](02_Fibonacci_Truth_Inventory.docx), [Fibonacci_Cohesion_Audit.md](Fibonacci_Cohesion_Audit.md), [Fibonacci_Statement_Claim_Index.md](Fibonacci_Statement_Claim_Index.md) |
-| `graph-artist.boot.md` | Selecting meaningful visualizations, generating graph concepts, designing SVGs, and balancing truth with aesthetics. | [insightgraphsuite.md](insightgraphsuite.md), [curated_fibonacci_insight_graphs.md](curated_fibonacci_insight_graphs.md), [draw.md](draw.md), [fibonacci_generation_lattice.md](fibonacci_generation_lattice.md) |
-| `svg-drawing-engine.boot.md` | Creating precise repository-quality SVG diagrams, plots, spirals, and visual-proof assets. | [draw.md](draw.md), [insightgraphsuite.md](insightgraphsuite.md), [curated_fibonacci_insight_graphs.md](curated_fibonacci_insight_graphs.md), existing files in [drawings/](drawings/) |
-| `spiral-geometry.boot.md` | Fibonacci square layouts, quarter-circle spirals, golden rectangles, geometry audits, and golden-spiral comparisons. | [02_Fibonacci_Truth_Inventory.docx](02_Fibonacci_Truth_Inventory.docx), [01_Fibonacci_Avoids_and_Error_Inventory.docx](01_Fibonacci_Avoids_and_Error_Inventory.docx), [draw.md](draw.md), [insightgraphsuite.md](insightgraphsuite.md) |
-| `normalized-time-metaphor.boot.md` | Yesterday/today/tomorrow metaphor, reciprocal time, planning horizons, salience, memory, anticipation, and caveat-rich conceptual graphics. | [the_essences.md](the_essences.md), [insightgraphsuite.md](insightgraphsuite.md), [fibonacci_generation_lattice.md](fibonacci_generation_lattice.md), [fibonacci_orange_pressing_recommendations.md](fibonacci_orange_pressing_recommendations.md) |
-| `document-indexer.boot.md` | Cataloguing documents, building indexes, adding bidirectional cross-links, maintaining source hierarchy, and preparing master catalogue work. | [README.md](README.md), [Fibonacci_Statement_Claim_Index.md](Fibonacci_Statement_Claim_Index.md), [Fibonacci_Cohesion_Audit.md](Fibonacci_Cohesion_Audit.md), [the_essences.md](the_essences.md) |
-| `claim-traceability.boot.md` | Tracing claims across documents, locating contradictions, mapping statements, and building audit reports. | [Fibonacci_Statement_Claim_Index.md](Fibonacci_Statement_Claim_Index.md), [Fibonacci_Cohesion_Audit.md](Fibonacci_Cohesion_Audit.md), [02_Fibonacci_Truth_Inventory.docx](02_Fibonacci_Truth_Inventory.docx), [01_Fibonacci_Avoids_and_Error_Inventory.docx](01_Fibonacci_Avoids_and_Error_Inventory.docx) |
-| `glossary-terminologist.boot.md` | Defining terms, cleaning vocabulary, separating supplemental terms from inventory claims, and preserving stable identifier namespaces. | [Fibonacci_Glossary.md](Fibonacci_Glossary.md), [Fibonacci_Glossary_Seed.md](Fibonacci_Glossary_Seed.md), [03_Fibonacci_Inventory_Documents_Detailed_Description.docx](03_Fibonacci_Inventory_Documents_Detailed_Description.docx), [the_essences.md](the_essences.md) |
-| `orange-pressing-expander.boot.md` | Expanding small insights into families of documents, graphs, data manifests, workbooks, lessons, and future creative branches. | [fibonacci_orange_pressing_recommendations.md](fibonacci_orange_pressing_recommendations.md), [fibonacci_generation_lattice.md](fibonacci_generation_lattice.md), [insightgraphsuite.md](insightgraphsuite.md), [draw.md](draw.md) |
-| `generation-lattice-planner.boot.md` | Planning next documents and figures by horizontal topic family and vertical development level. | [fibonacci_generation_lattice.md](fibonacci_generation_lattice.md), [fibonacci_generation_lattice.json](fibonacci_generation_lattice.json), [curated_fibonacci_insight_graphs.md](curated_fibonacci_insight_graphs.md), [fibonacci_orange_pressing_recommendations.md](fibonacci_orange_pressing_recommendations.md) |
-| `empirical-claim-skeptic.boot.md` | Auditing claims about nature, shells, bodies, markets, architecture, behavior, and art without overclaiming Fibonacci mechanisms. | [02_Fibonacci_Truth_Inventory.docx](02_Fibonacci_Truth_Inventory.docx), [01_Fibonacci_Avoids_and_Error_Inventory.docx](01_Fibonacci_Avoids_and_Error_Inventory.docx), [insightgraphsuite.md](insightgraphsuite.md), [the_essences.md](the_essences.md) |
-| `spreadsheet-data.boot.md` | Working with extended tables, first-100-step ratios, canonical-vs-extended ranges, and workbook-derived calculations. | [fibonacci_first_100_with_ratios.xlsx](fibonacci_first_100_with_ratios.xlsx), [02_Fibonacci_Truth_Inventory.docx](02_Fibonacci_Truth_Inventory.docx), [the_essences.md](the_essences.md), [Fibonacci_Glossary.md](Fibonacci_Glossary.md) |
-| `teacher-lesson-builder.boot.md` | Turning Fibonacci concepts into lessons, staged reveals, learner-safe diagrams, prompts, and exercises. | [boot.md](boot.md), [Fibonacci_Glossary.md](Fibonacci_Glossary.md), [insightgraphsuite.md](insightgraphsuite.md), [fibonacci_orange_pressing_recommendations.md](fibonacci_orange_pressing_recommendations.md) |
-| `repository-curator.boot.md` | Maintaining the repository as a living canon, deciding what to add, archive, normalize, denormalize, or cross-link next. | [README.md](README.md), [the_essences.md](the_essences.md), [Fibonacci_Cohesion_Audit.md](Fibonacci_Cohesion_Audit.md), [secondary_boot_prompts.md](secondary_boot_prompts.md) |
+| [`truth-inventory-mathematician.boot.md`](truth-inventory-mathematician.boot.md) | Exact Fibonacci values, recurrence, ratios, limits, proofs, convention conversions, and finite/exact distinction. | [02_Fibonacci_Truth_Inventory.docx](02_Fibonacci_Truth_Inventory.docx), [01_Fibonacci_Avoids_and_Error_Inventory.docx](01_Fibonacci_Avoids_and_Error_Inventory.docx), [Fibonacci_Glossary.md](Fibonacci_Glossary.md), [Fibonacci_Cohesion_Audit.md](Fibonacci_Cohesion_Audit.md) |
+| [`avoid-auditor.boot.md`](avoid-auditor.boot.md) | Finding indexing errors, ratio reversals, rendering mistakes, geometry problems, weak claims, and document-integrity failures. | [01_Fibonacci_Avoids_and_Error_Inventory.docx](01_Fibonacci_Avoids_and_Error_Inventory.docx), [02_Fibonacci_Truth_Inventory.docx](02_Fibonacci_Truth_Inventory.docx), [Fibonacci_Cohesion_Audit.md](Fibonacci_Cohesion_Audit.md), [Fibonacci_Statement_Claim_Index.md](Fibonacci_Statement_Claim_Index.md) |
+| [`graph-artist.boot.md`](graph-artist.boot.md) | Selecting meaningful visualizations, generating graph concepts, designing SVGs, and balancing truth with aesthetics. | [insightgraphsuite.md](insightgraphsuite.md), [curated_fibonacci_insight_graphs.md](curated_fibonacci_insight_graphs.md), [draw.md](draw.md), [fibonacci_generation_lattice.md](fibonacci_generation_lattice.md) |
+| [`svg-drawing-engine.boot.md`](svg-drawing-engine.boot.md) | Creating precise repository-quality SVG diagrams, plots, spirals, and visual-proof assets. | [draw.md](draw.md), [insightgraphsuite.md](insightgraphsuite.md), [curated_fibonacci_insight_graphs.md](curated_fibonacci_insight_graphs.md), existing files in [drawings/](drawings/) |
+| [`spiral-geometry.boot.md`](spiral-geometry.boot.md) | Fibonacci square layouts, quarter-circle spirals, golden rectangles, geometry audits, and golden-spiral comparisons. | [02_Fibonacci_Truth_Inventory.docx](02_Fibonacci_Truth_Inventory.docx), [01_Fibonacci_Avoids_and_Error_Inventory.docx](01_Fibonacci_Avoids_and_Error_Inventory.docx), [draw.md](draw.md), [insightgraphsuite.md](insightgraphsuite.md) |
+| [`normalized-time-metaphor.boot.md`](normalized-time-metaphor.boot.md) | Yesterday/today/tomorrow metaphor, reciprocal time, planning horizons, salience, memory, anticipation, and caveat-rich conceptual graphics. | [the_essences.md](the_essences.md), [insightgraphsuite.md](insightgraphsuite.md), [fibonacci_generation_lattice.md](fibonacci_generation_lattice.md), [fibonacci_orange_pressing_recommendations.md](fibonacci_orange_pressing_recommendations.md) |
+| [`document-indexer.boot.md`](document-indexer.boot.md) | Cataloguing documents, building indexes, adding bidirectional cross-links, maintaining source hierarchy, and preparing master catalogue work. | [README.md](README.md), [Fibonacci_Statement_Claim_Index.md](Fibonacci_Statement_Claim_Index.md), [Fibonacci_Cohesion_Audit.md](Fibonacci_Cohesion_Audit.md), [the_essences.md](the_essences.md) |
+| [`claim-traceability.boot.md`](claim-traceability.boot.md) | Tracing claims across documents, locating contradictions, mapping statements, and building audit reports. | [Fibonacci_Statement_Claim_Index.md](Fibonacci_Statement_Claim_Index.md), [Fibonacci_Cohesion_Audit.md](Fibonacci_Cohesion_Audit.md), [02_Fibonacci_Truth_Inventory.docx](02_Fibonacci_Truth_Inventory.docx), [01_Fibonacci_Avoids_and_Error_Inventory.docx](01_Fibonacci_Avoids_and_Error_Inventory.docx) |
+| [`glossary-terminologist.boot.md`](glossary-terminologist.boot.md) | Defining terms, cleaning vocabulary, separating supplemental terms from inventory claims, and preserving stable identifier namespaces. | [Fibonacci_Glossary.md](Fibonacci_Glossary.md), [Fibonacci_Glossary_Seed.md](Fibonacci_Glossary_Seed.md), [03_Fibonacci_Inventory_Documents_Detailed_Description.docx](03_Fibonacci_Inventory_Documents_Detailed_Description.docx), [the_essences.md](the_essences.md) |
+| [`orange-pressing-expander.boot.md`](orange-pressing-expander.boot.md) | Expanding small insights into families of documents, graphs, data manifests, workbooks, lessons, and future creative branches. | [fibonacci_orange_pressing_recommendations.md](fibonacci_orange_pressing_recommendations.md), [fibonacci_generation_lattice.md](fibonacci_generation_lattice.md), [insightgraphsuite.md](insightgraphsuite.md), [draw.md](draw.md) |
+| [`generation-lattice-planner.boot.md`](generation-lattice-planner.boot.md) | Planning next documents and figures by horizontal topic family and vertical development level. | [fibonacci_generation_lattice.md](fibonacci_generation_lattice.md), [fibonacci_generation_lattice.json](fibonacci_generation_lattice.json), [curated_fibonacci_insight_graphs.md](curated_fibonacci_insight_graphs.md), [fibonacci_orange_pressing_recommendations.md](fibonacci_orange_pressing_recommendations.md) |
+| [`empirical-claim-skeptic.boot.md`](empirical-claim-skeptic.boot.md) | Auditing claims about nature, shells, bodies, markets, architecture, behavior, and art without overclaiming Fibonacci mechanisms. | [02_Fibonacci_Truth_Inventory.docx](02_Fibonacci_Truth_Inventory.docx), [01_Fibonacci_Avoids_and_Error_Inventory.docx](01_Fibonacci_Avoids_and_Error_Inventory.docx), [insightgraphsuite.md](insightgraphsuite.md), [the_essences.md](the_essences.md) |
+| [`spreadsheet-data.boot.md`](spreadsheet-data.boot.md) | Working with extended tables, first-100-step ratios, canonical-vs-extended ranges, and workbook-derived calculations. | [fibonacci_first_100_with_ratios.xlsx](fibonacci_first_100_with_ratios.xlsx), [02_Fibonacci_Truth_Inventory.docx](02_Fibonacci_Truth_Inventory.docx), [the_essences.md](the_essences.md), [Fibonacci_Glossary.md](Fibonacci_Glossary.md) |
+| [`teacher-lesson-builder.boot.md`](teacher-lesson-builder.boot.md) | Turning Fibonacci concepts into lessons, staged reveals, learner-safe diagrams, prompts, and exercises. | [boot.md](boot.md), [Fibonacci_Glossary.md](Fibonacci_Glossary.md), [insightgraphsuite.md](insightgraphsuite.md), [fibonacci_orange_pressing_recommendations.md](fibonacci_orange_pressing_recommendations.md) |
+| [`repository-curator.boot.md`](repository-curator.boot.md) | Maintaining the repository as a living canon, deciding what to add, archive, normalize, denormalize, or cross-link next. | [README.md](README.md), [the_essences.md](the_essences.md), [Fibonacci_Cohesion_Audit.md](Fibonacci_Cohesion_Audit.md), [secondary_boot_prompts.md](secondary_boot_prompts.md) |
 
 ## Selection rule
 
@@ -127,18 +138,18 @@ Choose the smallest secondary boot that covers the task. If a task spans domains
 
 Examples:
 
-- For a new SVG: combine `graph-artist.boot.md` and `svg-drawing-engine.boot.md`.
-- For a claim audit of a shell image: combine `empirical-claim-skeptic.boot.md` and `spiral-geometry.boot.md`.
-- For a master catalogue: start with `document-indexer.boot.md`, then add `claim-traceability.boot.md` if statement-level mapping is required.
-- For a philosophical time diagram: combine `normalized-time-metaphor.boot.md` and `graph-artist.boot.md`.
+- For a new SVG: combine [`graph-artist.boot.md`](graph-artist.boot.md) and [`svg-drawing-engine.boot.md`](svg-drawing-engine.boot.md).
+- For a claim audit of a shell image: combine [`empirical-claim-skeptic.boot.md`](empirical-claim-skeptic.boot.md) and [`spiral-geometry.boot.md`](spiral-geometry.boot.md).
+- For a master catalogue: start with [`document-indexer.boot.md`](document-indexer.boot.md), then add [`claim-traceability.boot.md`](claim-traceability.boot.md) if statement-level mapping is required.
+- For a philosophical time diagram: combine [`normalized-time-metaphor.boot.md`](normalized-time-metaphor.boot.md) and [`graph-artist.boot.md`](graph-artist.boot.md).
 
 ## Naming convention for future secondary boot documents
 
 When a listed prompt becomes a real file, use lowercase kebab-case and the suffix `.boot.md`, for example:
 
-- `graph-artist.boot.md`
-- `document-indexer.boot.md`
-- `truth-inventory-mathematician.boot.md`
+- [`graph-artist.boot.md`](graph-artist.boot.md)
+- [`document-indexer.boot.md`](document-indexer.boot.md)
+- [`truth-inventory-mathematician.boot.md`](truth-inventory-mathematician.boot.md)
 
 Each future secondary boot document should include:
 
