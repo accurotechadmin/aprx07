@@ -38,7 +38,7 @@ boot
 
 The session should find and read [boot.md](boot.md). That primary boot equips it with the source hierarchy, Fv convention, canonical destination table, exactness rules, graphing discipline, geometry warnings, evidence boundaries, and secondary boot routing.
 
-After primary boot, the session now opens an interactive secondary boot menu automatically. Choose a numbered option, type a short boot name, describe the task, or add boot-time secondary actions with a plus sign:
+After primary boot, the session now opens an interactive secondary boot menu automatically. The menu uses the repository's friendly plain-text CRT style consistently across the primary boot, secondary menu, and individual secondary boot displays. Choose a numbered option, type a short boot name, describe the task, or add boot-time secondary actions with a plus sign:
 
 ```text
 3 + sketch-plan, label-audit

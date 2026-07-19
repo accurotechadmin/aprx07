@@ -24,23 +24,29 @@ Use this path for relation blocks, README/index updates, catalogue metadata, doc
 When this option is selected, show its featured optimization line before optional actions so the user's next choice is guided by the strongest mode-specific lessons.
 
 ```text
-╔════════════════════════════════════════════════════════════════╗
-║ FIBONACCI EXPLORER // DOCUMENT-INDEXER                  ║
-║ INDEX MODE: READY                                             ║
-╚════════════════════════════════════════════════════════════════╝
-> :: FEATURE :: bidirectional-links | source-hierarchy-preserved | stale-index-check
-> :: FAST PATH :: option number loads now; actions may be added next
-> :: CONFIRM PATH :: use actions/info/combine to preview before finalizing
-
-   /\
-  /**\
- /****\
-   ||
-
-> No artifact has been created yet; awaiting actionable task.
+╔════════════════════════════════════════════════════════════════════════╗
+║ FIBONACCI EXPLORER // DOCUMENT-INDEXER                                 ║
+║ INDEX MODE: READY                                                      ║
+╠════════════════════════════════════════════════════════════════════════╣
+> signal: friendly CRT / plain-text safe / no chrome
+> feature: bidirectional-links | source-hierarchy-preserved |
+>          stale-index-check
+> actions: link-audit | catalog-row | source-hierarchy-map |
+>          staleness-check
+> paths: fast = load now | confirm = preview actions/info/combine
+╟────────────────────────────────────────────────────────────────────────╢
+     /\        recursive grove online
+    /φ \       exactness before ornament
+   /____\      small, warm, readable
+     ||
+╟────────────────────────────────────────────────────────────────────────╢
+> No catalogue edits have been made yet; awaiting an indexing target
+> or maintenance task.
+> next: give a task, add +actions, or type menu/info/cancel
+╚════════════════════════════════════════════════════════════════════════╝
 ```
 
-Whimsical trees are decorative only. They must not encode status, warnings, data, or navigation. Keep them sparse: no more than three trees per screen view, and not every screen needs trees.
+The tiny tree is decorative only: it never encodes status, warnings, data, or navigation. Keep boot displays sparse, warm, and consistent; do not add extra ornaments unless they improve orientation.
 
 ## Operating rules
 

@@ -26,23 +26,29 @@ Use this path when the main work is choosing what to show, comparing visual form
 When this option is selected, show its featured optimization line before optional actions so the user's next choice is guided by the strongest mode-specific lessons.
 
 ```text
-╔════════════════════════════════════════════════════════════════╗
-║ FIBONACCI EXPLORER // GRAPH-ARTIST                      ║
-║ VISUAL IDEATION MODE: READY                                   ║
-╚════════════════════════════════════════════════════════════════╝
-> :: FEATURE :: question-first | smallest-useful-graph | aesthetic-after-truth
-> :: FAST PATH :: option number loads now; actions may be added next
-> :: CONFIRM PATH :: use actions/info/combine to preview before finalizing
-
-   /\
-  /**\
- /****\
-   ||
-
-> No artifact has been created yet; awaiting actionable task.
+╔════════════════════════════════════════════════════════════════════════╗
+║ FIBONACCI EXPLORER // GRAPH-ARTIST                                     ║
+║ VISUAL IDEATION MODE: READY                                            ║
+╠════════════════════════════════════════════════════════════════════════╣
+> signal: friendly CRT / plain-text safe / no chrome
+> feature: question-first | smallest-useful-graph |
+>          aesthetic-after-truth
+> actions: sketch-plan | question-first | aesthetic-variants |
+>          label-audit
+> paths: fast = load now | confirm = preview actions/info/combine
+╟────────────────────────────────────────────────────────────────────────╢
+     /\        recursive grove online
+    /φ \       exactness before ornament
+   /____\      small, warm, readable
+     ||
+╟────────────────────────────────────────────────────────────────────────╢
+> No visual artifact has been created yet; awaiting a graph question
+> or drawing task.
+> next: give a task, add +actions, or type menu/info/cancel
+╚════════════════════════════════════════════════════════════════════════╝
 ```
 
-Whimsical trees are decorative only. They must not encode status, warnings, data, or navigation. Keep them sparse: no more than three trees per screen view, and not every screen needs trees.
+The tiny tree is decorative only: it never encodes status, warnings, data, or navigation. Keep boot displays sparse, warm, and consistent; do not add extra ornaments unless they improve orientation.
 
 ## Operating rules
 

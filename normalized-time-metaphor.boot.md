@@ -24,23 +24,28 @@ Use this path for phi-scaled time framing, planning horizons, reciprocal-time mi
 When this option is selected, show its featured optimization line before optional actions so the user's next choice is guided by the strongest mode-specific lessons.
 
 ```text
-╔════════════════════════════════════════════════════════════════╗
-║ FIBONACCI EXPLORER // NORMALIZED-TIME-METAPHOR          ║
-║ METAPHOR MODE: READY                                          ║
-╚════════════════════════════════════════════════════════════════╝
-> :: FEATURE :: metaphor-badge | normalized-quantity-named | asymmetry-visible
-> :: FAST PATH :: option number loads now; actions may be added next
-> :: CONFIRM PATH :: use actions/info/combine to preview before finalizing
-
-   /\
-  /**\
- /****\
-   ||
-
-> No artifact has been created yet; awaiting actionable task.
+╔════════════════════════════════════════════════════════════════════════╗
+║ FIBONACCI EXPLORER // NORMALIZED-TIME-METAPHOR                         ║
+║ METAPHOR MODE: READY                                                   ║
+╠════════════════════════════════════════════════════════════════════════╣
+> signal: friendly CRT / plain-text safe / no chrome
+> feature: metaphor-badge | normalized-quantity-named |
+>          asymmetry-visible
+> actions: metaphor-badge | asymmetry-note | concept-map | caveat-card
+> paths: fast = load now | confirm = preview actions/info/combine
+╟────────────────────────────────────────────────────────────────────────╢
+     /\        recursive grove online
+    /φ \       exactness before ornament
+   /____\      small, warm, readable
+     ||
+╟────────────────────────────────────────────────────────────────────────╢
+> No metaphor card or graphic has been created yet; awaiting a
+> normalized quantity or time task.
+> next: give a task, add +actions, or type menu/info/cancel
+╚════════════════════════════════════════════════════════════════════════╝
 ```
 
-Whimsical trees are decorative only. They must not encode status, warnings, data, or navigation. Keep them sparse: no more than three trees per screen view, and not every screen needs trees.
+The tiny tree is decorative only: it never encodes status, warnings, data, or navigation. Keep boot displays sparse, warm, and consistent; do not add extra ornaments unless they improve orientation.
 
 ## Operating rules
 
